@@ -1,0 +1,457 @@
+,model,sentence,question,correct,incorrect,sent_type,quest_type
+0,meta-llama/Llama-3.2-1B,While the secretary typed the memo neared completion.,Did the memo near completion?,0.8813431262969971,0.11865690350532532,GP_prob,simple_question
+1,meta-llama/Llama-3.2-1B,While the secretary typed the memo neared completion.,Did the secretary type the memo?,0.14543887972831726,0.8545611500740051,GP_prob,GP_question
+2,meta-llama/Llama-3.2-1B,While the secretary typed the drawing neared completion.,Did the drawing near completion?,0.8892725706100464,0.1107274517416954,GP_improb,simple_question
+3,meta-llama/Llama-3.2-1B,While the secretary typed the drawing neared completion.,Did the secretary type the drawing?,0.18476751446723938,0.815232515335083,GP_improb,GP_question
+4,meta-llama/Llama-3.2-1B,The memo neared completion while the secretary typed.,Did the memo near completion?,0.896734893321991,0.10326509177684784,nonGP_prob,simple_question
+5,meta-llama/Llama-3.2-1B,The memo neared completion while the secretary typed.,Did the secretary type the memo?,0.2460496872663498,0.753950297832489,nonGP_prob,GP_question
+6,meta-llama/Llama-3.2-1B,The drawing neared completion while the secretary typed.,Did the drawing near completion?,0.9222958087921143,0.07770417630672455,nonGP_improb,simple_question
+7,meta-llama/Llama-3.2-1B,The drawing neared completion while the secretary typed.,Did the secretary type the drawing?,0.28140559792518616,0.7185943722724915,nonGP_improb,GP_question
+8,meta-llama/Llama-3.2-1B,While the explorer paddled the canoe headed toward a waterfall.,Did the canoe head toward a waterfall?,0.8479677438735962,0.15203224122524261,GP_prob,simple_question
+9,meta-llama/Llama-3.2-1B,While the explorer paddled the canoe headed toward a waterfall.,Did the explorer paddle the canoe?,0.13599495589733124,0.8640050888061523,GP_prob,GP_question
+10,meta-llama/Llama-3.2-1B,While the explorer paddled the yacht headed toward a waterfall.,Did the yacht head toward a waterfall?,0.7817748188972473,0.21822519600391388,GP_improb,simple_question
+11,meta-llama/Llama-3.2-1B,While the explorer paddled the yacht headed toward a waterfall.,Did the explorer paddle the yacht?,0.17328819632530212,0.8267117738723755,GP_improb,GP_question
+12,meta-llama/Llama-3.2-1B,The canoe headed toward a waterfall while the explorer paddled.,Did the canoe head toward a waterfall?,0.8670357465744019,0.13296423852443695,nonGP_prob,simple_question
+13,meta-llama/Llama-3.2-1B,The canoe headed toward a waterfall while the explorer paddled.,Did the explorer paddle the canoe?,0.20519043505191803,0.7948095798492432,nonGP_prob,GP_question
+14,meta-llama/Llama-3.2-1B,The yacht headed toward a waterfall while the explorer paddled.,Did the yacht head toward a waterfall?,0.811277449131012,0.18872256577014923,nonGP_improb,simple_question
+15,meta-llama/Llama-3.2-1B,The yacht headed toward a waterfall while the explorer paddled.,Did the explorer paddle the yacht?,0.270994633436203,0.7290053963661194,nonGP_improb,GP_question
+16,meta-llama/Llama-3.2-1B,While the cowboy rode the horse sweated profusely.,Did the horse sweat profusely?,0.8112779855728149,0.18872198462486267,GP_prob,simple_question
+17,meta-llama/Llama-3.2-1B,While the cowboy rode the horse sweated profusely.,Did the cowboy ride the horse?,0.21822519600391388,0.7817748188972473,GP_prob,GP_question
+18,meta-llama/Llama-3.2-1B,While the cowboy rode the leopard sweated profusely.,Did the leopard sweat profusely?,0.7441606521606445,0.25583937764167786,GP_improb,simple_question
+19,meta-llama/Llama-3.2-1B,While the cowboy rode the leopard sweated profusely.,Did the cowboy ride the leopard?,0.2867017388343811,0.7132982015609741,GP_improb,GP_question
+20,meta-llama/Llama-3.2-1B,The horse sweated profusely while the cowboy rode.,Did the horse sweat profusely?,0.837619960308075,0.16238002479076385,nonGP_prob,simple_question
+21,meta-llama/Llama-3.2-1B,The horse sweated profusely while the cowboy rode.,Did the cowboy ride the horse?,0.25583937764167786,0.7441606521606445,nonGP_prob,GP_question
+22,meta-llama/Llama-3.2-1B,The leopard sweated profusely while the cowboy rode.,Did the leopard sweat profusely?,0.7681534886360168,0.23184648156166077,nonGP_improb,simple_question
+23,meta-llama/Llama-3.2-1B,The leopard sweated profusely while the cowboy rode.,Did the cowboy ride the leopard?,0.3849121630191803,0.6150878667831421,nonGP_improb,GP_question
+24,meta-llama/Llama-3.2-1B,While Tom grilled the hot dog began to burn.,Did the hot dog begin to burn?,0.6572454571723938,0.3427545726299286,GP_prob,simple_question
+25,meta-llama/Llama-3.2-1B,While Tom grilled the hot dog began to burn.,Did Tom grill the hot dog?,0.21822519600391388,0.7817748188972473,GP_prob,GP_question
+26,meta-llama/Llama-3.2-1B,While Tom grilled the barn began to burn.,Did the barn begin to burn?,0.7132989764213562,0.2867009937763214,GP_improb,simple_question
+27,meta-llama/Llama-3.2-1B,While Tom grilled the barn began to burn.,Did Tom grill the barn?,0.23651622235774994,0.7634837031364441,GP_improb,GP_question
+28,meta-llama/Llama-3.2-1B,The hot dog began to burn while Tom grilled.,Did the hot dog begin to burn?,0.7391709685325623,0.26082903146743774,nonGP_prob,simple_question
+29,meta-llama/Llama-3.2-1B,The hot dog began to burn while Tom grilled.,Did Tom grill the hot dog?,0.29746994376182556,0.7025300860404968,nonGP_prob,GP_question
+30,meta-llama/Llama-3.2-1B,The barn began to burn while Tom grilled.,Did the barn begin to burn?,0.8031737804412842,0.19682620465755463,nonGP_improb,simple_question
+31,meta-llama/Llama-3.2-1B,The barn began to burn while Tom grilled.,Did Tom grill the barn?,0.29746994376182556,0.7025300860404968,nonGP_improb,GP_question
+32,meta-llama/Llama-3.2-1B,While the architect drew the building represented modern times style.,Did the building represent modern time style?,0.7441613674163818,0.25583866238594055,GP_prob,simple_question
+33,meta-llama/Llama-3.2-1B,While the architect drew the building represented modern times style.,Did the architect draw the building?,0.16595342755317688,0.8340466022491455,GP_prob,GP_question
+34,meta-llama/Llama-3.2-1B,While the architect drew the melody represented modern times style.,Did the melody represent modern time style?,0.7948095798492432,0.20519043505191803,GP_improb,simple_question
+35,meta-llama/Llama-3.2-1B,While the architect drew the melody represented modern times style.,Did the architect draw the melody?,0.15541966259479523,0.8445802927017212,GP_improb,GP_question
+36,meta-llama/Llama-3.2-1B,The building represented modern times style while the architect drew.,Did the building represent modern time style?,0.8267117738723755,0.17328819632530212,nonGP_prob,simple_question
+37,meta-llama/Llama-3.2-1B,The building represented modern times style while the architect drew.,Did the architect draw the building?,0.25583866238594055,0.7441613674163818,nonGP_prob,GP_question
+38,meta-llama/Llama-3.2-1B,The melody represented modern times style while the architect drew.,Did the melody represent modern time style?,0.844579815864563,0.15542016923427582,nonGP_improb,simple_question
+39,meta-llama/Llama-3.2-1B,The melody represented modern times style while the architect drew.,Did the architect draw the melody?,0.30846768617630005,0.6915323138237,nonGP_improb,GP_question
+40,meta-llama/Llama-3.2-1B,While the chef stirred the soup boiled over.,Did the soup boil over?,0.7441613674163818,0.25583866238594055,GP_prob,simple_question
+41,meta-llama/Llama-3.2-1B,While the chef stirred the soup boiled over.,Did the chef stir the soup?,0.19274167716503143,0.8072583079338074,GP_prob,GP_question
+42,meta-llama/Llama-3.2-1B,While the chef stirred the acid boiled over.,Did the acid boil over?,0.7185943722724915,0.28140559792518616,GP_improb,simple_question
+43,meta-llama/Llama-3.2-1B,While the chef stirred the acid boiled over.,Did the chef stir the acid?,0.23651622235774994,0.7634837031364441,GP_improb,GP_question
+44,meta-llama/Llama-3.2-1B,The soup boiled over while the chef stirred.,Did the soup boil over?,0.8031737804412842,0.19682620465755463,nonGP_prob,simple_question
+45,meta-llama/Llama-3.2-1B,The soup boiled over while the chef stirred.,Did the chef stir the soup?,0.23184648156166077,0.7681534886360168,nonGP_prob,GP_question
+46,meta-llama/Llama-3.2-1B,The acid boiled over while the chef stirred.,Did the acid boil over?,0.7539496421813965,0.2460504025220871,nonGP_improb,simple_question
+47,meta-llama/Llama-3.2-1B,The acid boiled over while the chef stirred.,Did the chef stir the acid?,0.29205629229545593,0.7079436779022217,nonGP_improb,GP_question
+48,meta-llama/Llama-3.2-1B,While the tourist explored the tunnel echoed with mysterious sounds.,Did the tunnel echo with mysterious sounds?,0.8267117738723755,0.17328819632530212,GP_prob,simple_question
+49,meta-llama/Llama-3.2-1B,While the tourist explored the tunnel echoed with mysterious sounds.,Did the tourist explore the tunnel?,0.15203224122524261,0.8479677438735962,GP_prob,GP_question
+50,meta-llama/Llama-3.2-1B,While the tourist explored the trunk echoed with mysterious sounds.,Did the trunk echo with mysterious sounds?,0.8229490518569946,0.1770508885383606,GP_improb,simple_question
+51,meta-llama/Llama-3.2-1B,While the tourist explored the trunk echoed with mysterious sounds.,Did the tourist explore the trunk?,0.1659528911113739,0.8340470790863037,GP_improb,GP_question
+52,meta-llama/Llama-3.2-1B,The tunnel echoed with mysterious sounds while the tourist explored.,Did the tunnel echo with mysterious sounds?,0.8191231489181519,0.18087686598300934,nonGP_prob,simple_question
+53,meta-llama/Llama-3.2-1B,The tunnel echoed with mysterious sounds while the tourist explored.,Did the tourist explore the tunnel?,0.1927422732114792,0.8072577118873596,nonGP_prob,GP_question
+54,meta-llama/Llama-3.2-1B,The trunk echoed with mysterious sounds while the tourist explored.,Did the trunk echo with mysterious sounds?,0.8072583079338074,0.19274167716503143,nonGP_improb,simple_question
+55,meta-llama/Llama-3.2-1B,The trunk echoed with mysterious sounds while the tourist explored.,Did the tourist explore the trunk?,0.21381480991840363,0.7861851453781128,nonGP_improb,GP_question
+56,meta-llama/Llama-3.2-1B,While the woman drank the water spilled on the floor.,Did the water spill on the floor?,0.7490872144699097,0.25091278553009033,GP_prob,simple_question
+57,meta-llama/Llama-3.2-1B,While the woman drank the water spilled on the floor.,Did the woman drink the water?,0.25091278553009033,0.7490872144699097,GP_prob,GP_question
+58,meta-llama/Llama-3.2-1B,While the woman drank the mud spilled on the floor.,Did the mud spill on the floor?,0.7681542038917542,0.23184579610824585,GP_improb,simple_question
+59,meta-llama/Llama-3.2-1B,While the woman drank the mud spilled on the floor.,Did the woman drink the mud?,0.25583937764167786,0.7441606521606445,GP_improb,GP_question
+60,meta-llama/Llama-3.2-1B,The water spilled on the floor while the woman drank.,Did the water spill on the floor?,0.7079436779022217,0.29205629229545593,nonGP_prob,simple_question
+61,meta-llama/Llama-3.2-1B,The water spilled on the floor while the woman drank.,Did the woman drink the water?,0.3369128704071045,0.6630871295928955,nonGP_prob,GP_question
+62,meta-llama/Llama-3.2-1B,The mud spilled on the floor while the woman drank.,Did the mud spill on the floor?,0.7290061116218567,0.2709939181804657,nonGP_improb,simple_question
+63,meta-llama/Llama-3.2-1B,The mud spilled on the floor while the woman drank.,Did the woman drink the mud?,0.33691200613975525,0.6630879640579224,nonGP_improb,GP_question
+64,meta-llama/Llama-3.2-1B,While the snake swallowed the frog kicked vigorously.,Did the frog kick vigorously?,0.7727591395378113,0.22724081575870514,GP_prob,simple_question
+65,meta-llama/Llama-3.2-1B,While the snake swallowed the frog kicked vigorously.,Did the snake swallow the frog?,0.2658804953098297,0.7341195344924927,GP_prob,GP_question
+66,meta-llama/Llama-3.2-1B,While the snake swallowed the hippo kicked vigorously.,Did the hippo kick vigorously?,0.763483464717865,0.23651659488677979,GP_improb,simple_question
+67,meta-llama/Llama-3.2-1B,While the snake swallowed the hippo kicked vigorously.,Did the snake swallow the hippo?,0.21381480991840363,0.7861851453781128,GP_improb,GP_question
+68,meta-llama/Llama-3.2-1B,The frog kicked vigorously while the snake swallowed.,Did the frog kick vigorously?,0.8267117738723755,0.17328819632530212,nonGP_prob,simple_question
+69,meta-llama/Llama-3.2-1B,The frog kicked vigorously while the snake swallowed.,Did the snake swallow the frog?,0.4098498821258545,0.5901500582695007,nonGP_prob,GP_question
+70,meta-llama/Llama-3.2-1B,The hippo kicked vigorously while the snake swallowed.,Did the hippo kick vigorously?,0.8479677438735962,0.15203224122524261,nonGP_improb,simple_question
+71,meta-llama/Llama-3.2-1B,The hippo kicked vigorously while the snake swallowed.,Did the snake swallow the hippo?,0.3486451506614685,0.6513549089431763,nonGP_improb,GP_question
+72,meta-llama/Llama-3.2-1B,While the lion attacked the baboon screamed in terror.,Did the baboon scream in terror?,0.6915315389633179,0.3084684908390045,GP_prob,simple_question
+73,meta-llama/Llama-3.2-1B,While the lion attacked the baboon screamed in terror.,Did the lion attack the baboon?,0.36658975481987,0.6334102749824524,GP_prob,GP_question
+74,meta-llama/Llama-3.2-1B,While the lion attacked the penguin screamed in terror.,Did the penguin scream in terror?,0.66888028383255,0.33111974596977234,GP_improb,simple_question
+75,meta-llama/Llama-3.2-1B,While the lion attacked the penguin screamed in terror.,Did the lion attack the penguin?,0.3849121630191803,0.6150878667831421,GP_improb,GP_question
+76,meta-llama/Llama-3.2-1B,The baboon screamed in terror while the lion attacked.,Did the baboon scream in terror?,0.7490872144699097,0.25091278553009033,nonGP_prob,simple_question
+77,meta-llama/Llama-3.2-1B,The baboon screamed in terror while the lion attacked.,Did the lion attack the baboon?,0.3849121630191803,0.6150878667831421,nonGP_prob,GP_question
+78,meta-llama/Llama-3.2-1B,The penguin screamed in terror while the lion attacked.,Did the penguin scream in terror?,0.7391709685325623,0.26082903146743774,nonGP_improb,simple_question
+79,meta-llama/Llama-3.2-1B,The penguin screamed in terror while the lion attacked.,Did the lion attack the penguin?,0.42250463366508484,0.5774953961372375,nonGP_improb,GP_question
+80,meta-llama/Llama-3.2-1B,While the maid dusted the picture tipped over.,Did the picture tip over?,0.6513549089431763,0.3486451506614685,GP_prob,simple_question
+81,meta-llama/Llama-3.2-1B,While the maid dusted the picture tipped over.,Did the maid dust the picture?,0.26082903146743774,0.7391709685325623,GP_prob,GP_question
+82,meta-llama/Llama-3.2-1B,While the maid dusted the cow tipped over.,Did the cow tip over?,0.674622654914856,0.32537734508514404,GP_improb,simple_question
+83,meta-llama/Llama-3.2-1B,While the maid dusted the cow tipped over.,Did the maid dust the cow?,0.23651622235774994,0.7634837031364441,GP_improb,GP_question
+84,meta-llama/Llama-3.2-1B,The picture tipped over while the maid dusted.,Did the picture tip over?,0.7185943722724915,0.28140559792518616,nonGP_prob,simple_question
+85,meta-llama/Llama-3.2-1B,The picture tipped over while the maid dusted.,Did the maid dust the picture?,0.3545823097229004,0.6454176306724548,nonGP_prob,GP_question
+86,meta-llama/Llama-3.2-1B,The cow tipped over while the maid dusted.,Did the cow tip over?,0.7079436779022217,0.29205629229545593,nonGP_improb,simple_question
+87,meta-llama/Llama-3.2-1B,The cow tipped over while the maid dusted.,Did the maid dust the cow?,0.3910961449146271,0.6089038848876953,nonGP_improb,GP_question
+88,meta-llama/Llama-3.2-1B,While the teacher counted the children formed a line.,Did the children form a line?,0.886682391166687,0.11331754177808762,GP_prob,simple_question
+89,meta-llama/Llama-3.2-1B,While the teacher counted the children formed a line.,Did the teacher count the children?,0.0,1.0,GP_prob,GP_question
+90,meta-llama/Llama-3.2-1B,While the teacher counted the ants formed a line.,Did the ants form a line?,0.8267117738723755,0.17328819632530212,GP_improb,simple_question
+91,meta-llama/Llama-3.2-1B,While the teacher counted the ants formed a line.,Did the teacher count the ants?,0.0,1.0,GP_improb,GP_question
+92,meta-llama/Llama-3.2-1B,The children formed a line while the teacher counted.,Did the children form a line?,0.886682391166687,0.11331754177808762,nonGP_prob,simple_question
+93,meta-llama/Llama-3.2-1B,The children formed a line while the teacher counted.,Did the teacher count the children?,0.0,1.0,nonGP_prob,GP_question
+94,meta-llama/Llama-3.2-1B,The ants formed a line while the teacher counted.,Did the ants form a line?,0.815232515335083,0.18476751446723938,nonGP_improb,simple_question
+95,meta-llama/Llama-3.2-1B,The ants formed a line while the teacher counted.,Did the teacher count the ants?,0.0,1.0,nonGP_improb,GP_question
+96,meta-llama/Llama-3.2-1B,While the champion raced the challenger stumbled and fell.,Did the challenger stumble and fall?,0.753950297832489,0.2460496872663498,GP_prob,simple_question
+97,meta-llama/Llama-3.2-1B,While the champion raced the challenger stumbled and fell.,Did the champion race the challenger?,0.19274167716503143,0.8072583079338074,GP_prob,GP_question
+98,meta-llama/Llama-3.2-1B,While the champion raced the spectator stumbled and fell.,Did the spectator stumble and fall?,0.7587495446205139,0.24125050008296967,GP_improb,simple_question
+99,meta-llama/Llama-3.2-1B,While the champion raced the spectator stumbled and fell.,Did the champion race the spectator?,0.18872198462486267,0.8112779855728149,GP_improb,GP_question
+100,meta-llama/Llama-3.2-1B,The challenger stumbled and fell while the champion raced.,Did the challenger stumble and fall?,0.8031737804412842,0.19682620465755463,nonGP_prob,simple_question
+101,meta-llama/Llama-3.2-1B,The challenger stumbled and fell while the champion raced.,Did the champion race the challenger?,0.3029401898384094,0.6970598101615906,nonGP_prob,GP_question
+102,meta-llama/Llama-3.2-1B,The spectator stumbled and fell while the champion raced.,Did the spectator stumble and fall?,0.815232515335083,0.18476751446723938,nonGP_improb,simple_question
+103,meta-llama/Llama-3.2-1B,The spectator stumbled and fell while the champion raced.,Did the champion race the spectator?,0.33111974596977234,0.66888028383255,nonGP_improb,GP_question
+104,meta-llama/Llama-3.2-1B,While Jerry played the violin went out of tune.,Did the violin go out of tune?,0.674622654914856,0.32537734508514404,GP_prob,simple_question
+105,meta-llama/Llama-3.2-1B,While Jerry played the violin went out of tune.,Did Jerry play the violin?,0.21822519600391388,0.7817748188972473,GP_prob,GP_question
+106,meta-llama/Llama-3.2-1B,While Jerry played the speakers went out of tune.,Did the speakers go out of tune?,0.685949444770813,0.314050555229187,GP_improb,simple_question
+107,meta-llama/Llama-3.2-1B,While Jerry played the speakers went out of tune.,Did Jerry play the speakers?,0.25583937764167786,0.7441606521606445,GP_improb,GP_question
+108,meta-llama/Llama-3.2-1B,The violin went out of tune while jerry played.,Did the violin go out of tune?,0.6746218204498291,0.3253782093524933,nonGP_prob,simple_question
+109,meta-llama/Llama-3.2-1B,The violin went out of tune while jerry played.,Did Jerry play the violin?,0.37876513600349426,0.6212348937988281,nonGP_prob,GP_question
+110,meta-llama/Llama-3.2-1B,The speakers went out of tune while jerry played.,Did the speakers go out of tune?,0.7587487697601318,0.24125118553638458,nonGP_improb,simple_question
+111,meta-llama/Llama-3.2-1B,The speakers went out of tune while jerry played.,Did Jerry play the speakers?,0.3849121630191803,0.6150878667831421,nonGP_improb,GP_question
+112,meta-llama/Llama-3.2-1B,While the girl painted the rainbow slowly faded outside.,Did the rainbow slowly fade outside?,0.8229490518569946,0.1770508885383606,GP_prob,simple_question
+113,meta-llama/Llama-3.2-1B,While the girl painted the rainbow slowly faded outside.,Did the girl paint the rainbow?,0.20097574591636658,0.799024224281311,GP_prob,GP_question
+114,meta-llama/Llama-3.2-1B,While the girl painted the music slowly faded outside.,Did the music slowly fade outside?,0.8479677438735962,0.15203224122524261,GP_improb,simple_question
+115,meta-llama/Llama-3.2-1B,While the girl painted the music slowly faded outside.,Did the girl paint the music?,0.1588689386844635,0.8411310911178589,GP_improb,GP_question
+116,meta-llama/Llama-3.2-1B,The rainbow slowly faded outside while the girl painted.,Did the rainbow slowly fade outside?,0.8479677438735962,0.15203224122524261,nonGP_prob,simple_question
+117,meta-llama/Llama-3.2-1B,The rainbow slowly faded outside while the girl painted.,Did the girl paint the rainbow?,0.21381480991840363,0.7861851453781128,nonGP_prob,GP_question
+118,meta-llama/Llama-3.2-1B,The music slowly faded outside while the girl painted.,Did the music slowly fade outside?,0.8757869601249695,0.12421300262212753,nonGP_improb,simple_question
+119,meta-llama/Llama-3.2-1B,The music slowly faded outside while the girl painted.,Did the girl paint the music?,0.2138141691684723,0.7861858010292053,nonGP_improb,GP_question
+120,meta-llama/Llama-3.2-1B,While Kendra parked the van bumped the curb.,Did the van bump the curb?,0.7132982015609741,0.2867017388343811,GP_prob,simple_question
+121,meta-llama/Llama-3.2-1B,While Kendra parked the van bumped the curb.,Did Kendra park the van?,0.15541966259479523,0.8445802927017212,GP_prob,GP_question
+122,meta-llama/Llama-3.2-1B,While Kendra parked the horse bumped the curb.,Did the horse bump the curb?,0.7490872144699097,0.25091278553009033,GP_improb,simple_question
+123,meta-llama/Llama-3.2-1B,While Kendra parked the horse bumped the curb.,Did Kendra park the horse?,0.1588689386844635,0.8411310911178589,GP_improb,GP_question
+124,meta-llama/Llama-3.2-1B,The van bumped the curb while Kendra parked.,Did the van bump the curb?,0.7079436779022217,0.29205629229545593,nonGP_prob,simple_question
+125,meta-llama/Llama-3.2-1B,The van bumped the curb while Kendra parked.,Did Kendra park the van?,0.29746994376182556,0.7025300860404968,nonGP_prob,GP_question
+126,meta-llama/Llama-3.2-1B,The horse bumped the curb while Kendra parked.,Did the horse bump the curb?,0.7727598547935486,0.22724014520645142,nonGP_improb,simple_question
+127,meta-llama/Llama-3.2-1B,The horse bumped the curb while Kendra parked.,Did Kendra park the horse?,0.25583866238594055,0.7441613674163818,nonGP_improb,GP_question
+128,meta-llama/Llama-3.2-1B,While Angela cleaned the dog stood in the yard.,Did the dog stand in the yard?,0.8411310911178589,0.1588689386844635,GP_prob,simple_question
+129,meta-llama/Llama-3.2-1B,While Angela cleaned the dog stood in the yard.,Did Angela clean the dog?,0.1032654419541359,0.8967345356941223,GP_prob,GP_question
+130,meta-llama/Llama-3.2-1B,While Angela cleaned the mailman stood in the yard.,Did the mailman stand in the yard?,0.7634837031364441,0.23651622235774994,GP_improb,simple_question
+131,meta-llama/Llama-3.2-1B,While Angela cleaned the mailman stood in the yard.,Did Angela clean the mailman?,0.12707391381263733,0.8729261159896851,GP_improb,GP_question
+132,meta-llama/Llama-3.2-1B,The dog stood in the yard while Angela cleaned.,Did the dog stand in the yard?,0.8785920739173889,0.12140797823667526,nonGP_prob,simple_question
+133,meta-llama/Llama-3.2-1B,The dog stood in the yard while Angela cleaned.,Did Angela clean the dog?,0.15203224122524261,0.8479677438735962,nonGP_prob,GP_question
+134,meta-llama/Llama-3.2-1B,The mailman stood in the yard while Angela cleaned.,Did the mailman stand in the yard?,0.8229496479034424,0.17705033719539642,nonGP_improb,simple_question
+135,meta-llama/Llama-3.2-1B,The mailman stood in the yard while Angela cleaned.,Did Angela clean the mailman?,0.20097574591636658,0.799024224281311,nonGP_improb,GP_question
+136,meta-llama/Llama-3.2-1B,While the sailor smoked the pipe glowed brightly.,Did the pipe glow brightly?,0.8729264736175537,0.1270734816789627,GP_prob,simple_question
+137,meta-llama/Llama-3.2-1B,While the sailor smoked the pipe glowed brightly.,Did the sailor smoke the pipe?,0.20519043505191803,0.7948095798492432,GP_prob,GP_question
+138,meta-llama/Llama-3.2-1B,While the sailor smoked the firefly glowed brightly.,Did the firefly glow brightly?,0.8813427686691284,0.11865729838609695,GP_improb,simple_question
+139,meta-llama/Llama-3.2-1B,While the sailor smoked the firefly glowed brightly.,Did the sailor smoke the firefly?,0.29205629229545593,0.7079436779022217,GP_improb,GP_question
+140,meta-llama/Llama-3.2-1B,The pipe glowed brightly while the sailor smoked.,Did the pipe glow brightly?,0.8840392827987671,0.11596070975065231,nonGP_prob,simple_question
+141,meta-llama/Llama-3.2-1B,The pipe glowed brightly while the sailor smoked.,Did the sailor smoke the pipe?,0.2658804953098297,0.7341195344924927,nonGP_prob,GP_question
+142,meta-llama/Llama-3.2-1B,The firefly glowed brightly while the sailor smoked.,Did the firefly glow brightly?,0.9014590978622437,0.09854090958833694,nonGP_improb,simple_question
+143,meta-llama/Llama-3.2-1B,The firefly glowed brightly while the sailor smoked.,Did the sailor smoke the firefly?,0.3787660300731659,0.6212339401245117,nonGP_improb,GP_question
+144,meta-llama/Llama-3.2-1B,While the tourist filmed the dancer blocked the sidewalk.,Did the dancer block the sidewalk?,0.5774953961372375,0.42250463366508484,GP_prob,simple_question
+145,meta-llama/Llama-3.2-1B,While the tourist filmed the dancer blocked the sidewalk.,Did the tourist film the dancer?,0.23184648156166077,0.7681534886360168,GP_prob,GP_question
+146,meta-llama/Llama-3.2-1B,While the tourist filmed the trashbags blocked the sidewalk.,Did the trashbags block the sidewalk?,0.6150878667831421,0.3849121630191803,GP_improb,simple_question
+147,meta-llama/Llama-3.2-1B,While the tourist filmed the trashbags blocked the sidewalk.,Did the tourist film the trashbags?,0.21381480991840363,0.7861851453781128,GP_improb,GP_question
+148,meta-llama/Llama-3.2-1B,The dancer blocked the sidewalk while the tourist filmed.,Did the dancer block the sidewalk?,0.7238305807113647,0.27616941928863525,nonGP_prob,simple_question
+149,meta-llama/Llama-3.2-1B,The dancer blocked the sidewalk while the tourist filmed.,Did the tourist film the dancer?,0.3369128704071045,0.6630871295928955,nonGP_prob,GP_question
+150,meta-llama/Llama-3.2-1B,The trashbags blocked the sidewalk while the tourist filmed.,Did the trashbags block the sidewalk?,0.5901491641998291,0.4098508358001709,nonGP_improb,simple_question
+151,meta-llama/Llama-3.2-1B,The trashbags blocked the sidewalk while the tourist filmed.,Did the tourist film the trashbags?,0.3605637848377228,0.6394362449645996,nonGP_improb,GP_question
+152,meta-llama/Llama-3.2-1B,While the athlete wrestled the opponent shouted insults.,Did the opponent shout insults?,0.5065094232559204,0.4934905767440796,GP_prob,simple_question
+153,meta-llama/Llama-3.2-1B,While the athlete wrestled the opponent shouted insults.,Did the athlete wrestle the opponent?,0.2658804953098297,0.7341195344924927,GP_prob,GP_question
+154,meta-llama/Llama-3.2-1B,While the athlete wrestled the audience shouted insults.,Did the audience shout insults?,0.5647390484809875,0.43526098132133484,GP_improb,simple_question
+155,meta-llama/Llama-3.2-1B,While the athlete wrestled the audience shouted insults.,Did the athlete wrestle the audience?,0.30846768617630005,0.6915323138237,GP_improb,GP_question
+156,meta-llama/Llama-3.2-1B,The opponent shouted insults while the athlete wrestled.,Did the opponent shout insults?,0.5838356018066406,0.4161643981933594,nonGP_prob,simple_question
+157,meta-llama/Llama-3.2-1B,The opponent shouted insults while the athlete wrestled.,Did the athlete wrestle the opponent?,0.3369128704071045,0.6630871295928955,nonGP_prob,GP_question
+158,meta-llama/Llama-3.2-1B,The audience shouted insults while the athlete wrestled.,Did the audience shout insults?,0.6334102749824524,0.36658975481987,nonGP_improb,simple_question
+159,meta-llama/Llama-3.2-1B,The audience shouted insults while the athlete wrestled.,Did the athlete wrestle the audience?,0.3973143994808197,0.6026856303215027,nonGP_improb,GP_question
+160,meta-llama/Llama-3.2-1B,While the warrior fought the enemy retreated.,Did the enemy retreat?,0.7948095798492432,0.20519043505191803,GP_prob,simple_question
+161,meta-llama/Llama-3.2-1B,While the warrior fought the enemy retreated.,Did the warrior fight the enemy?,0.1588689386844635,0.8411310911178589,GP_prob,GP_question
+162,meta-llama/Llama-3.2-1B,While the warrior fought the rhino retreated.,Did the rhino retreat?,0.7727591395378113,0.22724081575870514,GP_improb,simple_question
+163,meta-llama/Llama-3.2-1B,While the warrior fought the rhino retreated.,Did the warrior fight the rhino?,0.1588689386844635,0.8411310911178589,GP_improb,GP_question
+164,meta-llama/Llama-3.2-1B,The enemy retreated while the warrior fought.,Did the enemy retreat?,0.8072583079338074,0.19274167716503143,nonGP_prob,simple_question
+165,meta-llama/Llama-3.2-1B,The enemy retreated while the warrior fought.,Did the warrior fight the enemy?,0.16238002479076385,0.837619960308075,nonGP_prob,GP_question
+166,meta-llama/Llama-3.2-1B,The rhino retreated while the warrior fought.,Did the rhino retreat?,0.7539496421813965,0.2460504025220871,nonGP_improb,simple_question
+167,meta-llama/Llama-3.2-1B,The rhino retreated while the warrior fought.,Did the warrior fight the rhino?,0.22724014520645142,0.7727598547935486,nonGP_improb,GP_question
+168,meta-llama/Llama-3.2-1B,While Harry chewed the steak fell to the floor.,Did the steak fall to the floor?,0.7727591395378113,0.22724081575870514,GP_prob,simple_question
+169,meta-llama/Llama-3.2-1B,While Harry chewed the steak fell to the floor.,Did Harry chew the steak?,0.14870516955852509,0.8512948155403137,GP_prob,GP_question
+170,meta-llama/Llama-3.2-1B,While Harry chewed the book fell to the floor.,Did the book fall to the floor?,0.7817754149436951,0.21822455525398254,GP_improb,simple_question
+171,meta-llama/Llama-3.2-1B,While Harry chewed the book fell to the floor.,Did Harry chew the book?,0.17328819632530212,0.8267117738723755,GP_improb,GP_question
+172,meta-llama/Llama-3.2-1B,The steak fell to the floor while Harry chewed.,Did the steak fall to the floor?,0.7905303239822388,0.20946969091892242,nonGP_prob,simple_question
+173,meta-llama/Llama-3.2-1B,The steak fell to the floor while Harry chewed.,Did Harry chew the steak?,0.20946969091892242,0.7905303239822388,nonGP_prob,GP_question
+174,meta-llama/Llama-3.2-1B,The book fell to the floor while Harry chewed.,Did the book fall to the floor?,0.7861858010292053,0.2138141691684723,nonGP_improb,simple_question
+175,meta-llama/Llama-3.2-1B,The book fell to the floor while Harry chewed.,Did Harry chew the book?,0.26082828640937805,0.7391716837882996,nonGP_improb,GP_question
+176,meta-llama/Llama-3.2-1B,While Bill ate the turkey sat on the table.,Did the turkey sit on the table?,0.7905303239822388,0.20946969091892242,GP_prob,simple_question
+177,meta-llama/Llama-3.2-1B,While Bill ate the turkey sat on the table.,Did Bill eat the turkey?,0.11331754177808762,0.886682391166687,GP_prob,GP_question
+178,meta-llama/Llama-3.2-1B,While Bill ate the baby sat on the table.,Did the baby sit on the table?,0.7391716837882996,0.26082828640937805,GP_improb,simple_question
+179,meta-llama/Llama-3.2-1B,While Bill ate the baby sat on the table.,Did Bill eat the baby?,0.17705033719539642,0.8229496479034424,GP_improb,GP_question
+180,meta-llama/Llama-3.2-1B,The turkey sat on the table while Bill ate.,Did the turkey sit on the table?,0.8072583079338074,0.19274167716503143,nonGP_prob,simple_question
+181,meta-llama/Llama-3.2-1B,The turkey sat on the table while Bill ate.,Did Bill eat the turkey?,0.2658804953098297,0.7341195344924927,nonGP_prob,GP_question
+182,meta-llama/Llama-3.2-1B,The baby sat on the table while Bill ate.,Did the baby sit on the table?,0.7948101758956909,0.2051898092031479,nonGP_improb,simple_question
+183,meta-llama/Llama-3.2-1B,The baby sat on the table while Bill ate.,Did Bill eat the baby?,0.314050555229187,0.685949444770813,nonGP_improb,GP_question
+184,meta-llama/Llama-3.2-1B,While Janet baked the bread rose in the oven.,Did the bread rise in the oven?,0.9014590978622437,0.09854090958833694,GP_prob,simple_question
+185,meta-llama/Llama-3.2-1B,While Janet baked the bread rose in the oven.,Did Janet bake the bread?,0.09854090958833694,0.9014590978622437,GP_prob,GP_question
+186,meta-llama/Llama-3.2-1B,While Janet baked the pressure rose in the oven.,Did the pressure rise in the oven?,0.8512948155403137,0.14870516955852509,GP_improb,simple_question
+187,meta-llama/Llama-3.2-1B,While Janet baked the pressure rose in the oven.,Did Janet bake the pressure?,0.18872256577014923,0.811277449131012,GP_improb,GP_question
+188,meta-llama/Llama-3.2-1B,The bread rose in the oven while Janet baked.,Did the bread rise in the oven?,0.8757869601249695,0.12421300262212753,nonGP_prob,simple_question
+189,meta-llama/Llama-3.2-1B,The bread rose in the oven while Janet baked.,Did Janet bake the bread?,0.14543840289115906,0.8545615673065186,nonGP_prob,GP_question
+190,meta-llama/Llama-3.2-1B,The pressure rose in the oven while Janet baked.,Did the pressure rise in the oven?,0.8609153628349304,0.1390845775604248,nonGP_improb,simple_question
+191,meta-llama/Llama-3.2-1B,The pressure rose in the oven while Janet baked.,Did Janet bake the pressure?,0.20097574591636658,0.799024224281311,nonGP_improb,GP_question
+192,meta-llama/Llama-3.2-1B,While the public cheered the team left the restaurant.,Did the team leave the restaurant?,0.811277449131012,0.18872256577014923,GP_prob,simple_question
+193,meta-llama/Llama-3.2-1B,While the public cheered the team left the restaurant.,Did the public cheer the team?,0.20946969091892242,0.7905303239822388,GP_prob,GP_question
+194,meta-llama/Llama-3.2-1B,While the public cheered the rats left the restaurant.,Did the rats leave the restaurant?,0.837619960308075,0.16238002479076385,GP_improb,simple_question
+195,meta-llama/Llama-3.2-1B,While the public cheered the rats left the restaurant.,Did the public cheer the rats?,0.23184579610824585,0.7681542038917542,GP_improb,GP_question
+196,meta-llama/Llama-3.2-1B,The team left the restaurant while the public cheered.,Did the team leave the restaurant?,0.837619960308075,0.16238002479076385,nonGP_prob,simple_question
+197,meta-llama/Llama-3.2-1B,The team left the restaurant while the public cheered.,Did the public cheer the team?,0.30846768617630005,0.6915323138237,nonGP_prob,GP_question
+198,meta-llama/Llama-3.2-1B,The rats left the restaurant while the public cheered.,Did the rats leave the restaurant?,0.8072583079338074,0.19274167716503143,nonGP_improb,simple_question
+199,meta-llama/Llama-3.2-1B,The rats left the restaurant while the public cheered.,Did the public cheer the rats?,0.33111974596977234,0.66888028383255,nonGP_improb,GP_question
+200,meta-llama/Llama-3.2-1B,While the cleaner mopped the floor was filled with stains.,Was the floor filled with stains?,0.7025300860404968,0.29746994376182556,GP_prob,simple_question
+201,meta-llama/Llama-3.2-1B,While the cleaner mopped the floor was filled with stains.,Did the cleaner mop the floor?,0.1927422732114792,0.8072577118873596,GP_prob,GP_question
+202,meta-llama/Llama-3.2-1B,While the cleaner mopped the ceiling was filled with stains.,Was the ceiling filled with stains?,0.685949444770813,0.314050555229187,GP_improb,simple_question
+203,meta-llama/Llama-3.2-1B,While the cleaner mopped the ceiling was filled with stains.,Did the cleaner mop the ceiling?,0.18872198462486267,0.8112779855728149,GP_improb,GP_question
+204,meta-llama/Llama-3.2-1B,The floor was filled with stains while the cleaner mopped.,Was the floor filled with stains?,0.7391716837882996,0.26082828640937805,nonGP_prob,simple_question
+205,meta-llama/Llama-3.2-1B,The floor was filled with stains while the cleaner mopped.,Did the cleaner mop the floor?,0.2051898092031479,0.7948101758956909,nonGP_prob,GP_question
+206,meta-llama/Llama-3.2-1B,The ceiling was filled with stains while the cleaner mopped.,Was the ceiling filled with stains?,0.7490872144699097,0.25091278553009033,nonGP_improb,simple_question
+207,meta-llama/Llama-3.2-1B,The ceiling was filled with stains while the cleaner mopped.,Did the cleaner mop the ceiling?,0.20097514986991882,0.7990248799324036,nonGP_improb,GP_question
+208,meta-llama/Llama-3.2-1B,While the chef cooked the meal impressed the couple.,Did the meal impress the couple?,0.7905303239822388,0.20946969091892242,GP_prob,simple_question
+209,meta-llama/Llama-3.2-1B,While the chef cooked the meal impressed the couple.,Did the chef cook the meal?,0.11596070975065231,0.8840392827987671,GP_prob,GP_question
+210,meta-llama/Llama-3.2-1B,While the chef cooked the cat impressed the couple.,Did the cat impress the couple?,0.7441606521606445,0.25583937764167786,GP_improb,simple_question
+211,meta-llama/Llama-3.2-1B,While the chef cooked the cat impressed the couple.,Did the chef cook the cat?,0.18872198462486267,0.8112779855728149,GP_improb,GP_question
+212,meta-llama/Llama-3.2-1B,The meal impressed the couple while the chef cooked.,Did the meal impress the couple?,0.815232515335083,0.18476751446723938,nonGP_prob,simple_question
+213,meta-llama/Llama-3.2-1B,The meal impressed the couple while the chef cooked.,Did the chef cook the meal?,0.13296423852443695,0.8670357465744019,nonGP_prob,GP_question
+214,meta-llama/Llama-3.2-1B,The cat impressed the couple while the chef cooked.,Did the cat impress the couple?,0.7990248799324036,0.20097514986991882,nonGP_improb,simple_question
+215,meta-llama/Llama-3.2-1B,The cat impressed the couple while the chef cooked.,Did the chef cook the cat?,0.2867017388343811,0.7132982015609741,nonGP_improb,GP_question
+216,meta-llama/Llama-3.2-1B,While the child finished the homework waited on the table.,Did the homework wait on the table?,0.7587495446205139,0.24125050008296967,GP_prob,simple_question
+217,meta-llama/Llama-3.2-1B,While the child finished the homework waited on the table.,Did the child finish the homework?,0.12421300262212753,0.8757869601249695,GP_prob,GP_question
+218,meta-llama/Llama-3.2-1B,While the child finished the tax forms waited on the table.,Did the tax forms wait on the table?,0.7441613674163818,0.25583866238594055,GP_improb,simple_question
+219,meta-llama/Llama-3.2-1B,While the child finished the tax forms waited on the table.,Did the child finish the tax forms?,0.11865690350532532,0.8813431262969971,GP_improb,GP_question
+220,meta-llama/Llama-3.2-1B,The homework waited on the table while the child finished.,Did the homework wait on the table?,0.7587487697601318,0.24125118553638458,nonGP_prob,simple_question
+221,meta-llama/Llama-3.2-1B,The homework waited on the table while the child finished.,Did the child finish the homework?,0.21381480991840363,0.7861851453781128,nonGP_prob,GP_question
+222,meta-llama/Llama-3.2-1B,The tax forms waited on the table while the child finished.,Did the tax forms wait on the table?,0.7441613674163818,0.25583866238594055,nonGP_improb,simple_question
+223,meta-llama/Llama-3.2-1B,The tax forms waited on the table while the child finished.,Did the child finish the tax forms?,0.18872256577014923,0.811277449131012,nonGP_improb,GP_question
+224,meta-llama/Llama-3.2-1B,While the student knitted the sweater sold to the highest bidder.,Did the sweater sell to the highest bidder?,1.0,0.0,GP_prob,simple_question
+225,meta-llama/Llama-3.2-1B,While the student knitted the sweater sold to the highest bidder.,Did the student knit the sweater?,0.07585831731557846,0.9241417050361633,GP_prob,GP_question
+226,meta-llama/Llama-3.2-1B,While the student knitted the painting sold to the highest bidder.,Did the painting sell to the highest bidder?,0.9327805042266846,0.06721945852041245,GP_improb,simple_question
+227,meta-llama/Llama-3.2-1B,While the student knitted the painting sold to the highest bidder.,Did the student knit the painting?,0.08349107205867767,0.9165089130401611,GP_improb,GP_question
+228,meta-llama/Llama-3.2-1B,The sweater sold to the highest bidder while the student knitted.,Did the sweater sell to the highest bidder?,0.9473810195922852,0.052618954330682755,nonGP_prob,simple_question
+229,meta-llama/Llama-3.2-1B,The sweater sold to the highest bidder while the student knitted.,Did the student knit the sweater?,0.17328819632530212,0.8267117738723755,nonGP_prob,GP_question
+230,meta-llama/Llama-3.2-1B,The painting sold to the highest bidder while the student knitted.,Did the painting sell to the highest bidder?,0.948664128780365,0.05133591964840889,nonGP_improb,simple_question
+231,meta-llama/Llama-3.2-1B,The painting sold to the highest bidder while the student knitted.,Did the student knit the painting?,0.16595342755317688,0.8340466022491455,nonGP_improb,GP_question
+232,meta-llama/Llama-3.2-1B,While the astronomer observed the comet lit up the room.,Did the comet light up the room?,0.8191231489181519,0.18087686598300934,GP_prob,simple_question
+233,meta-llama/Llama-3.2-1B,While the astronomer observed the comet lit up the room.,Did the astronomer observe the comet?,0.13599495589733124,0.8640050888061523,GP_prob,GP_question
+234,meta-llama/Llama-3.2-1B,While the astronomer observed the lightbulb lit up the room.,Did the lightbulb light up the room?,0.8072583079338074,0.19274167716503143,GP_improb,simple_question
+235,meta-llama/Llama-3.2-1B,While the astronomer observed the lightbulb lit up the room.,Did the astronomer observe the lightbulb?,0.1659528911113739,0.8340470790863037,GP_improb,GP_question
+236,meta-llama/Llama-3.2-1B,The comet lit up the room while the astronomer observed.,Did the comet light up the room?,0.8340466022491455,0.16595342755317688,nonGP_prob,simple_question
+237,meta-llama/Llama-3.2-1B,The comet lit up the room while the astronomer observed.,Did the astronomer observe the comet?,0.18476751446723938,0.815232515335083,nonGP_prob,GP_question
+238,meta-llama/Llama-3.2-1B,The lightbulb lit up the room while the astronomer observed.,Did the lightbulb light up the room?,0.8479677438735962,0.15203224122524261,nonGP_improb,simple_question
+239,meta-llama/Llama-3.2-1B,The lightbulb lit up the room while the astronomer observed.,Did the astronomer observe the lightbulb?,0.22724081575870514,0.7727591395378113,nonGP_improb,GP_question
+240,meta-llama/Llama-3.2-1B,While the players started the game bored the children.,Did the game bore the children?,0.596433162689209,0.4035668969154358,GP_prob,simple_question
+241,meta-llama/Llama-3.2-1B,While the players started the game bored the children.,Did the players start the game?,0.22724081575870514,0.7727591395378113,GP_prob,GP_question
+242,meta-llama/Llama-3.2-1B,While the players started the lesson bored the children.,Did the lesson bore the children?,0.5711294412612915,0.4288705289363861,GP_improb,simple_question
+243,meta-llama/Llama-3.2-1B,While the players started the lesson bored the children.,Did the players start the lesson?,0.20946969091892242,0.7905303239822388,GP_improb,GP_question
+244,meta-llama/Llama-3.2-1B,The game bored the children while the players started.,Did the game bore the children?,0.685949444770813,0.314050555229187,nonGP_prob,simple_question
+245,meta-llama/Llama-3.2-1B,The game bored the children while the players started.,Did the players start the game?,0.2658804953098297,0.7341195344924927,nonGP_prob,GP_question
+246,meta-llama/Llama-3.2-1B,The lesson bored the children while the players started.,Did the lesson bore the children?,0.6454185247421265,0.35458147525787354,nonGP_improb,simple_question
+247,meta-llama/Llama-3.2-1B,The lesson bored the children while the players started.,Did the players start the lesson?,0.33691200613975525,0.6630879640579224,nonGP_improb,GP_question
+248,meta-llama/Llama-3.2-1B,While the professor taught the students looked at the board.,Did the students look at the board?,0.815232515335083,0.18476751446723938,GP_prob,simple_question
+249,meta-llama/Llama-3.2-1B,While the professor taught the students looked at the board.,Did the professor teach the students?,0.13296423852443695,0.8670357465744019,GP_prob,GP_question
+250,meta-llama/Llama-3.2-1B,While the professor taught the puppies looked at the board.,Did the puppies look at the board?,0.8340466022491455,0.16595342755317688,GP_improb,simple_question
+251,meta-llama/Llama-3.2-1B,While the professor taught the puppies looked at the board.,Did the professor teach the puppies?,0.16238002479076385,0.837619960308075,GP_improb,GP_question
+252,meta-llama/Llama-3.2-1B,The students looked at the board while the professor taught.,Did the students look at the board?,0.7905303239822388,0.20946969091892242,nonGP_prob,simple_question
+253,meta-llama/Llama-3.2-1B,The students looked at the board while the professor taught.,Did the professor teach the students?,0.2658804953098297,0.7341195344924927,nonGP_prob,GP_question
+254,meta-llama/Llama-3.2-1B,The puppies looked at the board while the professor taught.,Did the puppies look at the board?,0.8191231489181519,0.18087686598300934,nonGP_improb,simple_question
+255,meta-llama/Llama-3.2-1B,The puppies looked at the board while the professor taught.,Did the professor teach the puppies?,0.22270014882087708,0.7772998809814453,nonGP_improb,GP_question
+256,meta-llama/Llama-3.2-1B,While the pianist practiced the melody echoed through the hall.,Did the melody echo through the hall?,0.8545615673065186,0.14543840289115906,GP_prob,simple_question
+257,meta-llama/Llama-3.2-1B,While the pianist practiced the melody echoed through the hall.,Did the pianist practice the melody?,0.11331754177808762,0.886682391166687,GP_prob,GP_question
+258,meta-llama/Llama-3.2-1B,While the pianist practiced the vacuum echoed through the hall.,Did the vacuum echo through the hall?,0.7681542038917542,0.23184579610824585,GP_improb,simple_question
+259,meta-llama/Llama-3.2-1B,While the pianist practiced the vacuum echoed through the hall.,Did the pianist practice the vacuum?,0.19682620465755463,0.8031737804412842,GP_improb,GP_question
+260,meta-llama/Llama-3.2-1B,The melody echoed through the hall while the pianist practiced.,Did the melody echo through the hall?,0.8577680587768555,0.14223188161849976,nonGP_prob,simple_question
+261,meta-llama/Llama-3.2-1B,The melody echoed through the hall while the pianist practiced.,Did the pianist practice the melody?,0.16958898305892944,0.8304110169410706,nonGP_prob,GP_question
+262,meta-llama/Llama-3.2-1B,The vacuum echoed through the hall while the pianist practiced.,Did the vacuum echo through the hall?,0.753950297832489,0.2460496872663498,nonGP_improb,simple_question
+263,meta-llama/Llama-3.2-1B,The vacuum echoed through the hall while the pianist practiced.,Did the pianist practice the vacuum?,0.3545823097229004,0.6454176306724548,nonGP_improb,GP_question
+264,meta-llama/Llama-3.2-1B,While the couple left the bar buzzed with activity.,Did the bar buzz with activity?,0.8031737804412842,0.19682620465755463,GP_prob,simple_question
+265,meta-llama/Llama-3.2-1B,While the couple left the bar buzzed with activity.,Did the couple leave the bar?,0.18087686598300934,0.8191231489181519,GP_prob,GP_question
+266,meta-llama/Llama-3.2-1B,While the couple left the hive buzzed with activity.,Did the hive buzz with activity?,0.844579815864563,0.15542016923427582,GP_improb,simple_question
+267,meta-llama/Llama-3.2-1B,While the couple left the hive buzzed with activity.,Did the couple leave the hive?,0.1588689386844635,0.8411310911178589,GP_improb,GP_question
+268,meta-llama/Llama-3.2-1B,The bar buzzed with activity while the couple left.,Did the bar buzz with activity?,0.8479677438735962,0.15203224122524261,nonGP_prob,simple_question
+269,meta-llama/Llama-3.2-1B,The bar buzzed with activity while the couple left.,Did the couple leave the bar?,0.23184579610824585,0.7681542038917542,nonGP_prob,GP_question
+270,meta-llama/Llama-3.2-1B,The hive buzzed with activity while the couple left.,Did the hive buzz with activity?,0.8577680587768555,0.14223188161849976,nonGP_improb,simple_question
+271,meta-llama/Llama-3.2-1B,The hive buzzed with activity while the couple left.,Did the couple leave the hive?,0.20946969091892242,0.7905303239822388,nonGP_improb,GP_question
+272,meta-llama/Llama-3.2-1B,While the gardener harvested the tomatoes hanged on the vine.,Did the tomatoes hang on the vine?,0.9081843495368958,0.09181569516658783,GP_prob,simple_question
+273,meta-llama/Llama-3.2-1B,While the gardener harvested the tomatoes hanged on the vine.,Did the gardener harvest the tomatoes?,0.10326526314020157,0.8967347145080566,GP_prob,GP_question
+274,meta-llama/Llama-3.2-1B,While the gardener harvested the chrysalis hanged on the vine.,Did the chrysalis hang on the vine?,0.8267117738723755,0.17328819632530212,GP_improb,simple_question
+275,meta-llama/Llama-3.2-1B,While the gardener harvested the chrysalis hanged on the vine.,Did the gardener harvest the chrysalis?,0.16238002479076385,0.837619960308075,GP_improb,GP_question
+276,meta-llama/Llama-3.2-1B,The tomatoes hanged on the vine while the gardener harvested.,Did the tomatoes hang on the vine?,0.903748095035553,0.09625189006328583,nonGP_prob,simple_question
+277,meta-llama/Llama-3.2-1B,The tomatoes hanged on the vine while the gardener harvested.,Did the gardener harvest the tomatoes?,0.16238002479076385,0.837619960308075,nonGP_prob,GP_question
+278,meta-llama/Llama-3.2-1B,The chrysalis hanged on the vine while the gardener harvested.,Did the chrysalis hang on the vine?,0.815232515335083,0.18476751446723938,nonGP_improb,simple_question
+279,meta-llama/Llama-3.2-1B,The chrysalis hanged on the vine while the gardener harvested.,Did the gardener harvest the chrysalis?,0.29746994376182556,0.7025300860404968,nonGP_improb,GP_question
+280,meta-llama/Llama-3.2-1B,While the horse pulled the cart moved silently.,Did the cart move silently?,0.8340470790863037,0.1659528911113739,GP_prob,simple_question
+281,meta-llama/Llama-3.2-1B,While the horse pulled the cart moved silently.,Did the horse pull the cart?,0.12421300262212753,0.8757869601249695,GP_prob,GP_question
+282,meta-llama/Llama-3.2-1B,While the horse pulled the submarine moved silently.,Did the submarine move silently?,0.8512943983078003,0.1487056463956833,GP_improb,simple_question
+283,meta-llama/Llama-3.2-1B,While the horse pulled the submarine moved silently.,Did the horse pull the submarine?,0.14870516955852509,0.8512948155403137,GP_improb,GP_question
+284,meta-llama/Llama-3.2-1B,The cart moved silently while the horse pulled.,Did the cart move silently?,0.8840392827987671,0.11596070975065231,nonGP_prob,simple_question
+285,meta-llama/Llama-3.2-1B,The cart moved silently while the horse pulled.,Did the horse pull the cart?,0.20946969091892242,0.7905303239822388,nonGP_prob,GP_question
+286,meta-llama/Llama-3.2-1B,The submarine moved silently while the horse pulled.,Did the submarine move silently?,0.8577680587768555,0.14223188161849976,nonGP_improb,simple_question
+287,meta-llama/Llama-3.2-1B,The submarine moved silently while the horse pulled.,Did the horse pull the submarine?,0.20097514986991882,0.7990248799324036,nonGP_improb,GP_question
+288,meta-llama/Llama-3.2-1B,The child giggled with delight while Jim bathed.,Did the child giggle with delight?,0.8640046119689941,0.13599540293216705,nonGP_reflexive,simple_question
+289,meta-llama/Llama-3.2-1B,The child giggled with delight while Jim bathed.,Did Jim bathe the child?,0.2138141691684723,0.7861858010292053,nonGP_reflexive,GP_question
+290,meta-llama/Llama-3.2-1B,The baboons sat in the grass while the chimps groomed.,Did the baboons sit in the grass?,0.8304104804992676,0.16958951950073242,nonGP_reflexive,simple_question
+291,meta-llama/Llama-3.2-1B,The baboons sat in the grass while the chimps groomed.,Did the chimps groom the baboons?,0.20946969091892242,0.7905303239822388,nonGP_reflexive,GP_question
+292,meta-llama/Llama-3.2-1B,The car sat in the driveway while Frank dried off.,Did the car sit in the driveway?,0.8191231489181519,0.18087686598300934,nonGP_reflexive,simple_question
+293,meta-llama/Llama-3.2-1B,The car sat in the driveway while Frank dried off.,Did Frank dry off the car?,0.18476751446723938,0.815232515335083,nonGP_reflexive,GP_question
+294,meta-llama/Llama-3.2-1B,The neighbor coughed loudly while Betty woke up.,Did the neighbor cough loudly?,0.7185943722724915,0.28140559792518616,nonGP_reflexive,simple_question
+295,meta-llama/Llama-3.2-1B,The neighbor coughed loudly while Betty woke up.,Did Betty wake up the neighbor?,0.314050555229187,0.685949444770813,nonGP_reflexive,GP_question
+296,meta-llama/Llama-3.2-1B,The jewelry sparkled brightly while the thief hid.,Did the jewelry sparkle brightly?,0.8609158992767334,0.1390841156244278,nonGP_reflexive,simple_question
+297,meta-llama/Llama-3.2-1B,The jewelry sparkled brightly while the thief hid.,Did the thief hide the jewelry?,0.270994633436203,0.7290053963661194,nonGP_reflexive,GP_question
+298,meta-llama/Llama-3.2-1B,The baby spit up on the bed while Anna dressed.,Did the baby spit up on the bed?,0.7948101758956909,0.2051898092031479,nonGP_reflexive,simple_question
+299,meta-llama/Llama-3.2-1B,The baby spit up on the bed while Anna dressed.,Did Anna dress the baby?,0.20946969091892242,0.7905303239822388,nonGP_reflexive,GP_question
+300,meta-llama/Llama-3.2-1B,The dog barked loudly while the boy washed.,Did the dog bark loudly?,0.8191231489181519,0.18087686598300934,nonGP_reflexive,simple_question
+301,meta-llama/Llama-3.2-1B,The dog barked loudly while the boy washed.,Did the boy wash the dog?,0.20946969091892242,0.7905303239822388,nonGP_reflexive,GP_question
+302,meta-llama/Llama-3.2-1B,The horse stood in the stall while the jockey settled down.,Did the horse stand in the stall?,0.8545611500740051,0.14543887972831726,nonGP_reflexive,simple_question
+303,meta-llama/Llama-3.2-1B,The horse stood in the stall while the jockey settled down.,Did the jockey settle down the horse?,0.1659528911113739,0.8340470790863037,nonGP_reflexive,GP_question
+304,meta-llama/Llama-3.2-1B,The baby cried softly while the mother undressed.,Did the baby cry softly?,0.8340466022491455,0.16595342755317688,nonGP_reflexive,simple_question
+305,meta-llama/Llama-3.2-1B,The baby cried softly while the mother undressed.,Did the mother undress the baby?,0.20946969091892242,0.7905303239822388,nonGP_reflexive,GP_question
+306,meta-llama/Llama-3.2-1B,The patient watched TV while the nurse shaved.,Did the patient watch TV?,0.6803122162818909,0.31968778371810913,nonGP_reflexive,simple_question
+307,meta-llama/Llama-3.2-1B,The patient watched TV while the nurse shaved.,Did the nurse shave the patient?,0.4035668969154358,0.596433162689209,nonGP_reflexive,GP_question
+308,meta-llama/Llama-3.2-1B,The cat stared at the dog while the girl scratched.,Did the cat stare at the dog?,0.7341195344924927,0.2658804953098297,nonGP_reflexive,simple_question
+309,meta-llama/Llama-3.2-1B,The cat stared at the dog while the girl scratched.,Did the girl scratch the cat?,0.28140559792518616,0.7185943722724915,nonGP_reflexive,GP_question
+310,meta-llama/Llama-3.2-1B,The children sat on the bed while the mother calmed down.,Did the children sit on the bed?,0.8640046119689941,0.13599540293216705,nonGP_reflexive,simple_question
+311,meta-llama/Llama-3.2-1B,The children sat on the bed while the mother calmed down.,Did the mother calm down the children?,0.25583937764167786,0.7441606521606445,nonGP_reflexive,GP_question
+312,meta-llama/Llama-3.2-1B,The painting stood the test of time while the artist changed.,Did the painting stand the test of time?,0.9124361872673035,0.08756384998559952,nonGP_reflexive,simple_question
+313,meta-llama/Llama-3.2-1B,The painting stood the test of time while the artist changed.,Did the artist change the painting?,0.28140559792518616,0.7185943722724915,nonGP_reflexive,GP_question
+314,meta-llama/Llama-3.2-1B,The tomatoes invaded the garden while the child grew.,Did the tomato invade the garden?,0.7290053963661194,0.270994633436203,nonGP_reflexive,simple_question
+315,meta-llama/Llama-3.2-1B,The tomatoes invaded the garden while the child grew.,Did the child grow the tomatoes?,0.22724014520645142,0.7727598547935486,nonGP_reflexive,GP_question
+316,meta-llama/Llama-3.2-1B,The ball kept moving across the room while the toddler rolled.,Did the ball keep moving across the room?,0.8942978978157043,0.10570210218429565,nonGP_reflexive,simple_question
+317,meta-llama/Llama-3.2-1B,The ball kept moving across the room while the toddler rolled.,Did the toddler roll the ball?,0.2460496872663498,0.753950297832489,nonGP_reflexive,GP_question
+318,meta-llama/Llama-3.2-1B,The wheel made weird noises while the mechanic turned.,Did the wheel make weird noises?,0.7132982015609741,0.2867017388343811,nonGP_reflexive,simple_question
+319,meta-llama/Llama-3.2-1B,The wheel made weird noises while the mechanic turned.,Did the mechanic turn the wheel?,0.33111974596977234,0.66888028383255,nonGP_reflexive,GP_question
+320,meta-llama/Llama-3.2-1B,The river stayed warm while the ice cap shrank.,Did the river stay warm?,0.8700094819068909,0.12999047338962555,nonGP_reflexive,simple_question
+321,meta-llama/Llama-3.2-1B,The river stayed warm while the ice cap shrank.,Did the ice cap shrink the river?,0.3486451506614685,0.6513549089431763,nonGP_reflexive,GP_question
+322,meta-llama/Llama-3.2-1B,The bat fell on the road while the gymnast swung.,Did the bat fall on the floor?,0.7290053963661194,0.270994633436203,nonGP_reflexive,simple_question
+323,meta-llama/Llama-3.2-1B,The bat fell on the road while the gymnast swung.,Did the gymnast swing the bat?,0.2460496872663498,0.753950297832489,nonGP_reflexive,GP_question
+324,meta-llama/Llama-3.2-1B,The athletes started the game while Bill trained.,Did the athletes start the game?,0.8640046119689941,0.13599540293216705,nonGP_reflexive,simple_question
+325,meta-llama/Llama-3.2-1B,The athletes started the game while Bill trained.,Did Bill train the athletes?,0.22270014882087708,0.7772998809814453,nonGP_reflexive,GP_question
+326,meta-llama/Llama-3.2-1B,The bone went bad while the dog moved.,Did the bone go bad?,0.7772998809814453,0.22270014882087708,nonGP_reflexive,simple_question
+327,meta-llama/Llama-3.2-1B,The bone went bad while the dog moved.,Did the dog move the bone?,0.2709939181804657,0.7290061116218567,nonGP_reflexive,GP_question
+328,meta-llama/Llama-3.2-1B,The valley kept on living quietly while the river flooded.,Did the valley keep on living quietly?,0.8479677438735962,0.15203224122524261,nonGP_reflexive,simple_question
+329,meta-llama/Llama-3.2-1B,The valley kept on living quietly while the river flooded.,Did the river flood the valley?,0.3545823097229004,0.6454176306724548,nonGP_reflexive,GP_question
+330,meta-llama/Llama-3.2-1B,The window moved on its axis while the log broke.,Did the window move on its axis?,0.8609158992767334,0.1390841156244278,nonGP_reflexive,simple_question
+331,meta-llama/Llama-3.2-1B,The window moved on its axis while the log broke.,Did the log break the window?,0.3084684908390045,0.6915315389633179,nonGP_reflexive,GP_question
+332,meta-llama/Llama-3.2-1B,The fire warmed the children while the match lit.,Did the fire warm the children?,0.811277449131012,0.18872256577014923,nonGP_reflexive,simple_question
+333,meta-llama/Llama-3.2-1B,The fire warmed the children while the match lit.,Did the match light the fire?,0.28140559792518616,0.7185943722724915,nonGP_reflexive,GP_question
+334,meta-llama/Llama-3.2-1B,The boat was stranded in the ocean while the wave crashed.,Was the boat stranded in the ocean?,0.7587495446205139,0.24125050008296967,nonGP_reflexive,simple_question
+335,meta-llama/Llama-3.2-1B,The boat was stranded in the ocean while the wave crashed.,Did the wave crash the boat?,0.3486451506614685,0.6513549089431763,nonGP_reflexive,GP_question
+336,meta-llama/Llama-3.2-1B,While Jim bathed the child giggled with delight.,Did the child giggle with delight?,0.815232515335083,0.18476751446723938,GP_reflexive,simple_question
+337,meta-llama/Llama-3.2-1B,While Jim bathed the child giggled with delight.,Did Jim bathe the child?,0.13296423852443695,0.8670357465744019,GP_reflexive,GP_question
+338,meta-llama/Llama-3.2-1B,While the chimps groomed the baboons sat in the grass.,Did the baboons sit in the grass?,0.7861851453781128,0.21381480991840363,GP_reflexive,simple_question
+339,meta-llama/Llama-3.2-1B,While the chimps groomed the baboons sat in the grass.,Did the chimps groom the baboons?,0.1032654419541359,0.8967345356941223,GP_reflexive,GP_question
+340,meta-llama/Llama-3.2-1B,While Frank dried off the car sat in the driveway.,Did the car sit in the driveway?,0.8304110169410706,0.16958898305892944,GP_reflexive,simple_question
+341,meta-llama/Llama-3.2-1B,While Frank dried off the car sat in the driveway.,Did Frank dry off the car?,0.1107274517416954,0.8892725706100464,GP_reflexive,GP_question
+342,meta-llama/Llama-3.2-1B,While Betty woke up the neighbor coughed loudly.,Did the neighbor cough loudly?,0.6572445631027222,0.34275540709495544,GP_reflexive,simple_question
+343,meta-llama/Llama-3.2-1B,While Betty woke up the neighbor coughed loudly.,Did Betty wake up the neighbor?,0.23184579610824585,0.7681542038917542,GP_reflexive,GP_question
+344,meta-llama/Llama-3.2-1B,While the thief hid the jewelry sparkled brightly.,Did the jewelry sparkle brightly?,0.8729264736175537,0.1270734816789627,GP_reflexive,simple_question
+345,meta-llama/Llama-3.2-1B,While the thief hid the jewelry sparkled brightly.,Did the thief hide the jewelry?,0.1588694453239441,0.8411304950714111,GP_reflexive,GP_question
+346,meta-llama/Llama-3.2-1B,While Anna dressed the baby spit up on the bed.,Did the baby spit up on the bed?,0.7132989764213562,0.2867009937763214,GP_reflexive,simple_question
+347,meta-llama/Llama-3.2-1B,While Anna dressed the baby spit up on the bed.,Did Anna dress the baby?,0.1588689386844635,0.8411310911178589,GP_reflexive,GP_question
+348,meta-llama/Llama-3.2-1B,While the boy washed the dog barked loudly.,Did the dog bark loudly?,0.7490872144699097,0.25091278553009033,GP_reflexive,simple_question
+349,meta-llama/Llama-3.2-1B,While the boy washed the dog barked loudly.,Did the boy wash the dog?,0.14870516955852509,0.8512948155403137,GP_reflexive,GP_question
+350,meta-llama/Llama-3.2-1B,While the jockey settled down the horse stood in the stall.,Did the horse stand in the stall?,0.7861851453781128,0.21381480991840363,GP_reflexive,simple_question
+351,meta-llama/Llama-3.2-1B,While the jockey settled down the horse stood in the stall.,Did the jockey settle down the horse?,0.09625189006328583,0.903748095035553,GP_reflexive,GP_question
+352,meta-llama/Llama-3.2-1B,While the mother undressed the baby cried softly.,Did the baby cry softly?,0.7185943722724915,0.28140559792518616,GP_reflexive,simple_question
+353,meta-llama/Llama-3.2-1B,While the mother undressed the baby cried softly.,Did the mother undress the baby?,0.17328819632530212,0.8267117738723755,GP_reflexive,GP_question
+354,meta-llama/Llama-3.2-1B,While the nurse shaved the patient watched TV.,Did the patient watch TV?,0.6394362449645996,0.3605637848377228,GP_reflexive,simple_question
+355,meta-llama/Llama-3.2-1B,While the nurse shaved the patient watched TV.,Did the nurse shave the patient?,0.28140559792518616,0.7185943722724915,GP_reflexive,GP_question
+356,meta-llama/Llama-3.2-1B,While the girl scratched the cat stared at the dog.,Did the cat stare at the dog?,0.6150878667831421,0.3849121630191803,GP_reflexive,simple_question
+357,meta-llama/Llama-3.2-1B,While the girl scratched the cat stared at the dog.,Did the girl scratch the cat?,0.22270014882087708,0.7772998809814453,GP_reflexive,GP_question
+358,meta-llama/Llama-3.2-1B,While the mother calmed down the children sat on the bed.,Did the children sit on the bed?,0.8267117738723755,0.17328819632530212,GP_reflexive,simple_question
+359,meta-llama/Llama-3.2-1B,While the mother calmed down the children sat on the bed.,Did the mother calm down the children?,0.15542016923427582,0.844579815864563,GP_reflexive,GP_question
+360,meta-llama/Llama-3.2-1B,While the artist changed the painting stood the test of time.,Did the painting stand the test of time?,0.9081846475601196,0.09181538224220276,GP_reflexive,simple_question
+361,meta-llama/Llama-3.2-1B,While the artist changed the painting stood the test of time.,Did the artist change the painting?,0.12140797823667526,0.8785920739173889,GP_reflexive,GP_question
+362,meta-llama/Llama-3.2-1B,While the child grew the tomatoes invaded the garden.,Did the tomato invade the garden?,0.6630871295928955,0.3369128704071045,GP_reflexive,simple_question
+363,meta-llama/Llama-3.2-1B,While the child grew the tomatoes invaded the garden.,Did the child grow the tomatoes?,0.17328819632530212,0.8267117738723755,GP_reflexive,GP_question
+364,meta-llama/Llama-3.2-1B,While the toddler rolled the ball kept moving across the room.,Did the ball keep moving across the room?,0.8967345356941223,0.1032654419541359,GP_reflexive,simple_question
+365,meta-llama/Llama-3.2-1B,While the toddler rolled the ball kept moving across the room.,Did the toddler roll the ball?,0.14543887972831726,0.8545611500740051,GP_reflexive,GP_question
+366,meta-llama/Llama-3.2-1B,While the mechanic turned the wheel made weird noises.,Did the wheel make weird noises?,0.6454185247421265,0.35458147525787354,GP_reflexive,simple_question
+367,meta-llama/Llama-3.2-1B,While the mechanic turned the wheel made weird noises.,Did the mechanic turn the wheel?,0.30846768617630005,0.6915323138237,GP_reflexive,GP_question
+368,meta-llama/Llama-3.2-1B,While the ice cap shrank the river stayed warm.,Did the river stay warm?,0.8229490518569946,0.1770508885383606,GP_reflexive,simple_question
+369,meta-llama/Llama-3.2-1B,While the ice cap shrank the river stayed warm.,Did the ice cap shrink the river?,0.29746994376182556,0.7025300860404968,GP_reflexive,GP_question
+370,meta-llama/Llama-3.2-1B,While the gymnast swung the bat fell on the road,Did the bat fall on the floor?,0.7132989764213562,0.2867009937763214,GP_reflexive,simple_question
+371,meta-llama/Llama-3.2-1B,While the gymnast swung the bat fell on the road,Did the gymnast swing the bat?,0.14870516955852509,0.8512948155403137,GP_reflexive,GP_question
+372,meta-llama/Llama-3.2-1B,While Bill trained the athletes started the game.,Did the athletes start the game?,0.811277449131012,0.18872256577014923,GP_reflexive,simple_question
+373,meta-llama/Llama-3.2-1B,While Bill trained the athletes started the game.,Did Bill train the athletes?,0.14870516955852509,0.8512948155403137,GP_reflexive,GP_question
+374,meta-llama/Llama-3.2-1B,While the dog moved the bone went bad.,Did the bone go bad?,0.7132989764213562,0.2867009937763214,GP_reflexive,simple_question
+375,meta-llama/Llama-3.2-1B,While the dog moved the bone went bad.,Did the dog move the bone?,0.20946969091892242,0.7905303239822388,GP_reflexive,GP_question
+376,meta-llama/Llama-3.2-1B,While the river flooded the valley kept on living quietly.,Did the valley keep on living quietly?,0.8840392827987671,0.11596070975065231,GP_reflexive,simple_question
+377,meta-llama/Llama-3.2-1B,While the river flooded the valley kept on living quietly.,Did the river flood the valley?,0.2460496872663498,0.753950297832489,GP_reflexive,GP_question
+378,meta-llama/Llama-3.2-1B,While the log broke the window moved on its axis.,Did the window move on its axis?,0.8609158992767334,0.1390841156244278,GP_reflexive,simple_question
+379,meta-llama/Llama-3.2-1B,While the log broke the window moved on its axis.,Did the log break the window?,0.20946969091892242,0.7905303239822388,GP_reflexive,GP_question
+380,meta-llama/Llama-3.2-1B,While the match lit the fire warmed the children.,Did the fire warm the children?,0.7905303239822388,0.20946969091892242,GP_reflexive,simple_question
+381,meta-llama/Llama-3.2-1B,While the match lit the fire warmed the children.,Did the match light the fire?,0.20097574591636658,0.799024224281311,GP_reflexive,GP_question
+382,meta-llama/Llama-3.2-1B,While the wave crashed the boat was stranded in the ocean.,Was the boat stranded in the ocean?,0.7441606521606445,0.25583937764167786,GP_reflexive,simple_question
+383,meta-llama/Llama-3.2-1B,While the wave crashed the boat was stranded in the ocean.,Did the wave crash the boat?,0.27616941928863525,0.7238305807113647,GP_reflexive,GP_question
+384,meta-llama/Llama-3.2-1B,While the man hunted the deer ran into the woods.,Did the deer run into the woods?,0.8191231489181519,0.18087686598300934,GP_prob,simple_question
+385,meta-llama/Llama-3.2-1B,While the man hunted the deer ran into the woods.,Did the man hunt the deer?,0.18872256577014923,0.811277449131012,GP_prob,GP_question
+386,meta-llama/Llama-3.2-1B,While the man hunted the child ran into the woods.,Did the child run into the woods?,0.7681542038917542,0.23184579610824585,GP_improb,simple_question
+387,meta-llama/Llama-3.2-1B,While the man hunted the child ran into the woods.,Did the man hunt the child?,0.22270014882087708,0.7772998809814453,GP_improb,GP_question
+388,meta-llama/Llama-3.2-1B,The deer ran into the woods while the man hunted.,Did the deer run into the woods?,0.8267117738723755,0.17328819632530212,nonGP_prob,simple_question
+389,meta-llama/Llama-3.2-1B,The deer ran into the woods while the man hunted.,Did the man hunt the deer?,0.3369128704071045,0.6630871295928955,nonGP_prob,GP_question
+390,meta-llama/Llama-3.2-1B,The child ran into the woods while the man hunted.,Did the child run into the woods?,0.8031737804412842,0.19682620465755463,nonGP_improb,simple_question
+391,meta-llama/Llama-3.2-1B,The child ran into the woods while the man hunted.,Did the man hunt the child?,0.42250463366508484,0.5774953961372375,nonGP_improb,GP_question
+392,meta-llama/Llama-3.2-1B,While the skipper sailed the boat veered off course.,Did the boat veer off course?,0.6630879640579224,0.33691200613975525,GP_prob,simple_question
+393,meta-llama/Llama-3.2-1B,While the skipper sailed the boat veered off course.,Did the skipper sail the boat?,0.2460496872663498,0.753950297832489,GP_prob,GP_question
+394,meta-llama/Llama-3.2-1B,While the skipper sailed the car veered off course.,Did the car veer off course?,0.6630871295928955,0.3369128704071045,GP_improb,simple_question
+395,meta-llama/Llama-3.2-1B,While the skipper sailed the car veered off course.,Did the skipper sail the car?,0.2709939181804657,0.7290061116218567,GP_improb,GP_question
+396,meta-llama/Llama-3.2-1B,The boat veered off course while the skipper sailed.,Did the boat veer off course?,0.7025300860404968,0.29746994376182556,nonGP_prob,simple_question
+397,meta-llama/Llama-3.2-1B,The boat veered off course while the skipper sailed.,Did the skipper sail the boat?,0.314050555229187,0.685949444770813,nonGP_prob,GP_question
+398,meta-llama/Llama-3.2-1B,The car veered off course while the skipper sailed.,Did the car veer off course?,0.7132989764213562,0.2867009937763214,nonGP_improb,simple_question
+399,meta-llama/Llama-3.2-1B,The car veered off course while the skipper sailed.,Did the skipper sail the car?,0.4481045603752136,0.5518954396247864,nonGP_improb,GP_question
+400,meta-llama/Llama-3.2-1B,While the orchestra performed the symphony played on the radio.,Did the symphony play on the radio?,0.8031737804412842,0.19682620465755463,GP_prob,simple_question
+401,meta-llama/Llama-3.2-1B,While the orchestra performed the symphony played on the radio.,Did the orchestra perform the symphony?,0.11865729838609695,0.8813427686691284,GP_prob,GP_question
+402,meta-llama/Llama-3.2-1B,While the orchestra performed the newsflash played on the radio.,Did the newsflash play on the radio?,0.811277449131012,0.18872256577014923,GP_improb,simple_question
+403,meta-llama/Llama-3.2-1B,While the orchestra performed the newsflash played on the radio.,Did the orchestra perform the newsflash?,0.12999047338962555,0.8700094819068909,GP_improb,GP_question
+404,meta-llama/Llama-3.2-1B,The symphony played on the radio while the orchestra performed.,Did the symphony play on the radio?,0.8112779855728149,0.18872198462486267,nonGP_prob,simple_question
+405,meta-llama/Llama-3.2-1B,The symphony played on the radio while the orchestra performed.,Did the orchestra perform the symphony?,0.22270014882087708,0.7772998809814453,nonGP_prob,GP_question
+406,meta-llama/Llama-3.2-1B,The newsflash played on the radio while the orchestra performed.,Did the newsflash play on the radio?,0.815232515335083,0.18476751446723938,nonGP_improb,simple_question
+407,meta-llama/Llama-3.2-1B,The newsflash played on the radio while the orchestra performed.,Did the orchestra perform the newsflash?,0.20097574591636658,0.799024224281311,nonGP_improb,GP_question
+408,meta-llama/Llama-3.2-1B,While the bridesmaid ordered the dress got delivered.,Did the dress get delivered?,0.811277449131012,0.18872256577014923,GP_prob,simple_question
+409,meta-llama/Llama-3.2-1B,While the bridesmaid ordered the dress got delivered.,Did the bridesmaid order the dress?,0.1770508885383606,0.8229490518569946,GP_prob,GP_question
+410,meta-llama/Llama-3.2-1B,While the bridesmaid ordered the tractor got delivered.,Did the tractor get delivered?,0.7948101758956909,0.2051898092031479,GP_improb,simple_question
+411,meta-llama/Llama-3.2-1B,While the bridesmaid ordered the tractor got delivered.,Did the bridesmaid order the tractor?,0.22724014520645142,0.7727598547935486,GP_improb,GP_question
+412,meta-llama/Llama-3.2-1B,The dress got delivered while the bridesmaid ordered.,Did the dress get delivered?,0.8191231489181519,0.18087686598300934,nonGP_prob,simple_question
+413,meta-llama/Llama-3.2-1B,The dress got delivered while the bridesmaid ordered.,Did the bridesmaid order the dress?,0.32537734508514404,0.674622654914856,nonGP_prob,GP_question
+414,meta-llama/Llama-3.2-1B,The tractor got delivered while the bridesmaid ordered.,Did the tractor get delivered?,0.799024224281311,0.20097574591636658,nonGP_improb,simple_question
+415,meta-llama/Llama-3.2-1B,The tractor got delivered while the bridesmaid ordered.,Did the bridesmaid order the tractor?,0.36658975481987,0.6334102749824524,nonGP_improb,GP_question
+416,meta-llama/Llama-3.2-1B,While Susan wrote the letter fell off the table.,Did the letter fall off the table?,0.7441606521606445,0.25583937764167786,GP_prob,simple_question
+417,meta-llama/Llama-3.2-1B,While Susan wrote the letter fell off the table.,Did Susan write the letter?,0.14870516955852509,0.8512948155403137,GP_prob,GP_question
+418,meta-llama/Llama-3.2-1B,While Susan wrote the Bible fell off the table.,Did the Bible fall off the table?,0.6513549089431763,0.3486451506614685,GP_improb,simple_question
+419,meta-llama/Llama-3.2-1B,While Susan wrote the Bible fell off the table.,Did Susan write the Bible?,0.1770508885383606,0.8229490518569946,GP_improb,GP_question
+420,meta-llama/Llama-3.2-1B,The letter fell off the table while Susan wrote.,Did the letter fall off the table?,0.7681542038917542,0.23184579610824585,nonGP_prob,simple_question
+421,meta-llama/Llama-3.2-1B,The letter fell off the table while Susan wrote.,Did Susan write the letter?,0.18476751446723938,0.815232515335083,nonGP_prob,GP_question
+422,meta-llama/Llama-3.2-1B,The Bible fell off the table while Susan wrote.,Did the Bible fall off the table?,0.6803130507469177,0.3196869194507599,nonGP_improb,simple_question
+423,meta-llama/Llama-3.2-1B,The Bible fell off the table while Susan wrote.,Did Susan write the Bible?,0.25583937764167786,0.7441606521606445,nonGP_improb,GP_question
+424,meta-llama/Llama-3.2-1B,While the farmer steered the tractor pulled the car.,Did the tractor pull the car?,0.7587495446205139,0.24125050008296967,GP_prob,simple_question
+425,meta-llama/Llama-3.2-1B,While the farmer steered the tractor pulled the car.,Did the farmer steer the tractor?,0.1659528911113739,0.8340470790863037,GP_prob,GP_question
+426,meta-llama/Llama-3.2-1B,While the farmer steered the tank pulled the car.,Did the tank pull the car?,0.753950297832489,0.2460496872663498,GP_improb,simple_question
+427,meta-llama/Llama-3.2-1B,While the farmer steered the tank pulled the car.,Did the farmer steer the tank?,0.16595342755317688,0.8340466022491455,GP_improb,GP_question
+428,meta-llama/Llama-3.2-1B,The tractor pulled the car while the farmer steered.,Did the tractor pull the car?,0.8411310911178589,0.1588689386844635,nonGP_prob,simple_question
+429,meta-llama/Llama-3.2-1B,The tractor pulled the car while the farmer steered.,Did the farmer steer the tractor?,0.28140559792518616,0.7185943722724915,nonGP_prob,GP_question
+430,meta-llama/Llama-3.2-1B,The tank pulled the car while the farmer steered.,Did the tank pull the car?,0.8191231489181519,0.18087686598300934,nonGP_improb,simple_question
+431,meta-llama/Llama-3.2-1B,The tank pulled the car while the farmer steered.,Did the farmer steer the tank?,0.314050555229187,0.685949444770813,nonGP_improb,GP_question
+432,meta-llama/Llama-3.2-1B,While the lawyer studied the contract lay on the roll-top desk.,Did the contract lie on the roll-top desk?,0.7861851453781128,0.21381480991840363,GP_prob,simple_question
+433,meta-llama/Llama-3.2-1B,While the lawyer studied the contract lay on the roll-top desk.,Did the lawyer study the contract?,0.12707391381263733,0.8729261159896851,GP_prob,GP_question
+434,meta-llama/Llama-3.2-1B,While the lawyer studied the cat lay on the roll-top desk.,Did the cat lie on the roll-top desk?,0.8304104804992676,0.16958951950073242,GP_improb,simple_question
+435,meta-llama/Llama-3.2-1B,While the lawyer studied the cat lay on the roll-top desk.,Did the lawyer study the cat?,0.14543840289115906,0.8545615673065186,GP_improb,GP_question
+436,meta-llama/Llama-3.2-1B,The contract lay on the roll-top desk while the lawyer studied.,Did the contract lie on the roll-top desk?,0.7905303239822388,0.20946969091892242,nonGP_prob,simple_question
+437,meta-llama/Llama-3.2-1B,The contract lay on the roll-top desk while the lawyer studied.,Did the lawyer study the contract?,0.17328819632530212,0.8267117738723755,nonGP_prob,GP_question
+438,meta-llama/Llama-3.2-1B,The cat lay on the roll-top desk while the lawyer studied.,Did the cat lie on the roll-top desk?,0.7817748188972473,0.21822519600391388,nonGP_improb,simple_question
+439,meta-llama/Llama-3.2-1B,The cat lay on the roll-top desk while the lawyer studied.,Did the lawyer study the cat?,0.2460504025220871,0.7539496421813965,nonGP_improb,GP_question
+440,meta-llama/Llama-3.2-1B,While the clown juggled the balls fell on the ground.,Did the balls fall on the ground?,0.7490872144699097,0.25091278553009033,GP_prob,simple_question
+441,meta-llama/Llama-3.2-1B,While the clown juggled the balls fell on the ground.,Did the clown juggle the balls?,0.18872256577014923,0.811277449131012,GP_prob,GP_question
+442,meta-llama/Llama-3.2-1B,While the clown juggled the cats fell on the ground.,Did the cats fall on the ground?,0.7817754149436951,0.21822455525398254,GP_improb,simple_question
+443,meta-llama/Llama-3.2-1B,While the clown juggled the cats fell on the ground.,Did the clown juggle the cats?,0.16238002479076385,0.837619960308075,GP_improb,GP_question
+444,meta-llama/Llama-3.2-1B,The balls fell on the ground while the clown juggled.,Did the balls fall on the ground?,0.8267117738723755,0.17328819632530212,nonGP_prob,simple_question
+445,meta-llama/Llama-3.2-1B,The balls fell on the ground while the clown juggled.,Did the clown juggle the balls?,0.2051898092031479,0.7948101758956909,nonGP_prob,GP_question
+446,meta-llama/Llama-3.2-1B,The cats fell on the ground while the clown juggled.,Did the cats fall on the ground?,0.8479677438735962,0.15203224122524261,nonGP_improb,simple_question
+447,meta-llama/Llama-3.2-1B,The cats fell on the ground while the clown juggled.,Did the clown juggle the cats?,0.22270014882087708,0.7772998809814453,nonGP_improb,GP_question
+448,meta-llama/Llama-3.2-1B,While Anne vacuumed the rug lost its colors.,Did the rug lose its colors?,0.8031737804412842,0.19682620465755463,GP_prob,simple_question
+449,meta-llama/Llama-3.2-1B,While Anne vacuumed the rug lost its colors.,Did Anne vacuum the rug?,0.17328819632530212,0.8267117738723755,GP_prob,GP_question
+450,meta-llama/Llama-3.2-1B,While Anne vacuumed the chameleon lost its colors.,Did the chameleon lose its colors?,0.811277449131012,0.18872256577014923,GP_improb,simple_question
+451,meta-llama/Llama-3.2-1B,While Anne vacuumed the chameleon lost its colors.,Did Anne vacuum the chameleon?,0.1770508885383606,0.8229490518569946,GP_improb,GP_question
+452,meta-llama/Llama-3.2-1B,The rug lost its colors while Anne vacuumed.,Did the rug lose its colors?,0.7861851453781128,0.21381480991840363,nonGP_prob,simple_question
+453,meta-llama/Llama-3.2-1B,The rug lost its colors while Anne vacuumed.,Did Anne vacuum the rug?,0.270994633436203,0.7290053963661194,nonGP_prob,GP_question
+454,meta-llama/Llama-3.2-1B,The chameleon lost its colors while Anne vacuumed.,Did the chameleon lose its colors?,0.8229490518569946,0.1770508885383606,nonGP_improb,simple_question
+455,meta-llama/Llama-3.2-1B,The chameleon lost its colors while Anne vacuumed.,Did Anne vacuum the chameleon?,0.3029401898384094,0.6970598101615906,nonGP_improb,GP_question
