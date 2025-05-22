@@ -1,0 +1,14 @@
+{
+    "data_path": "data/llm_data/extended_gardenpath_experiments.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "meta-llama/Llama-3.2-1B",
+            "open_source": true
+        }
+    ],
+    "results_path": "results/llm_results/sentence_comprehension/poc_fastchat.csv"
+}

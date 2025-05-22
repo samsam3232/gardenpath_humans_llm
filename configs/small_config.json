@@ -1,0 +1,304 @@
+{
+    "data_path": "data/llm_data/extended_gardenpath_experiments.csv",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "model_args": [
+        {
+            "model_name": "Qwen/Qwen2.5-0.5B",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-1B",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-1B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-3B",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-11B-Vision",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.1-8B",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-2-7b-hf",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-2-13b-hf",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-2-7b-chat-hf",
+            "open_source": true
+        },
+        {
+            "model_name": "meta-llama/Llama-2-13b-chat-hf",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-1.5B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-3B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-7B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-7B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-14B",
+            "open_source": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-14B-Instruct",
+            "open_source": true
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1454000-tokens3048B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step917000-tokens1922B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step827000-tokens1733B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step738000-tokens1547B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step648000-tokens1358B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step558000-tokens1169B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step468000-tokens981B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step379000-tokens794B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step289000-tokens605B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step20000-tokens41B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1399000-tokens2932B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1308000-tokens2742B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1218000-tokens2553B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1128000-tokens2364B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-1B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step1038000-tokens2176B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step650650-tokens2729B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step647650-tokens2716B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step582000-tokens2441B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step519000-tokens2176B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step458000-tokens1920B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step395000-tokens1656B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step330000-tokens1384B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step26500-tokens111B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step2000-tokens8B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step143000-tokens599B"
+            }
+        },
+        {
+            "model_name": "allenai/OLMo-7B-0724-hf",
+            "open_source": true,
+            "creation_args": {
+                "revision": "step106500-tokens446B"
+            }
+        },
+        {
+            "model_name": "lmsys/vicuna-13b-v1.5",
+            "open_source": true
+        },
+        {
+            "model_name": "lmsys/vicuna-7b-v1.5",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-2-2b",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-2-2b-it",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-2-9b",
+            "open_source": true
+        },
+        {
+            "model_name": "google/gemma-2-9b-it",
+            "open_source": true
+        }
+    ],
+    "results_path": "results/llm_results/small_fastchat.csv"
+}

@@ -1,0 +1,229 @@
+sent_id,classification,sent_type,sentence,model_name
+sent_1,partial misunderstanding,GP_prob,While the secretary typed the memo neared completion.,dall-e-3
+sent_2,partial misunderstanding,GP_improb,While the secretary typed the drawing neared completion.,dall-e-3
+sent_3,partial misunderstanding,nonGP_prob,The memo neared completion while the secretary typed.,dall-e-3
+sent_4,correctly understood,nonGP_improb,The drawing neared completion while the secretary typed.,dall-e-3
+sent_5,partial misunderstanding,GP_prob,While the explorer paddled the canoe headed toward a waterfall.,dall-e-3
+sent_6,not applicable,GP_improb,While the explorer paddled the yacht headed toward a waterfall.,dall-e-3
+sent_7,partial misunderstanding,nonGP_prob,The canoe headed toward a waterfall while the explorer paddled.,dall-e-3
+sent_8,correctly understood,nonGP_improb,The yacht headed toward a waterfall while the explorer paddled.,dall-e-3
+sent_9,partial misunderstanding,GP_prob,While the cowboy rode the horse sweated profusely.,dall-e-3
+sent_10,partial misunderstanding,GP_improb,While the cowboy rode the leopard sweated profusely.,dall-e-3
+sent_11,partial misunderstanding,nonGP_prob,The horse sweated profusely while the cowboy rode.,dall-e-3
+sent_12,correctly understood,nonGP_improb,The leopard sweated profusely while the cowboy rode.,dall-e-3
+sent_13,partial misunderstanding,GP_prob,While Tom grilled the hot dog began to burn.,dall-e-3
+sent_14,correctly understood,GP_improb,While Tom grilled the barn began to burn.,dall-e-3
+sent_15,partial misunderstanding,nonGP_prob,The hot dog began to burn while Tom grilled.,dall-e-3
+sent_16,correctly understood,nonGP_improb,The barn began to burn while Tom grilled.,dall-e-3
+sent_17,partial misunderstanding,GP_prob,While the architect drew the building represented modern times style.,dall-e-3
+sent_18,partial misunderstanding,GP_improb,While the architect drew the melody represented modern times style.,dall-e-3
+sent_19,correctly understood,nonGP_prob,The building represented modern times style while the architect drew.,dall-e-3
+sent_20,complete misunderstanding,nonGP_improb,The melody represented modern times style while the architect drew.,dall-e-3
+sent_21,partial misunderstanding,GP_prob,While the chef stirred the soup boiled over.,dall-e-3
+sent_22,partial misunderstanding,GP_improb,While the chef stirred the acid boiled over.,dall-e-3
+sent_23,partial misunderstanding,nonGP_prob,The soup boiled over while the chef stirred.,dall-e-3
+sent_24,partial misunderstanding,nonGP_improb,The acid boiled over while the chef stirred.,dall-e-3
+sent_25,partial misunderstanding,GP_prob,While the tourist explored the tunnel echoed with mysterious sounds.,dall-e-3
+sent_26,partial misunderstanding,GP_improb,While the tourist explored the trunk echoed with mysterious sounds.,dall-e-3
+sent_27,partial misunderstanding,nonGP_prob,The tunnel echoed with mysterious sounds while the tourist explored.,dall-e-3
+sent_28,correctly understood,nonGP_improb,The trunk echoed with mysterious sounds while the tourist explored.,dall-e-3
+sent_29,partial misunderstanding,GP_prob,While the woman drank the water spilled on the floor.,dall-e-3
+sent_30,correctly understood,GP_improb,While the woman drank the mud spilled on the floor.,dall-e-3
+sent_31,partial misunderstanding,nonGP_prob,The water spilled on the floor while the woman drank.,dall-e-3
+sent_32,correctly understood,nonGP_improb,The mud spilled on the floor while the woman drank.,dall-e-3
+sent_33,complete misunderstanding,GP_prob,While the snake swallowed the frog kicked vigorously.,dall-e-3
+sent_34,complete misunderstanding,GP_improb,While the snake swallowed the hippo kicked vigorously.,dall-e-3
+sent_35,partial misunderstanding,nonGP_prob,The frog kicked vigorously while the snake swallowed.,dall-e-3
+sent_36,no image,nonGP_improb,The hippo kicked vigorously while the snake swallowed.,dall-e-3
+sent_37,partial misunderstanding,GP_prob,While the lion attacked the baboon screamed in terror.,dall-e-3
+sent_38,partial misunderstanding,GP_improb,While the lion attacked the penguin screamed in terror.,dall-e-3
+sent_39,partial misunderstanding,nonGP_prob,The baboon screamed in terror while the lion attacked.,dall-e-3
+sent_40,no image,nonGP_improb,The penguin screamed in terror while the lion attacked.,dall-e-3
+sent_41,partial misunderstanding,GP_prob,While the maid dusted the picture tipped over.,dall-e-3
+sent_42,correctly understood,GP_improb,While the maid dusted the cow tipped over.,dall-e-3
+sent_43,partial misunderstanding,nonGP_prob,The picture tipped over while the maid dusted.,dall-e-3
+sent_44,correctly understood,nonGP_improb,The cow tipped over while the maid dusted.,dall-e-3
+sent_45,complete misunderstanding,GP_prob,While the teacher counted the children formed a line.,dall-e-3
+sent_46,correctly understood,GP_improb,While the teacher counted the ants formed a line.,dall-e-3
+sent_47,partial misunderstanding,nonGP_prob,The children formed a line while the teacher counted.,dall-e-3
+sent_48,partial misunderstanding,nonGP_improb,The ants formed a line while the teacher counted.,dall-e-3
+sent_49,partial misunderstanding,GP_prob,While the champion raced the challenger stumbled and fell.,dall-e-3
+sent_50,partial misunderstanding,GP_improb,While the champion raced the spectator stumbled and fell.,dall-e-3
+sent_51,partial misunderstanding,nonGP_prob,The challenger stumbled and fell while the champion raced.,dall-e-3
+sent_52,correctly understood,nonGP_improb,The spectator stumbled and fell while the champion raced.,dall-e-3
+sent_53,partial misunderstanding,GP_prob,While Jerry played the violin went out of tune.,dall-e-3
+sent_54,correctly understood,GP_improb,While Jerry played the speakers went out of tune.,dall-e-3
+sent_55,partial misunderstanding,nonGP_prob,The violin went out of tune while jerry played.,dall-e-3
+sent_56,partial misunderstanding,nonGP_improb,The speakers went out of tune while jerry played.,dall-e-3
+sent_57,partial misunderstanding,GP_prob,While the girl painted the rainbow slowly faded outside.,dall-e-3
+sent_58,partial misunderstanding,GP_improb,While the girl painted the music slowly faded outside.,dall-e-3
+sent_59,partial misunderstanding,nonGP_prob,The rainbow slowly faded outside while the girl painted.,dall-e-3
+sent_60,correctly understood,nonGP_improb,The music slowly faded outside while the girl painted.,dall-e-3
+sent_61,partial misunderstanding,GP_prob,While Kendra parked the van bumped the curb.,dall-e-3
+sent_62,partial misunderstanding,GP_improb,While Kendra parked the horse bumped the curb.,dall-e-3
+sent_63,complete misunderstanding,nonGP_prob,The van bumped the curb while Kendra parked.,dall-e-3
+sent_64,complete misunderstanding,nonGP_improb,The horse bumped the curb while Kendra parked.,dall-e-3
+sent_65,correctly understood,GP_prob,While Angela cleaned the dog stood in the yard.,dall-e-3
+sent_66,complete misunderstanding,GP_improb,While Angela cleaned the mailman stood in the yard.,dall-e-3
+sent_67,correctly understood,nonGP_prob,The dog stood in the yard while Angela cleaned.,dall-e-3
+sent_68,correctly understood,nonGP_improb,The mailman stood in the yard while Angela cleaned.,dall-e-3
+sent_69,partial misunderstanding,GP_prob,While the sailor smoked the pipe glowed brightly.,dall-e-3
+sent_70,correctly understood,GP_improb,While the sailor smoked the firefly glowed brightly.,dall-e-3
+sent_71,partial misunderstanding,nonGP_prob,The pipe glowed brightly while the sailor smoked.,dall-e-3
+sent_72,correctly understood,nonGP_improb,The firefly glowed brightly while the sailor smoked.,dall-e-3
+sent_73,partial misunderstanding,GP_prob,While the tourist filmed the dancer blocked the sidewalk.,dall-e-3
+sent_74,partial misunderstanding,GP_improb,While the tourist filmed the trashbags blocked the sidewalk.,dall-e-3
+sent_75,partial misunderstanding,nonGP_prob,The dancer blocked the sidewalk while the tourist filmed.,dall-e-3
+sent_76,partial misunderstanding,nonGP_improb,The trashbags blocked the sidewalk while the tourist filmed.,dall-e-3
+sent_77,partial misunderstanding,GP_prob,While the athlete wrestled the opponent shouted insults.,dall-e-3
+sent_78,correctly understood,GP_improb,While the athlete wrestled the audience shouted insults.,dall-e-3
+sent_79,partial misunderstanding,nonGP_prob,The opponent shouted insults while the athlete wrestled.,dall-e-3
+sent_80,correctly understood,nonGP_improb,The audience shouted insults while the athlete wrestled.,dall-e-3
+sent_81,complete misunderstanding,GP_prob,While the warrior fought the enemy retreated.,dall-e-3
+sent_82,complete misunderstanding,GP_improb,While the warrior fought the rhino retreated.,dall-e-3
+sent_83,complete misunderstanding,nonGP_prob,The enemy retreated while the warrior fought.,dall-e-3
+sent_84,no image,nonGP_improb,The rhino retreated while the warrior fought.,dall-e-3
+sent_85,correctly understood,GP_prob,While Harry chewed the steak fell to the floor.,dall-e-3
+sent_86,correctly understood,GP_improb,While Harry chewed the book fell to the floor.,dall-e-3
+sent_87,partial misunderstanding,nonGP_prob,The steak fell to the floor while Harry chewed.,dall-e-3
+sent_88,complete misunderstanding,nonGP_improb,The book fell to the floor while Harry chewed.,dall-e-3
+sent_89,complete misunderstanding,GP_prob,While Bill ate the turkey sat on the table.,dall-e-3
+sent_90,correctly understood,GP_improb,While Bill ate the baby sat on the table.,dall-e-3
+sent_91,partial misunderstanding,nonGP_prob,The turkey sat on the table while Bill ate.,dall-e-3
+sent_92,correctly understood,nonGP_improb,The baby sat on the table while Bill ate.,dall-e-3
+sent_93,partial misunderstanding,GP_prob,While Janet baked the bread rose in the oven.,dall-e-3
+sent_94,correctly understood,GP_improb,While Janet baked the pressure rose in the oven.,dall-e-3
+sent_95,partial misunderstanding,nonGP_prob,The bread rose in the oven while Janet baked.,dall-e-3
+sent_96,partial misunderstanding,nonGP_improb,The pressure rose in the oven while Janet baked.,dall-e-3
+sent_97,partial misunderstanding,GP_prob,While the public cheered the team left the restaurant.,dall-e-3
+sent_98,partial misunderstanding,GP_improb,While the public cheered the rats left the restaurant.,dall-e-3
+sent_99,partial misunderstanding,nonGP_prob,The team left the restaurant while the public cheered.,dall-e-3
+sent_100,complete misunderstanding,nonGP_improb,The rats left the restaurant while the public cheered.,dall-e-3
+sent_101,partial misunderstanding,GP_prob,While the cleaner mopped the floor was filled with stains.,dall-e-3
+sent_102,correctly understood,GP_improb,While the cleaner mopped the ceiling was filled with stains.,dall-e-3
+sent_103,partial misunderstanding,nonGP_prob,The floor was filled with stains while the cleaner mopped.,dall-e-3
+sent_104,correctly understood,nonGP_improb,The ceiling was filled with stains while the cleaner mopped.,dall-e-3
+sent_105,partial misunderstanding,GP_prob,While the chef cooked the meal impressed the couple.,dall-e-3
+sent_106,complete misunderstanding,GP_improb,While the chef cooked the cat impressed the couple.,dall-e-3
+sent_107,correctly understood,nonGP_prob,The meal impressed the couple while the chef cooked.,dall-e-3
+sent_108,correctly understood,nonGP_improb,The cat impressed the couple while the chef cooked.,dall-e-3
+sent_109,partial misunderstanding,GP_prob,While the child finished the homework waited on the table.,dall-e-3
+sent_110,partial misunderstanding,GP_improb,While the child finished the tax forms waited on the table.,dall-e-3
+sent_111,correctly understood,nonGP_prob,The homework waited on the table while the child finished.,dall-e-3
+sent_112,correctly understood,nonGP_improb,The tax forms waited on the table while the child finished.,dall-e-3
+sent_113,not applicable,GP_prob,While the student knitted the sweater sold to the highest bidder.,dall-e-3
+sent_114,correctly understood,GP_improb,While the student knitted the painting sold to the highest bidder.,dall-e-3
+sent_115,partial misunderstanding,nonGP_prob,The sweater sold to the highest bidder while the student knitted.,dall-e-3
+sent_116,correctly understood,nonGP_improb,The painting sold to the highest bidder while the student knitted.,dall-e-3
+sent_117,partial misunderstanding,GP_prob,While the astronomer observed the comet lit up the room.,dall-e-3
+sent_118,correctly understood,GP_improb,While the astronomer observed the lightbulb lit up the room.,dall-e-3
+sent_119,partial misunderstanding,nonGP_prob,The comet lit up the room while the astronomer observed.,dall-e-3
+sent_120,partial misunderstanding,nonGP_improb,The lightbulb lit up the room while the astronomer observed.,dall-e-3
+sent_121,partial misunderstanding,GP_prob,While the players started the game bored the children.,dall-e-3
+sent_122,not applicable,GP_improb,While the players started the lesson bored the children.,dall-e-3
+sent_123,partial misunderstanding,nonGP_prob,The game bored the children while the players started.,dall-e-3
+sent_124,correctly understood,nonGP_improb,The lesson bored the children while the players started.,dall-e-3
+sent_125,partial misunderstanding,GP_prob,While the professor taught the students looked at the board.,dall-e-3
+sent_126,partial misunderstanding,GP_improb,While the professor taught the puppies looked at the board.,dall-e-3
+sent_127,partial misunderstanding,nonGP_prob,The students looked at the board while the professor taught.,dall-e-3
+sent_128,complete misunderstanding,nonGP_improb,The puppies looked at the board while the professor taught.,dall-e-3
+sent_129,partial misunderstanding,GP_prob,While the pianist practiced the melody echoed through the hall.,dall-e-3
+sent_130,partial misunderstanding,GP_improb,While the pianist practiced the vacuum echoed through the hall.,dall-e-3
+sent_131,partial misunderstanding,nonGP_prob,The melody echoed through the hall while the pianist practiced.,dall-e-3
+sent_132,partial misunderstanding,nonGP_improb,The vacuum echoed through the hall while the pianist practiced.,dall-e-3
+sent_133,complete misunderstanding,GP_prob,While the couple left the bar buzzed with activity.,dall-e-3
+sent_134,complete misunderstanding,GP_improb,While the couple left the hive buzzed with activity.,dall-e-3
+sent_135,complete misunderstanding,nonGP_prob,The bar buzzed with activity while the couple left.,dall-e-3
+sent_136,correctly understood,nonGP_improb,The hive buzzed with activity while the couple left.,dall-e-3
+sent_137,partial misunderstanding,GP_prob,While the gardener harvested the tomatoes hanged on the vine.,dall-e-3
+sent_138,correctly understood,GP_improb,While the gardener harvested the chrysalis hanged on the vine.,dall-e-3
+sent_139,partial misunderstanding,nonGP_prob,The tomatoes hanged on the vine while the gardener harvested.,dall-e-3
+sent_140,correctly understood,nonGP_improb,The chrysalis hanged on the vine while the gardener harvested.,dall-e-3
+sent_141,partial misunderstanding,GP_prob,While the horse pulled the cart moved silently.,dall-e-3
+sent_142,partial misunderstanding,GP_improb,While the horse pulled the submarine moved silently.,dall-e-3
+sent_143,partial misunderstanding,nonGP_prob,The cart moved silently while the horse pulled.,dall-e-3
+sent_144,correctly understood,nonGP_improb,The submarine moved silently while the horse pulled.,dall-e-3
+sent_145,partial misunderstanding,nonGP_reflexive,The child giggled with delight while Jim bathed.,dall-e-3
+sent_146,correctly understood,nonGP_reflexive,The baboons sat in the grass while the chimps groomed.,dall-e-3
+sent_147,partial misunderstanding,nonGP_reflexive,The car sat in the driveway while Frank dried off.,dall-e-3
+sent_148,complete misunderstanding,nonGP_reflexive,The neighbor coughed loudly while Betty woke up.,dall-e-3
+sent_149,correctly understood,nonGP_reflexive,The jewelry sparkled brightly while the thief hid.,dall-e-3
+sent_150,no image,nonGP_reflexive,The baby spit up on the bed while Anna dressed.,dall-e-3
+sent_151,correctly understood,nonGP_reflexive,The dog barked loudly while the boy washed.,dall-e-3
+sent_152,correctly understood,nonGP_reflexive,The horse stood in the stall while the jockey settled down.,dall-e-3
+sent_153,correctly understood,nonGP_reflexive,The baby cried softly while the mother undressed.,dall-e-3
+sent_154,partial misunderstanding,nonGP_reflexive,The patient watched TV while the nurse shaved.,dall-e-3
+sent_155,correctly understood,nonGP_reflexive,The cat stared at the dog while the girl scratched.,dall-e-3
+sent_156,complete misunderstanding,nonGP_reflexive,The children sat on the bed while the mother calmed down.,dall-e-3
+sent_157,partial misunderstanding,nonGP_reflexive,The painting stood the test of time while the artist changed.,dall-e-3
+sent_158,correctly understood,nonGP_reflexive,The tomatoes invaded the garden while the child grew.,dall-e-3
+sent_159,partial misunderstanding,nonGP_reflexive,The ball kept moving across the room while the toddler rolled.,dall-e-3
+sent_160,not applicable,nonGP_reflexive,The wheel made weird noises while the mechanic turned.,dall-e-3
+sent_161,correctly understood,nonGP_reflexive,The river stayed warm while the ice cap shrank.,dall-e-3
+sent_162,correctly understood,nonGP_reflexive,The bat fell on the road while the gymnast swung.,dall-e-3
+sent_163,complete misunderstanding,nonGP_reflexive,The athletes started the game while Bill trained.,dall-e-3
+sent_164,correctly understood,nonGP_reflexive,The bone went bad while the dog moved.,dall-e-3
+sent_165,correctly understood,nonGP_reflexive,The valley kept on living quietly while the river flooded.,dall-e-3
+sent_166,not applicable,nonGP_reflexive,The window moved on its axis while the log broke.,dall-e-3
+sent_167,correctly understood,nonGP_reflexive,The fire warmed the children while the match lit.,dall-e-3
+sent_168,correctly understood,nonGP_reflexive,The boat was stranded in the ocean while the wave crashed.,dall-e-3
+sent_169,partial misunderstanding,GP_reflexive,While Jim bathed the child giggled with delight.,dall-e-3
+sent_170,complete misunderstanding,GP_reflexive,While the chimps groomed the baboons sat in the grass.,dall-e-3
+sent_171,complete misunderstanding,GP_reflexive,While Frank dried off the car sat in the driveway.,dall-e-3
+sent_172,complete misunderstanding,GP_reflexive,While Betty woke up the neighbor coughed loudly.,dall-e-3
+sent_173,partial misunderstanding,GP_reflexive,While the thief hid the jewelry sparkled brightly.,dall-e-3
+sent_174,partial misunderstanding,GP_reflexive,While Anna dressed the baby spit up on the bed.,dall-e-3
+sent_175,partial misunderstanding,GP_reflexive,While the boy washed the dog barked loudly.,dall-e-3
+sent_176,partial misunderstanding,GP_reflexive,While the jockey settled down the horse stood in the stall.,dall-e-3
+sent_177,partial misunderstanding,GP_reflexive,While the mother undressed the baby cried softly.,dall-e-3
+sent_178,partial misunderstanding,GP_reflexive,While the nurse shaved the patient watched TV.,dall-e-3
+sent_179,partial misunderstanding,GP_reflexive,While the girl scratched the cat stared at the dog.,dall-e-3
+sent_180,partial misunderstanding,GP_reflexive,While the mother calmed down the children sat on the bed.,dall-e-3
+sent_181,correctly understood,GP_reflexive,While the artist changed the painting stood the test of time.,dall-e-3
+sent_182,partial misunderstanding,GP_reflexive,While the child grew the tomatoes invaded the garden.,dall-e-3
+sent_183,partial misunderstanding,GP_reflexive,While the toddler rolled the ball kept moving across the room.,dall-e-3
+sent_184,partial misunderstanding,GP_reflexive,While the mechanic turned the wheel made weird noises.,dall-e-3
+sent_185,partial misunderstanding,GP_reflexive,While the ice cap shrank the river stayed warm.,dall-e-3
+sent_186,partial misunderstanding,GP_reflexive,While the gymnast swung the bat fell on the road,dall-e-3
+sent_187,partial misunderstanding,GP_reflexive,While Bill trained the athletes started the game.,dall-e-3
+sent_188,correctly understood,GP_reflexive,While the dog moved the bone went bad.,dall-e-3
+sent_189,partial misunderstanding,GP_reflexive,While the river flooded the valley kept on living quietly.,dall-e-3
+sent_190,partial misunderstanding,GP_reflexive,While the log broke the window moved on its axis.,dall-e-3
+sent_191,partial misunderstanding,GP_reflexive,While the match lit the fire warmed the children.,dall-e-3
+sent_192,correctly understood,GP_reflexive,While the wave crashed the boat was stranded in the ocean.,dall-e-3
+sent_193,partial misunderstanding,GP_prob,While the man hunted the deer ran into the woods.,dall-e-3
+sent_194,partial misunderstanding,GP_improb,While the man hunted the child ran into the woods.,dall-e-3
+sent_195,partial misunderstanding,nonGP_prob,The deer ran into the woods while the man hunted.,dall-e-3
+sent_196,correctly understood,nonGP_improb,The child ran into the woods while the man hunted.,dall-e-3
+sent_197,partial misunderstanding,GP_prob,While the skipper sailed the boat veered off course.,dall-e-3
+sent_198,correctly understood,GP_improb,While the skipper sailed the car veered off course.,dall-e-3
+sent_199,partial misunderstanding,nonGP_prob,The boat veered off course while the skipper sailed.,dall-e-3
+sent_200,correctly understood,nonGP_improb,The car veered off course while the skipper sailed.,dall-e-3
+sent_201,partial misunderstanding,GP_prob,While the orchestra performed the symphony played on the radio.,dall-e-3
+sent_202,partial misunderstanding,GP_improb,While the orchestra performed the newsflash played on the radio.,dall-e-3
+sent_203,correctly understood,nonGP_prob,The symphony played on the radio while the orchestra performed.,dall-e-3
+sent_204,correctly understood,nonGP_improb,The newsflash played on the radio while the orchestra performed.,dall-e-3
+sent_205,correctly understood,GP_prob,While the bridesmaid ordered the dress got delivered.,dall-e-3
+sent_206,complete misunderstanding,GP_improb,While the bridesmaid ordered the tractor got delivered.,dall-e-3
+sent_207,correctly understood,nonGP_prob,The dress got delivered while the bridesmaid ordered.,dall-e-3
+sent_208,correctly understood,nonGP_improb,The tractor got delivered while the bridesmaid ordered.,dall-e-3
+sent_209,partial misunderstanding,GP_prob,While Susan wrote the letter fell off the table.,dall-e-3
+sent_210,complete misunderstanding,GP_improb,While Susan wrote the Bible fell off the table.,dall-e-3
+sent_211,complete misunderstanding,nonGP_prob,The letter fell off the table while Susan wrote.,dall-e-3
+sent_212,correctly understood,nonGP_improb,The Bible fell off the table while Susan wrote.,dall-e-3
+sent_213,partial misunderstanding,GP_prob,While the farmer steered the tractor pulled the car.,dall-e-3
+sent_214,complete misunderstanding,GP_improb,While the farmer steered the tank pulled the car.,dall-e-3
+sent_215,complete misunderstanding,nonGP_prob,The tractor pulled the car while the farmer steered.,dall-e-3
+sent_216,complete misunderstanding,nonGP_improb,The tank pulled the car while the farmer steered.,dall-e-3
+sent_217,partial misunderstanding,GP_prob,While the lawyer studied the contract lay on the roll-top desk.,dall-e-3
+sent_218,correctly understood,GP_improb,While the lawyer studied the cat lay on the roll-top desk.,dall-e-3
+sent_219,partial misunderstanding,nonGP_prob,The contract lay on the roll-top desk while the lawyer studied.,dall-e-3
+sent_220,correctly understood,nonGP_improb,The cat lay on the roll-top desk while the lawyer studied.,dall-e-3
+sent_221,partial misunderstanding,GP_prob,While the clown juggled the balls fell on the ground.,dall-e-3
+sent_222,correctly understood,GP_improb,While the clown juggled the cats fell on the ground.,dall-e-3
+sent_223,partial misunderstanding,nonGP_prob,The balls fell on the ground while the clown juggled.,dall-e-3
+sent_224,partial misunderstanding,nonGP_improb,The cats fell on the ground while the clown juggled.,dall-e-3
+sent_225,partial misunderstanding,GP_prob,While Anne vacuumed the rug lost its colors.,dall-e-3
+sent_226,partial misunderstanding,GP_improb,While Anne vacuumed the chameleon lost its colors.,dall-e-3
+sent_227,partial misunderstanding,nonGP_prob,The rug lost its colors while Anne vacuumed.,dall-e-3
+sent_228,correctly understood,nonGP_improb,The chameleon lost its colors while Anne vacuumed.,dall-e-3

@@ -1,0 +1,42 @@
+{
+    "data_path": "data/llm_data/extended_gardenpath_experiments.csv",
+    "question_type": "yes_no_cot",
+    "keys_to_add": [
+        "sent_type",
+        "quest_type"
+    ],
+    "prefix_path": "results/prefixes_cot.json",
+    "results_path": "results/llm_results/openai_cot.csv",
+    "model_args": [
+        {
+            "model_name": "gpt-4",
+            "temperature": 1.0,
+            "n": 20
+        },
+        {
+            "model_name": "gpt-4-turbo",
+            "temperature": 1.0,
+            "n": 20
+        },
+        {
+            "model_name": "gpt-4o",
+            "temperature": 1.0,
+            "n": 20
+        },
+        {
+            "model_name": "gpt-4o-mini",
+            "temperature": 1.0,
+            "n": 20
+        },
+        {
+            "model_name": "o1-mini",
+            "temperature": 1.0,
+            "n": 20
+        },
+        {
+            "model_name": "o1-preview",
+            "temperature": 1.0,
+            "n": 20
+        }
+    ]
+}

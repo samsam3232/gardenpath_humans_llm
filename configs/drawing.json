@@ -1,0 +1,7 @@
+{
+    "data_path": "data/llm_data/drawing_experiment.csv",
+    "results_path": "results/llm_results/drawings/",
+    "model_args": [
+        "dalle3"
+    ]
+}
