@@ -1,0 +1,229 @@
+sentence,noun,verb,sent_type
+While the secretary typed the memo neared completion.,memo,typed,GP_prob
+While the secretary typed the drawing neared completion.,drawing,typed,GP_improb
+The memo neared completion while the secretary typed.,memo,typed,nonGP_prob
+The drawing neared completion while the secretary typed.,drawing,typed,nonGP_improb
+While the explorer paddled the canoe headed toward a waterfall.,canoe,paddled,GP_prob
+While the explorer paddled the yacht headed toward a waterfall.,yacht,paddled,GP_improb
+The canoe headed toward a waterfall while the explorer paddled.,canoe,paddled,nonGP_prob
+The yacht headed toward a waterfall while the explorer paddled.,yacht,paddled,nonGP_improb
+While the cowboy rode the horse sweated profusely.,horse,rode,GP_prob
+While the cowboy rode the leopard sweated profusely.,leopard,rode,GP_improb
+The horse sweated profusely while the cowboy rode.,horse,rode,nonGP_prob
+The leopard sweated profusely while the cowboy rode.,leopard,rode,nonGP_improb
+While Tom grilled the hot dog began to burn.,hot dog,grilled,GP_prob
+While Tom grilled the barn began to burn.,barn,grilled,GP_improb
+The hot dog began to burn while Tom grilled.,hot dog,grilled,nonGP_prob
+The barn began to burn while Tom grilled.,barn,grilled,nonGP_improb
+While the architect drew the building represented modern times style.,building,drew,GP_prob
+While the architect drew the melody represented modern times style.,melody,drew,GP_improb
+The building represented modern times style while the architect drew.,building,drew,nonGP_prob
+The melody represented modern times style while the architect drew.,melody,drew,nonGP_improb
+While the chef stirred the soup boiled over.,soup,stirred,GP_prob
+While the chef stirred the acid boiled over.,acid,stirred,GP_improb
+The soup boiled over while the chef stirred.,soup,stirred,nonGP_prob
+The acid boiled over while the chef stirred.,acid,stirred,nonGP_improb
+While the tourist explored the tunnel echoed with mysterious sounds.,tunnel,explored,GP_prob
+While the tourist explored the trunk echoed with mysterious sounds.,trunk,explored,GP_improb
+The tunnel echoed with mysterious sounds while the tourist explored.,tunnel,explored,nonGP_prob
+The trunk echoed with mysterious sounds while the tourist explored.,trunk,explored,nonGP_improb
+While the woman drank the water spilled on the floor.,water,drank,GP_prob
+While the woman drank the mud spilled on the floor.,mud,drank,GP_improb
+The water spilled on the floor while the woman drank.,water,drank,nonGP_prob
+The mud spilled on the floor while the woman drank.,mud,drank,nonGP_improb
+While the snake swallowed the frog kicked vigorously.,frog,swallowed,GP_prob
+While the snake swallowed the hippo kicked vigorously.,hippo,swallowed,GP_improb
+The frog kicked vigorously while the snake swallowed.,frog,swallowed,nonGP_prob
+The hippo kicked vigorously while the snake swallowed.,hippo,swallowed,nonGP_improb
+While the lion attacked the baboon screamed in terror.,baboon,attacked,GP_prob
+While the lion attacked the penguin screamed in terror.,penguin,attacked,GP_improb
+The baboon screamed in terror while the lion attacked.,baboon,attacked,nonGP_prob
+The penguin screamed in terror while the lion attacked.,penguin,attacked,nonGP_improb
+While the maid dusted the picture tipped over.,picture,dusted,GP_prob
+While the maid dusted the cow tipped over.,cow,dusted,GP_improb
+The picture tipped over while the maid dusted.,picture,dusted,nonGP_prob
+The cow tipped over while the maid dusted.,cow,dusted,nonGP_improb
+While the teacher counted the children formed a line.,children,counted,GP_prob
+While the teacher counted the ants formed a line.,ants,counted,GP_improb
+The children formed a line while the teacher counted.,children,counted,nonGP_prob
+The ants formed a line while the teacher counted.,ants,counted,nonGP_improb
+While the champion raced the challenger stumbled and fell.,challenger,raced,GP_prob
+While the champion raced the spectator stumbled and fell.,spectator,raced,GP_improb
+The challenger stumbled and fell while the champion raced.,challenger,raced,nonGP_prob
+The spectator stumbled and fell while the champion raced.,spectator,raced,nonGP_improb
+While Jerry played the violin went out of tune.,violin,played,GP_prob
+While Jerry played the speakers went out of tune.,speakers,played,GP_improb
+The violin went out of tune while jerry played.,violin,played,nonGP_prob
+The speakers went out of tune while jerry played.,speakers,played,nonGP_improb
+While the girl painted the rainbow slowly faded outside.,rainbow,painted,GP_prob
+While the girl painted the music slowly faded outside.,music,painted,GP_improb
+The rainbow slowly faded outside while the girl painted.,rainbow,painted,nonGP_prob
+The music slowly faded outside while the girl painted.,music,painted,nonGP_improb
+While Kendra parked the van bumped the curb.,van,parked,GP_prob
+While Kendra parked the horse bumped the curb.,horse,parked,GP_improb
+The van bumped the curb while Kendra parked.,van,parked,nonGP_prob
+The horse bumped the curb while Kendra parked.,horse,parked,nonGP_improb
+While Angela cleaned the dog stood in the yard.,dog,cleaned,GP_prob
+While Angela cleaned the mailman stood in the yard.,mailman,cleaned,GP_improb
+The dog stood in the yard while Angela cleaned.,dog,cleaned,nonGP_prob
+The mailman stood in the yard while Angela cleaned.,mailman,cleaned,nonGP_improb
+While the sailor smoked the pipe glowed brightly.,pipe,smoked,GP_prob
+While the sailor smoked the firefly glowed brightly.,firefly,smoked,GP_improb
+The pipe glowed brightly while the sailor smoked.,pipe,smoked,nonGP_prob
+The firefly glowed brightly while the sailor smoked.,firefly,smoked,nonGP_improb
+While the tourist filmed the dancer blocked the sidewalk.,dancer,filmed,GP_prob
+While the tourist filmed the trashbags blocked the sidewalk.,trashbags,filmed,GP_improb
+The dancer blocked the sidewalk while the tourist filmed.,dancer,filmed,nonGP_prob
+The trashbags blocked the sidewalk while the tourist filmed.,trashbags,filmed,nonGP_improb
+While the athlete wrestled the opponent shouted insults.,opponent,wrestled,GP_prob
+While the athlete wrestled the audience shouted insults.,audience,wrestled,GP_improb
+The opponent shouted insults while the athlete wrestled.,opponent,wrestled,nonGP_prob
+The audience shouted insults while the athlete wrestled.,audience,wrestled,nonGP_improb
+While the warrior fought the enemy retreated.,enemy,fought,GP_prob
+While the warrior fought the rhino retreated.,rhino,fought,GP_improb
+The enemy retreated while the warrior fought.,enemy,fought,nonGP_prob
+The rhino retreated while the warrior fought.,rhino,fought,nonGP_improb
+While Harry chewed the steak fell to the floor.,steak,chewed,GP_prob
+While Harry chewed the book fell to the floor.,book,chewed,GP_improb
+The steak fell to the floor while Harry chewed.,steak,chewed,nonGP_prob
+The book fell to the floor while Harry chewed.,book,chewed,nonGP_improb
+While Bill ate the turkey sat on the table.,turkey,ate,GP_prob
+While Bill ate the baby sat on the table.,baby,ate,GP_improb
+The turkey sat on the table while Bill ate.,turkey,ate,nonGP_prob
+The baby sat on the table while Bill ate.,baby,ate,nonGP_improb
+While Janet baked the bread rose in the oven.,bread,baked,GP_prob
+While Janet baked the pressure rose in the oven.,pressure,baked,GP_improb
+The bread rose in the oven while Janet baked.,bread,baked,nonGP_prob
+The pressure rose in the oven while Janet baked.,pressure,baked,nonGP_improb
+While the public cheered the team left the restaurant.,team,cheered,GP_prob
+While the public cheered the rats left the restaurant.,rats,cheered,GP_improb
+The team left the restaurant while the public cheered.,team,cheered,nonGP_prob
+The rats left the restaurant while the public cheered.,rats,cheered,nonGP_improb
+While the cleaner mopped the floor was filled with stains.,floor,mopped,GP_prob
+While the cleaner mopped the ceiling was filled with stains.,ceiling,mopped,GP_improb
+The floor was filled with stains while the cleaner mopped.,floor,mopped,nonGP_prob
+The ceiling was filled with stains while the cleaner mopped.,ceiling,mopped,nonGP_improb
+While the chef cooked the meal impressed the couple.,meal,cooked,GP_prob
+While the chef cooked the cat impressed the couple.,cat,cooked,GP_improb
+The meal impressed the couple while the chef cooked.,meal,cooked,nonGP_prob
+The cat impressed the couple while the chef cooked.,cat,cooked,nonGP_improb
+While the child finished the homework waited on the table.,homework,finished,GP_prob
+While the child finished the tax forms waited on the table.,tax forms,finished,GP_improb
+The homework waited on the table while the child finished.,homework,finished,nonGP_prob
+The tax forms waited on the table while the child finished.,tax forms,finished,nonGP_improb
+While the student knitted the sweater sold to the highest bidder.,sweater,knitted,GP_prob
+While the student knitted the painting sold to the highest bidder.,painting,knitted,GP_improb
+The sweater sold to the highest bidder while the student knitted.,sweater,knitted,nonGP_prob
+The painting sold to the highest bidder while the student knitted.,painting,knitted,nonGP_improb
+While the astronomer observed the comet lit up the room.,comet,observed,GP_prob
+While the astronomer observed the lightbulb lit up the room.,lightbulb,observed,GP_improb
+The comet lit up the room while the astronomer observed.,comet,observed,nonGP_prob
+The lightbulb lit up the room while the astronomer observed.,lightbulb,observed,nonGP_improb
+While the players started the game bored the children.,game,started,GP_prob
+While the players started the lesson bored the children.,lesson,started,GP_improb
+The game bored the children while the players started.,game,started,nonGP_prob
+The lesson bored the children while the players started.,lesson,started,nonGP_improb
+While the professor taught the students looked at the board.,students,taught,GP_prob
+While the professor taught the puppies looked at the board.,puppies,taught,GP_improb
+The students looked at the board while the professor taught.,students,taught,nonGP_prob
+The puppies looked at the board while the professor taught.,puppies,taught,nonGP_improb
+While the pianist practiced the melody echoed through the hall.,melody,practiced,GP_prob
+While the pianist practiced the vacuum echoed through the hall.,vacuum,practiced,GP_improb
+The melody echoed through the hall while the pianist practiced.,melody,practiced,nonGP_prob
+The vacuum echoed through the hall while the pianist practiced.,vacuum,practiced,nonGP_improb
+While the couple left the bar buzzed with activity.,bar,left,GP_prob
+While the couple left the hive buzzed with activity.,hive,left,GP_improb
+The bar buzzed with activity while the couple left.,bar,left,nonGP_prob
+The hive buzzed with activity while the couple left.,hive,left,nonGP_improb
+While the gardener harvested the tomatoes hanged on the vine.,tomatoes,harvested,GP_prob
+While the gardener harvested the chrysalis hanged on the vine.,chrysalis,harvested,GP_improb
+The tomatoes hanged on the vine while the gardener harvested.,tomatoes,harvested,nonGP_prob
+The chrysalis hanged on the vine while the gardener harvested.,chrysalis,harvested,nonGP_improb
+While the horse pulled the cart moved silently.,cart,pulled,GP_prob
+While the horse pulled the submarine moved silently.,submarine,pulled,GP_improb
+The cart moved silently while the horse pulled.,cart,pulled,nonGP_prob
+The submarine moved silently while the horse pulled.,submarine,pulled,nonGP_improb
+The child giggled with delight while Jim bathed.,child,bathed,GP_reflexive
+The baboons sat in the grass while the chimps groomed.,baboons,bathed,GP_reflexive
+The car sat in the driveway while Frank dried off.,child,groomed,nonGP_reflexive
+The neighbor coughed loudly while Betty woke up.,baboons,groomed,nonGP_reflexive
+The jewelry sparkled brightly while the thief hid.,car,dried,GP_reflexive
+The baby spit up on the bed while Anna dressed.,neighbor,dried,GP_reflexive
+The dog barked loudly while the boy washed.,car,woke,nonGP_reflexive
+The horse stood in the stall while the jockey settled down.,neighbor,woke,nonGP_reflexive
+The baby cried softly while the mother undressed.,jewelry,hid,GP_reflexive
+The patient watched TV while the nurse shaved.,baby,hid,GP_reflexive
+The cat stared at the dog while the girl scratched.,jewelry,dressed,nonGP_reflexive
+The children sat on the bed while the mother calmed down.,baby,dressed,nonGP_reflexive
+The painting stood the test of time while the artist changed.,dog,washed,GP_reflexive
+The tomatoes invaded the garden while the child grew.,horse,washed,GP_reflexive
+The ball kept moving across the room while the toddler rolled.,dog,settled,nonGP_reflexive
+The wheel made weird noises while the mechanic turned.,horse,settled,nonGP_reflexive
+The river stayed warm while the ice cap shrank.,baby,undressed,GP_reflexive
+The bat fell on the road while the gymnast swung.,patient,undressed,GP_reflexive
+The athletes started the game while Bill trained.,baby,shaved,nonGP_reflexive
+The bone went bad while the dog moved.,patient,shaved,nonGP_reflexive
+The valley kept on living quietly while the river flooded.,cat,scratched,GP_reflexive
+The window moved on its axis while the log broke.,children,scratched,GP_reflexive
+The fire warmed the children while the match lit.,cat,calmed,nonGP_reflexive
+The boat was stranded in the ocean while the wave crashed.,children,calmed,nonGP_reflexive
+While Jim bathed the child giggled with delight.,painting,changed,GP_reflexive
+While the chimps groomed the baboons sat in the grass.,tomatoes,changed,GP_reflexive
+While Frank dried off the car sat in the driveway.,painting,grew,nonGP_reflexive
+While Betty woke up the neighbor coughed loudly.,tomatoes,grew,nonGP_reflexive
+While the thief hid the jewelry sparkled brightly.,ball,rolled,GP_reflexive
+While Anna dressed the baby spit up on the bed.,wheel,rolled,GP_reflexive
+While the boy washed the dog barked loudly.,ball,turned,nonGP_reflexive
+While the jockey settled down the horse stood in the stall.,wheel,turned,nonGP_reflexive
+While the mother undressed the baby cried softly.,river,shrank,GP_reflexive
+While the nurse shaved the patient watched TV.,bat,shrank,GP_reflexive
+While the girl scratched the cat stared at the dog.,river,swung,nonGP_reflexive
+While the mother calmed down the children sat on the bed.,bat,swung,nonGP_reflexive
+While the artist changed the painting stood the test of time.,athletes,trained,GP_reflexive
+While the child grew the tomatoes invaded the garden.,bone,trained,GP_reflexive
+While the toddler rolled the ball kept moving across the room.,athletes,moved,nonGP_reflexive
+While the mechanic turned the wheel made weird noises.,bone,moved,nonGP_reflexive
+While the ice cap shrank the river stayed warm.,valley,flooded,GP_reflexive
+While the gymnast swung the bat fell on the road,window,flooded,GP_reflexive
+While Bill trained the athletes started the game.,valley,broke,nonGP_reflexive
+While the dog moved the bone went bad.,window,broke,nonGP_reflexive
+While the river flooded the valley kept on living quietly.,fire,lit,GP_reflexive
+While the log broke the window moved on its axis.,boat,lit,GP_reflexive
+While the match lit the fire warmed the children.,fire,crashed,nonGP_reflexive
+While the wave crashed the boat was stranded in the ocean.,boat,crashed,nonGP_reflexive
+While the man hunted the deer ran into the woods.,deer,hunted,GP_prob
+While the man hunted the child ran into the woods.,child,hunted,GP_improb
+The deer ran into the woods while the man hunted.,deer,hunted,nonGP_prob
+The child ran into the woods while the man hunted.,child,hunted,nonGP_improb
+While the skipper sailed the boat veered off course.,boat,sailed,GP_prob
+While the skipper sailed the car veered off course.,car,sailed,GP_improb
+The boat veered off course while the skipper sailed.,boat,sailed,nonGP_prob
+The car veered off course while the skipper sailed.,car,sailed,nonGP_improb
+While the orchestra performed the symphony played on the radio.,symphony,performed,GP_prob
+While the orchestra performed the newsflash played on the radio.,newsflash,performed,GP_improb
+The symphony played on the radio while the orchestra performed.,symphony,performed,nonGP_prob
+The newsflash played on the radio while the orchestra performed.,newsflash,performed,nonGP_improb
+While the bridesmaid ordered the dress got delivered.,dress,ordered,GP_prob
+While the bridesmaid ordered the tractor got delivered.,tractor,ordered,GP_improb
+The dress got delivered while the bridesmaid ordered.,dress,ordered,nonGP_prob
+The tractor got delivered while the bridesmaid ordered.,tractor,ordered,nonGP_improb
+While Susan wrote the letter fell off the table.,letter,wrote,GP_prob
+While Susan wrote the Bible fell off the table.,Bible,wrote,GP_improb
+The letter fell off the table while Susan wrote.,letter,wrote,nonGP_prob
+The Bible fell off the table while Susan wrote.,Bible,wrote,nonGP_improb
+While the farmer steered the tractor pulled the car.,tractor,steered,GP_prob
+While the farmer steered the tank pulled the car.,tank,steered,GP_improb
+The tractor pulled the car while the farmer steered.,tractor,steered,nonGP_prob
+The tank pulled the car while the farmer steered.,tank,steered,nonGP_improb
+While the lawyer studied the contract lay on the roll-top desk.,contract,studied,GP_prob
+While the lawyer studied the cat lay on the roll-top desk.,cat,studied,GP_improb
+The contract lay on the roll-top desk while the lawyer studied.,contract,studied,nonGP_prob
+The cat lay on the roll-top desk while the lawyer studied.,cat,studied,nonGP_improb
+While the clown juggled the balls fell on the ground.,balls,juggled,GP_prob
+While the clown juggled the cats fell on the ground.,cats,juggled,GP_improb
+The balls fell on the ground while the clown juggled.,balls,juggled,nonGP_prob
+The cats fell on the ground while the clown juggled.,cats,juggled,nonGP_improb
+While Anne vacuumed the rug lost its colors.,rug,vacuumed,GP_prob
+While Anne vacuumed the chameleon lost its colors.,chameleon,vacuumed,GP_improb
+The rug lost its colors while Anne vacuumed.,rug,vacuumed,nonGP_prob
+The chameleon lost its colors while Anne vacuumed.,chameleon,vacuumed,nonGP_improb

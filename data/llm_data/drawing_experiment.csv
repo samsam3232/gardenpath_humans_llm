@@ -1,0 +1,229 @@
+sentence,sent_type,sent_id
+While the secretary typed the memo neared completion.,GP_prob,sent_1
+While the secretary typed the drawing neared completion.,GP_improb,sent_2
+The memo neared completion while the secretary typed.,nonGP_prob,sent_3
+The drawing neared completion while the secretary typed.,nonGP_improb,sent_4
+While the explorer paddled the canoe headed toward a waterfall.,GP_prob,sent_5
+While the explorer paddled the yacht headed toward a waterfall.,GP_improb,sent_6
+The canoe headed toward a waterfall while the explorer paddled.,nonGP_prob,sent_7
+The yacht headed toward a waterfall while the explorer paddled.,nonGP_improb,sent_8
+While the cowboy rode the horse sweated profusely.,GP_prob,sent_9
+While the cowboy rode the leopard sweated profusely.,GP_improb,sent_10
+The horse sweated profusely while the cowboy rode.,nonGP_prob,sent_11
+The leopard sweated profusely while the cowboy rode.,nonGP_improb,sent_12
+While Tom grilled the hot dog began to burn.,GP_prob,sent_13
+While Tom grilled the barn began to burn.,GP_improb,sent_14
+The hot dog began to burn while Tom grilled.,nonGP_prob,sent_15
+The barn began to burn while Tom grilled.,nonGP_improb,sent_16
+While the architect drew the building represented modern times style.,GP_prob,sent_17
+While the architect drew the melody represented modern times style.,GP_improb,sent_18
+The building represented modern times style while the architect drew.,nonGP_prob,sent_19
+The melody represented modern times style while the architect drew.,nonGP_improb,sent_20
+While the chef stirred the soup boiled over.,GP_prob,sent_21
+While the chef stirred the acid boiled over.,GP_improb,sent_22
+The soup boiled over while the chef stirred.,nonGP_prob,sent_23
+The acid boiled over while the chef stirred.,nonGP_improb,sent_24
+While the tourist explored the tunnel echoed with mysterious sounds.,GP_prob,sent_25
+While the tourist explored the trunk echoed with mysterious sounds.,GP_improb,sent_26
+The tunnel echoed with mysterious sounds while the tourist explored.,nonGP_prob,sent_27
+The trunk echoed with mysterious sounds while the tourist explored.,nonGP_improb,sent_28
+While the woman drank the water spilled on the floor.,GP_prob,sent_29
+While the woman drank the mud spilled on the floor.,GP_improb,sent_30
+The water spilled on the floor while the woman drank.,nonGP_prob,sent_31
+The mud spilled on the floor while the woman drank.,nonGP_improb,sent_32
+While the snake swallowed the frog kicked vigorously.,GP_prob,sent_33
+While the snake swallowed the hippo kicked vigorously.,GP_improb,sent_34
+The frog kicked vigorously while the snake swallowed.,nonGP_prob,sent_35
+The hippo kicked vigorously while the snake swallowed.,nonGP_improb,sent_36
+While the lion attacked the baboon screamed in terror.,GP_prob,sent_37
+While the lion attacked the penguin screamed in terror.,GP_improb,sent_38
+The baboon screamed in terror while the lion attacked.,nonGP_prob,sent_39
+The penguin screamed in terror while the lion attacked.,nonGP_improb,sent_40
+While the maid dusted the picture tipped over.,GP_prob,sent_41
+While the maid dusted the cow tipped over.,GP_improb,sent_42
+The picture tipped over while the maid dusted.,nonGP_prob,sent_43
+The cow tipped over while the maid dusted.,nonGP_improb,sent_44
+While the teacher counted the children formed a line.,GP_prob,sent_45
+While the teacher counted the ants formed a line.,GP_improb,sent_46
+The children formed a line while the teacher counted.,nonGP_prob,sent_47
+The ants formed a line while the teacher counted.,nonGP_improb,sent_48
+While the champion raced the challenger stumbled and fell.,GP_prob,sent_49
+While the champion raced the spectator stumbled and fell.,GP_improb,sent_50
+The challenger stumbled and fell while the champion raced.,nonGP_prob,sent_51
+The spectator stumbled and fell while the champion raced.,nonGP_improb,sent_52
+While Jerry played the violin went out of tune.,GP_prob,sent_53
+While Jerry played the speakers went out of tune.,GP_improb,sent_54
+The violin went out of tune while jerry played.,nonGP_prob,sent_55
+The speakers went out of tune while jerry played.,nonGP_improb,sent_56
+While the girl painted the rainbow slowly faded outside.,GP_prob,sent_57
+While the girl painted the music slowly faded outside.,GP_improb,sent_58
+The rainbow slowly faded outside while the girl painted.,nonGP_prob,sent_59
+The music slowly faded outside while the girl painted.,nonGP_improb,sent_60
+While Kendra parked the van bumped the curb.,GP_prob,sent_61
+While Kendra parked the horse bumped the curb.,GP_improb,sent_62
+The van bumped the curb while Kendra parked.,nonGP_prob,sent_63
+The horse bumped the curb while Kendra parked.,nonGP_improb,sent_64
+While Angela cleaned the dog stood in the yard.,GP_prob,sent_65
+While Angela cleaned the mailman stood in the yard.,GP_improb,sent_66
+The dog stood in the yard while Angela cleaned.,nonGP_prob,sent_67
+The mailman stood in the yard while Angela cleaned.,nonGP_improb,sent_68
+While the sailor smoked the pipe glowed brightly.,GP_prob,sent_69
+While the sailor smoked the firefly glowed brightly.,GP_improb,sent_70
+The pipe glowed brightly while the sailor smoked.,nonGP_prob,sent_71
+The firefly glowed brightly while the sailor smoked.,nonGP_improb,sent_72
+While the tourist filmed the dancer blocked the sidewalk.,GP_prob,sent_73
+While the tourist filmed the trashbags blocked the sidewalk.,GP_improb,sent_74
+The dancer blocked the sidewalk while the tourist filmed.,nonGP_prob,sent_75
+The trashbags blocked the sidewalk while the tourist filmed.,nonGP_improb,sent_76
+While the athlete wrestled the opponent shouted insults.,GP_prob,sent_77
+While the athlete wrestled the audience shouted insults.,GP_improb,sent_78
+The opponent shouted insults while the athlete wrestled.,nonGP_prob,sent_79
+The audience shouted insults while the athlete wrestled.,nonGP_improb,sent_80
+While the warrior fought the enemy retreated.,GP_prob,sent_81
+While the warrior fought the rhino retreated.,GP_improb,sent_82
+The enemy retreated while the warrior fought.,nonGP_prob,sent_83
+The rhino retreated while the warrior fought.,nonGP_improb,sent_84
+While Harry chewed the steak fell to the floor.,GP_prob,sent_85
+While Harry chewed the book fell to the floor.,GP_improb,sent_86
+The steak fell to the floor while Harry chewed.,nonGP_prob,sent_87
+The book fell to the floor while Harry chewed.,nonGP_improb,sent_88
+While Bill ate the turkey sat on the table.,GP_prob,sent_89
+While Bill ate the baby sat on the table.,GP_improb,sent_90
+The turkey sat on the table while Bill ate.,nonGP_prob,sent_91
+The baby sat on the table while Bill ate.,nonGP_improb,sent_92
+While Janet baked the bread rose in the oven.,GP_prob,sent_93
+While Janet baked the pressure rose in the oven.,GP_improb,sent_94
+The bread rose in the oven while Janet baked.,nonGP_prob,sent_95
+The pressure rose in the oven while Janet baked.,nonGP_improb,sent_96
+While the public cheered the team left the restaurant.,GP_prob,sent_97
+While the public cheered the rats left the restaurant.,GP_improb,sent_98
+The team left the restaurant while the public cheered.,nonGP_prob,sent_99
+The rats left the restaurant while the public cheered.,nonGP_improb,sent_100
+While the cleaner mopped the floor was filled with stains.,GP_prob,sent_101
+While the cleaner mopped the ceiling was filled with stains.,GP_improb,sent_102
+The floor was filled with stains while the cleaner mopped.,nonGP_prob,sent_103
+The ceiling was filled with stains while the cleaner mopped.,nonGP_improb,sent_104
+While the chef cooked the meal impressed the couple.,GP_prob,sent_105
+While the chef cooked the cat impressed the couple.,GP_improb,sent_106
+The meal impressed the couple while the chef cooked.,nonGP_prob,sent_107
+The cat impressed the couple while the chef cooked.,nonGP_improb,sent_108
+While the child finished the homework waited on the table.,GP_prob,sent_109
+While the child finished the tax forms waited on the table.,GP_improb,sent_110
+The homework waited on the table while the child finished.,nonGP_prob,sent_111
+The tax forms waited on the table while the child finished.,nonGP_improb,sent_112
+While the student knitted the sweater sold to the highest bidder.,GP_prob,sent_113
+While the student knitted the painting sold to the highest bidder.,GP_improb,sent_114
+The sweater sold to the highest bidder while the student knitted.,nonGP_prob,sent_115
+The painting sold to the highest bidder while the student knitted.,nonGP_improb,sent_116
+While the astronomer observed the comet lit up the room.,GP_prob,sent_117
+While the astronomer observed the lightbulb lit up the room.,GP_improb,sent_118
+The comet lit up the room while the astronomer observed.,nonGP_prob,sent_119
+The lightbulb lit up the room while the astronomer observed.,nonGP_improb,sent_120
+While the players started the game bored the children.,GP_prob,sent_121
+While the players started the lesson bored the children.,GP_improb,sent_122
+The game bored the children while the players started.,nonGP_prob,sent_123
+The lesson bored the children while the players started.,nonGP_improb,sent_124
+While the professor taught the students looked at the board.,GP_prob,sent_125
+While the professor taught the puppies looked at the board.,GP_improb,sent_126
+The students looked at the board while the professor taught.,nonGP_prob,sent_127
+The puppies looked at the board while the professor taught.,nonGP_improb,sent_128
+While the pianist practiced the melody echoed through the hall.,GP_prob,sent_129
+While the pianist practiced the vacuum echoed through the hall.,GP_improb,sent_130
+The melody echoed through the hall while the pianist practiced.,nonGP_prob,sent_131
+The vacuum echoed through the hall while the pianist practiced.,nonGP_improb,sent_132
+While the couple left the bar buzzed with activity.,GP_prob,sent_133
+While the couple left the hive buzzed with activity.,GP_improb,sent_134
+The bar buzzed with activity while the couple left.,nonGP_prob,sent_135
+The hive buzzed with activity while the couple left.,nonGP_improb,sent_136
+While the gardener harvested the tomatoes hanged on the vine.,GP_prob,sent_137
+While the gardener harvested the chrysalis hanged on the vine.,GP_improb,sent_138
+The tomatoes hanged on the vine while the gardener harvested.,nonGP_prob,sent_139
+The chrysalis hanged on the vine while the gardener harvested.,nonGP_improb,sent_140
+While the horse pulled the cart moved silently.,GP_prob,sent_141
+While the horse pulled the submarine moved silently.,GP_improb,sent_142
+The cart moved silently while the horse pulled.,nonGP_prob,sent_143
+The submarine moved silently while the horse pulled.,nonGP_improb,sent_144
+The child giggled with delight while Jim bathed.,nonGP_reflexive,sent_145
+The baboons sat in the grass while the chimps groomed.,nonGP_reflexive,sent_146
+The car sat in the driveway while Frank dried off.,nonGP_reflexive,sent_147
+The neighbor coughed loudly while Betty woke up.,nonGP_reflexive,sent_148
+The jewelry sparkled brightly while the thief hid.,nonGP_reflexive,sent_149
+The baby spit up on the bed while Anna dressed.,nonGP_reflexive,sent_150
+The dog barked loudly while the boy washed.,nonGP_reflexive,sent_151
+The horse stood in the stall while the jockey settled down.,nonGP_reflexive,sent_152
+The baby cried softly while the mother undressed.,nonGP_reflexive,sent_153
+The patient watched TV while the nurse shaved.,nonGP_reflexive,sent_154
+The cat stared at the dog while the girl scratched.,nonGP_reflexive,sent_155
+The children sat on the bed while the mother calmed down.,nonGP_reflexive,sent_156
+The painting stood the test of time while the artist changed.,nonGP_reflexive,sent_157
+The tomatoes invaded the garden while the child grew.,nonGP_reflexive,sent_158
+The ball kept moving across the room while the toddler rolled.,nonGP_reflexive,sent_159
+The wheel made weird noises while the mechanic turned.,nonGP_reflexive,sent_160
+The river stayed warm while the ice cap shrank.,nonGP_reflexive,sent_161
+The bat fell on the road while the gymnast swung.,nonGP_reflexive,sent_162
+The athletes started the game while Bill trained.,nonGP_reflexive,sent_163
+The bone went bad while the dog moved.,nonGP_reflexive,sent_164
+The valley kept on living quietly while the river flooded.,nonGP_reflexive,sent_165
+The window moved on its axis while the log broke.,nonGP_reflexive,sent_166
+The fire warmed the children while the match lit.,nonGP_reflexive,sent_167
+The boat was stranded in the ocean while the wave crashed.,nonGP_reflexive,sent_168
+While Jim bathed the child giggled with delight.,GP_reflexive,sent_169
+While the chimps groomed the baboons sat in the grass.,GP_reflexive,sent_170
+While Frank dried off the car sat in the driveway.,GP_reflexive,sent_171
+While Betty woke up the neighbor coughed loudly.,GP_reflexive,sent_172
+While the thief hid the jewelry sparkled brightly.,GP_reflexive,sent_173
+While Anna dressed the baby spit up on the bed.,GP_reflexive,sent_174
+While the boy washed the dog barked loudly.,GP_reflexive,sent_175
+While the jockey settled down the horse stood in the stall.,GP_reflexive,sent_176
+While the mother undressed the baby cried softly.,GP_reflexive,sent_177
+While the nurse shaved the patient watched TV.,GP_reflexive,sent_178
+While the girl scratched the cat stared at the dog.,GP_reflexive,sent_179
+While the mother calmed down the children sat on the bed.,GP_reflexive,sent_180
+While the artist changed the painting stood the test of time.,GP_reflexive,sent_181
+While the child grew the tomatoes invaded the garden.,GP_reflexive,sent_182
+While the toddler rolled the ball kept moving across the room.,GP_reflexive,sent_183
+While the mechanic turned the wheel made weird noises.,GP_reflexive,sent_184
+While the ice cap shrank the river stayed warm.,GP_reflexive,sent_185
+While the gymnast swung the bat fell on the road,GP_reflexive,sent_186
+While Bill trained the athletes started the game.,GP_reflexive,sent_187
+While the dog moved the bone went bad.,GP_reflexive,sent_188
+While the river flooded the valley kept on living quietly.,GP_reflexive,sent_189
+While the log broke the window moved on its axis.,GP_reflexive,sent_190
+While the match lit the fire warmed the children.,GP_reflexive,sent_191
+While the wave crashed the boat was stranded in the ocean.,GP_reflexive,sent_192
+While the man hunted the deer ran into the woods.,GP_prob,sent_193
+While the man hunted the child ran into the woods.,GP_improb,sent_194
+The deer ran into the woods while the man hunted.,nonGP_prob,sent_195
+The child ran into the woods while the man hunted.,nonGP_improb,sent_196
+While the skipper sailed the boat veered off course.,GP_prob,sent_197
+While the skipper sailed the car veered off course.,GP_improb,sent_198
+The boat veered off course while the skipper sailed.,nonGP_prob,sent_199
+The car veered off course while the skipper sailed.,nonGP_improb,sent_200
+While the orchestra performed the symphony played on the radio.,GP_prob,sent_201
+While the orchestra performed the newsflash played on the radio.,GP_improb,sent_202
+The symphony played on the radio while the orchestra performed.,nonGP_prob,sent_203
+The newsflash played on the radio while the orchestra performed.,nonGP_improb,sent_204
+While the bridesmaid ordered the dress got delivered.,GP_prob,sent_205
+While the bridesmaid ordered the tractor got delivered.,GP_improb,sent_206
+The dress got delivered while the bridesmaid ordered.,nonGP_prob,sent_207
+The tractor got delivered while the bridesmaid ordered.,nonGP_improb,sent_208
+While Susan wrote the letter fell off the table.,GP_prob,sent_209
+While Susan wrote the Bible fell off the table.,GP_improb,sent_210
+The letter fell off the table while Susan wrote.,nonGP_prob,sent_211
+The Bible fell off the table while Susan wrote.,nonGP_improb,sent_212
+While the farmer steered the tractor pulled the car.,GP_prob,sent_213
+While the farmer steered the tank pulled the car.,GP_improb,sent_214
+The tractor pulled the car while the farmer steered.,nonGP_prob,sent_215
+The tank pulled the car while the farmer steered.,nonGP_improb,sent_216
+While the lawyer studied the contract lay on the roll-top desk.,GP_prob,sent_217
+While the lawyer studied the cat lay on the roll-top desk.,GP_improb,sent_218
+The contract lay on the roll-top desk while the lawyer studied.,nonGP_prob,sent_219
+The cat lay on the roll-top desk while the lawyer studied.,nonGP_improb,sent_220
+While the clown juggled the balls fell on the ground.,GP_prob,sent_221
+While the clown juggled the cats fell on the ground.,GP_improb,sent_222
+The balls fell on the ground while the clown juggled.,nonGP_prob,sent_223
+The cats fell on the ground while the clown juggled.,nonGP_improb,sent_224
+While Anne vacuumed the rug lost its colors.,GP_prob,sent_225
+While Anne vacuumed the chameleon lost its colors.,GP_improb,sent_226
+The rug lost its colors while Anne vacuumed.,nonGP_prob,sent_227
+The chameleon lost its colors while Anne vacuumed.,nonGP_improb,sent_228

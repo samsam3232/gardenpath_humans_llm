@@ -1,0 +1,457 @@
+,sentence,question,set_id,sent_type,quest_type,correct_answer,incorrect_answer
+0,While the secretary typed the memo neared completion.,Did the memo near completion?,set_10,GP_prob,simple_question,Yes,No
+1,While the secretary typed the memo neared completion.,Did the secretary type the memo?,set_10,GP_prob,GP_question,No,Yes
+2,While the secretary typed the drawing neared completion.,Did the drawing near completion?,set_10,GP_improb,simple_question,Yes,No
+3,While the secretary typed the drawing neared completion.,Did the secretary type the drawing?,set_10,GP_improb,GP_question,No,Yes
+4,The memo neared completion while the secretary typed.,Did the memo near completion?,set_10,nonGP_prob,simple_question,Yes,No
+5,The memo neared completion while the secretary typed.,Did the secretary type the memo?,set_10,nonGP_prob,GP_question,No,Yes
+6,The drawing neared completion while the secretary typed.,Did the drawing near completion?,set_10,nonGP_improb,simple_question,Yes,No
+7,The drawing neared completion while the secretary typed.,Did the secretary type the drawing?,set_10,nonGP_improb,GP_question,No,Yes
+8,While the explorer paddled the canoe headed toward a waterfall.,Did the canoe head toward a waterfall?,set_11,GP_prob,simple_question,Yes,No
+9,While the explorer paddled the canoe headed toward a waterfall.,Did the explorer paddle the canoe?,set_11,GP_prob,GP_question,No,Yes
+10,While the explorer paddled the yacht headed toward a waterfall.,Did the yacht head toward a waterfall?,set_11,GP_improb,simple_question,Yes,No
+11,While the explorer paddled the yacht headed toward a waterfall.,Did the explorer paddle the yacht?,set_11,GP_improb,GP_question,No,Yes
+12,The canoe headed toward a waterfall while the explorer paddled.,Did the canoe head toward a waterfall?,set_11,nonGP_prob,simple_question,Yes,No
+13,The canoe headed toward a waterfall while the explorer paddled.,Did the explorer paddle the canoe?,set_11,nonGP_prob,GP_question,No,Yes
+14,The yacht headed toward a waterfall while the explorer paddled.,Did the yacht head toward a waterfall?,set_11,nonGP_improb,simple_question,Yes,No
+15,The yacht headed toward a waterfall while the explorer paddled.,Did the explorer paddle the yacht?,set_11,nonGP_improb,GP_question,No,Yes
+16,While the cowboy rode the horse sweated profusely.,Did the horse sweat profusely?,set_12,GP_prob,simple_question,Yes,No
+17,While the cowboy rode the horse sweated profusely.,Did the cowboy ride the horse?,set_12,GP_prob,GP_question,No,Yes
+18,While the cowboy rode the leopard sweated profusely.,Did the leopard sweat profusely?,set_12,GP_improb,simple_question,Yes,No
+19,While the cowboy rode the leopard sweated profusely.,Did the cowboy ride the leopard?,set_12,GP_improb,GP_question,No,Yes
+20,The horse sweated profusely while the cowboy rode.,Did the horse sweat profusely?,set_12,nonGP_prob,simple_question,Yes,No
+21,The horse sweated profusely while the cowboy rode.,Did the cowboy ride the horse?,set_12,nonGP_prob,GP_question,No,Yes
+22,The leopard sweated profusely while the cowboy rode.,Did the leopard sweat profusely?,set_12,nonGP_improb,simple_question,Yes,No
+23,The leopard sweated profusely while the cowboy rode.,Did the cowboy ride the leopard?,set_12,nonGP_improb,GP_question,No,Yes
+24,While Tom grilled the hot dog began to burn.,Did the hot dog begin to burn?,set_13,GP_prob,simple_question,Yes,No
+25,While Tom grilled the hot dog began to burn.,Did Tom grill the hot dog?,set_13,GP_prob,GP_question,No,Yes
+26,While Tom grilled the barn began to burn.,Did the barn begin to burn?,set_13,GP_improb,simple_question,Yes,No
+27,While Tom grilled the barn began to burn.,Did Tom grill the barn?,set_13,GP_improb,GP_question,No,Yes
+28,The hot dog began to burn while Tom grilled.,Did the hot dog begin to burn?,set_13,nonGP_prob,simple_question,Yes,No
+29,The hot dog began to burn while Tom grilled.,Did Tom grill the hot dog?,set_13,nonGP_prob,GP_question,No,Yes
+30,The barn began to burn while Tom grilled.,Did the barn begin to burn?,set_13,nonGP_improb,simple_question,Yes,No
+31,The barn began to burn while Tom grilled.,Did Tom grill the barn?,set_13,nonGP_improb,GP_question,No,Yes
+32,While the architect drew the building represented modern times style.,Did the building represent modern time style?,set_14,GP_prob,simple_question,Yes,No
+33,While the architect drew the building represented modern times style.,Did the architect draw the building?,set_14,GP_prob,GP_question,No,Yes
+34,While the architect drew the melody represented modern times style.,Did the melody represent modern time style?,set_14,GP_improb,simple_question,Yes,No
+35,While the architect drew the melody represented modern times style.,Did the architect draw the melody?,set_14,GP_improb,GP_question,No,Yes
+36,The building represented modern times style while the architect drew.,Did the building represent modern time style?,set_14,nonGP_prob,simple_question,Yes,No
+37,The building represented modern times style while the architect drew.,Did the architect draw the building?,set_14,nonGP_prob,GP_question,No,Yes
+38,The melody represented modern times style while the architect drew.,Did the melody represent modern time style?,set_14,nonGP_improb,simple_question,Yes,No
+39,The melody represented modern times style while the architect drew.,Did the architect draw the melody?,set_14,nonGP_improb,GP_question,No,Yes
+40,While the chef stirred the soup boiled over.,Did the soup boil over?,set_15,GP_prob,simple_question,Yes,No
+41,While the chef stirred the soup boiled over.,Did the chef stir the soup?,set_15,GP_prob,GP_question,No,Yes
+42,While the chef stirred the acid boiled over.,Did the acid boil over?,set_15,GP_improb,simple_question,Yes,No
+43,While the chef stirred the acid boiled over.,Did the chef stir the acid?,set_15,GP_improb,GP_question,No,Yes
+44,The soup boiled over while the chef stirred.,Did the soup boil over?,set_15,nonGP_prob,simple_question,Yes,No
+45,The soup boiled over while the chef stirred.,Did the chef stir the soup?,set_15,nonGP_prob,GP_question,No,Yes
+46,The acid boiled over while the chef stirred.,Did the acid boil over?,set_15,nonGP_improb,simple_question,Yes,No
+47,The acid boiled over while the chef stirred.,Did the chef stir the acid?,set_15,nonGP_improb,GP_question,No,Yes
+48,While the tourist explored the tunnel echoed with mysterious sounds.,Did the tunnel echo with mysterious sounds?,set_16,GP_prob,simple_question,Yes,No
+49,While the tourist explored the tunnel echoed with mysterious sounds.,Did the tourist explore the tunnel?,set_16,GP_prob,GP_question,No,Yes
+50,While the tourist explored the trunk echoed with mysterious sounds.,Did the trunk echo with mysterious sounds?,set_16,GP_improb,simple_question,Yes,No
+51,While the tourist explored the trunk echoed with mysterious sounds.,Did the tourist explore the trunk?,set_16,GP_improb,GP_question,No,Yes
+52,The tunnel echoed with mysterious sounds while the tourist explored.,Did the tunnel echo with mysterious sounds?,set_16,nonGP_prob,simple_question,Yes,No
+53,The tunnel echoed with mysterious sounds while the tourist explored.,Did the tourist explore the tunnel?,set_16,nonGP_prob,GP_question,No,Yes
+54,The trunk echoed with mysterious sounds while the tourist explored.,Did the trunk echo with mysterious sounds?,set_16,nonGP_improb,simple_question,Yes,No
+55,The trunk echoed with mysterious sounds while the tourist explored.,Did the tourist explore the trunk?,set_16,nonGP_improb,GP_question,No,Yes
+56,While the woman drank the water spilled on the floor.,Did the water spill on the floor?,set_17,GP_prob,simple_question,Yes,No
+57,While the woman drank the water spilled on the floor.,Did the woman drink the water?,set_17,GP_prob,GP_question,No,Yes
+58,While the woman drank the mud spilled on the floor.,Did the mud spill on the floor?,set_17,GP_improb,simple_question,Yes,No
+59,While the woman drank the mud spilled on the floor.,Did the woman drink the mud?,set_17,GP_improb,GP_question,No,Yes
+60,The water spilled on the floor while the woman drank.,Did the water spill on the floor?,set_17,nonGP_prob,simple_question,Yes,No
+61,The water spilled on the floor while the woman drank.,Did the woman drink the water?,set_17,nonGP_prob,GP_question,No,Yes
+62,The mud spilled on the floor while the woman drank.,Did the mud spill on the floor?,set_17,nonGP_improb,simple_question,Yes,No
+63,The mud spilled on the floor while the woman drank.,Did the woman drink the mud?,set_17,nonGP_improb,GP_question,No,Yes
+64,While the snake swallowed the frog kicked vigorously.,Did the frog kick vigorously?,set_18,GP_prob,simple_question,Yes,No
+65,While the snake swallowed the frog kicked vigorously.,Did the snake swallow the frog?,set_18,GP_prob,GP_question,No,Yes
+66,While the snake swallowed the hippo kicked vigorously.,Did the hippo kick vigorously?,set_18,GP_improb,simple_question,Yes,No
+67,While the snake swallowed the hippo kicked vigorously.,Did the snake swallow the hippo?,set_18,GP_improb,GP_question,No,Yes
+68,The frog kicked vigorously while the snake swallowed.,Did the frog kick vigorously?,set_18,nonGP_prob,simple_question,Yes,No
+69,The frog kicked vigorously while the snake swallowed.,Did the snake swallow the frog?,set_18,nonGP_prob,GP_question,No,Yes
+70,The hippo kicked vigorously while the snake swallowed.,Did the hippo kick vigorously?,set_18,nonGP_improb,simple_question,Yes,No
+71,The hippo kicked vigorously while the snake swallowed.,Did the snake swallow the hippo?,set_18,nonGP_improb,GP_question,No,Yes
+72,While the lion attacked the baboon screamed in terror.,Did the baboon scream in terror?,set_19,GP_prob,simple_question,Yes,No
+73,While the lion attacked the baboon screamed in terror.,Did the lion attack the baboon?,set_19,GP_prob,GP_question,No,Yes
+74,While the lion attacked the penguin screamed in terror.,Did the penguin scream in terror?,set_19,GP_improb,simple_question,Yes,No
+75,While the lion attacked the penguin screamed in terror.,Did the lion attack the penguin?,set_19,GP_improb,GP_question,No,Yes
+76,The baboon screamed in terror while the lion attacked.,Did the baboon scream in terror?,set_19,nonGP_prob,simple_question,Yes,No
+77,The baboon screamed in terror while the lion attacked.,Did the lion attack the baboon?,set_19,nonGP_prob,GP_question,No,Yes
+78,The penguin screamed in terror while the lion attacked.,Did the penguin scream in terror?,set_19,nonGP_improb,simple_question,Yes,No
+79,The penguin screamed in terror while the lion attacked.,Did the lion attack the penguin?,set_19,nonGP_improb,GP_question,No,Yes
+80,While the maid dusted the picture tipped over.,Did the picture tip over?,set_20,GP_prob,simple_question,Yes,No
+81,While the maid dusted the picture tipped over.,Did the maid dust the picture?,set_20,GP_prob,GP_question,No,Yes
+82,While the maid dusted the cow tipped over.,Did the cow tip over?,set_20,GP_improb,simple_question,Yes,No
+83,While the maid dusted the cow tipped over.,Did the maid dust the cow?,set_20,GP_improb,GP_question,No,Yes
+84,The picture tipped over while the maid dusted.,Did the picture tip over?,set_20,nonGP_prob,simple_question,Yes,No
+85,The picture tipped over while the maid dusted.,Did the maid dust the picture?,set_20,nonGP_prob,GP_question,No,Yes
+86,The cow tipped over while the maid dusted.,Did the cow tip over?,set_20,nonGP_improb,simple_question,Yes,No
+87,The cow tipped over while the maid dusted.,Did the maid dust the cow?,set_20,nonGP_improb,GP_question,No,Yes
+88,While the teacher counted the children formed a line.,Did the children form a line?,set_21,GP_prob,simple_question,Yes,No
+89,While the teacher counted the children formed a line.,Did the teacher count the children?,set_21,GP_prob,GP_question,No,Yes
+90,While the teacher counted the ants formed a line.,Did the ants form a line?,set_21,GP_improb,simple_question,Yes,No
+91,While the teacher counted the ants formed a line.,Did the teacher count the ants?,set_21,GP_improb,GP_question,No,Yes
+92,The children formed a line while the teacher counted.,Did the children form a line?,set_21,nonGP_prob,simple_question,Yes,No
+93,The children formed a line while the teacher counted.,Did the teacher count the children?,set_21,nonGP_prob,GP_question,No,Yes
+94,The ants formed a line while the teacher counted.,Did the ants form a line?,set_21,nonGP_improb,simple_question,Yes,No
+95,The ants formed a line while the teacher counted.,Did the teacher count the ants?,set_21,nonGP_improb,GP_question,No,Yes
+96,While the champion raced the challenger stumbled and fell.,Did the challenger stumble and fall?,set_22,GP_prob,simple_question,Yes,No
+97,While the champion raced the challenger stumbled and fell.,Did the champion race the challenger?,set_22,GP_prob,GP_question,No,Yes
+98,While the champion raced the spectator stumbled and fell.,Did the spectator stumble and fall?,set_22,GP_improb,simple_question,Yes,No
+99,While the champion raced the spectator stumbled and fell.,Did the champion race the spectator?,set_22,GP_improb,GP_question,No,Yes
+100,The challenger stumbled and fell while the champion raced.,Did the challenger stumble and fall?,set_22,nonGP_prob,simple_question,Yes,No
+101,The challenger stumbled and fell while the champion raced.,Did the champion race the challenger?,set_22,nonGP_prob,GP_question,No,Yes
+102,The spectator stumbled and fell while the champion raced.,Did the spectator stumble and fall?,set_22,nonGP_improb,simple_question,Yes,No
+103,The spectator stumbled and fell while the champion raced.,Did the champion race the spectator?,set_22,nonGP_improb,GP_question,No,Yes
+104,While Jerry played the violin went out of tune.,Did the violin go out of tune?,set_23,GP_prob,simple_question,Yes,No
+105,While Jerry played the violin went out of tune.,Did Jerry play the violin?,set_23,GP_prob,GP_question,No,Yes
+106,While Jerry played the speakers went out of tune.,Did the speakers go out of tune?,set_23,GP_improb,simple_question,Yes,No
+107,While Jerry played the speakers went out of tune.,Did Jerry play the speakers?,set_23,GP_improb,GP_question,No,Yes
+108,The violin went out of tune while jerry played.,Did the violin go out of tune?,set_23,nonGP_prob,simple_question,Yes,No
+109,The violin went out of tune while jerry played.,Did Jerry play the violin?,set_23,nonGP_prob,GP_question,No,Yes
+110,The speakers went out of tune while jerry played.,Did the speakers go out of tune?,set_23,nonGP_improb,simple_question,Yes,No
+111,The speakers went out of tune while jerry played.,Did Jerry play the speakers?,set_23,nonGP_improb,GP_question,No,Yes
+112,While the girl painted the rainbow slowly faded outside.,Did the rainbow slowly fade outside?,set_24,GP_prob,simple_question,Yes,No
+113,While the girl painted the rainbow slowly faded outside.,Did the girl paint the rainbow?,set_24,GP_prob,GP_question,No,Yes
+114,While the girl painted the music slowly faded outside.,Did the music slowly fade outside?,set_24,GP_improb,simple_question,Yes,No
+115,While the girl painted the music slowly faded outside.,Did the girl paint the music?,set_24,GP_improb,GP_question,No,Yes
+116,The rainbow slowly faded outside while the girl painted.,Did the rainbow slowly fade outside?,set_24,nonGP_prob,simple_question,Yes,No
+117,The rainbow slowly faded outside while the girl painted.,Did the girl paint the rainbow?,set_24,nonGP_prob,GP_question,No,Yes
+118,The music slowly faded outside while the girl painted.,Did the music slowly fade outside?,set_24,nonGP_improb,simple_question,Yes,No
+119,The music slowly faded outside while the girl painted.,Did the girl paint the music?,set_24,nonGP_improb,GP_question,No,Yes
+120,While Kendra parked the van bumped the curb.,Did the van bump the curb?,set_25,GP_prob,simple_question,Yes,No
+121,While Kendra parked the van bumped the curb.,Did Kendra park the van?,set_25,GP_prob,GP_question,No,Yes
+122,While Kendra parked the horse bumped the curb.,Did the horse bump the curb?,set_25,GP_improb,simple_question,Yes,No
+123,While Kendra parked the horse bumped the curb.,Did Kendra park the horse?,set_25,GP_improb,GP_question,No,Yes
+124,The van bumped the curb while Kendra parked.,Did the van bump the curb?,set_25,nonGP_prob,simple_question,Yes,No
+125,The van bumped the curb while Kendra parked.,Did Kendra park the van?,set_25,nonGP_prob,GP_question,No,Yes
+126,The horse bumped the curb while Kendra parked.,Did the horse bump the curb?,set_25,nonGP_improb,simple_question,Yes,No
+127,The horse bumped the curb while Kendra parked.,Did Kendra park the horse?,set_25,nonGP_improb,GP_question,No,Yes
+128,While Angela cleaned the dog stood in the yard.,Did the dog stand in the yard?,set_26,GP_prob,simple_question,Yes,No
+129,While Angela cleaned the dog stood in the yard.,Did Angela clean the dog?,set_26,GP_prob,GP_question,No,Yes
+130,While Angela cleaned the mailman stood in the yard.,Did the mailman stand in the yard?,set_26,GP_improb,simple_question,Yes,No
+131,While Angela cleaned the mailman stood in the yard.,Did Angela clean the mailman?,set_26,GP_improb,GP_question,No,Yes
+132,The dog stood in the yard while Angela cleaned.,Did the dog stand in the yard?,set_26,nonGP_prob,simple_question,Yes,No
+133,The dog stood in the yard while Angela cleaned.,Did Angela clean the dog?,set_26,nonGP_prob,GP_question,No,Yes
+134,The mailman stood in the yard while Angela cleaned.,Did the mailman stand in the yard?,set_26,nonGP_improb,simple_question,Yes,No
+135,The mailman stood in the yard while Angela cleaned.,Did Angela clean the mailman?,set_26,nonGP_improb,GP_question,No,Yes
+136,While the sailor smoked the pipe glowed brightly.,Did the pipe glow brightly?,set_27,GP_prob,simple_question,Yes,No
+137,While the sailor smoked the pipe glowed brightly.,Did the sailor smoke the pipe?,set_27,GP_prob,GP_question,No,Yes
+138,While the sailor smoked the firefly glowed brightly.,Did the firefly glow brightly?,set_27,GP_improb,simple_question,Yes,No
+139,While the sailor smoked the firefly glowed brightly.,Did the sailor smoke the firefly?,set_27,GP_improb,GP_question,No,Yes
+140,The pipe glowed brightly while the sailor smoked.,Did the pipe glow brightly?,set_27,nonGP_prob,simple_question,Yes,No
+141,The pipe glowed brightly while the sailor smoked.,Did the sailor smoke the pipe?,set_27,nonGP_prob,GP_question,No,Yes
+142,The firefly glowed brightly while the sailor smoked.,Did the firefly glow brightly?,set_27,nonGP_improb,simple_question,Yes,No
+143,The firefly glowed brightly while the sailor smoked.,Did the sailor smoke the firefly?,set_27,nonGP_improb,GP_question,No,Yes
+144,While the tourist filmed the dancer blocked the sidewalk.,Did the dancer block the sidewalk?,set_28,GP_prob,simple_question,Yes,No
+145,While the tourist filmed the dancer blocked the sidewalk.,Did the tourist film the dancer?,set_28,GP_prob,GP_question,No,Yes
+146,While the tourist filmed the trashbags blocked the sidewalk.,Did the trashbags block the sidewalk?,set_28,GP_improb,simple_question,Yes,No
+147,While the tourist filmed the trashbags blocked the sidewalk.,Did the tourist film the trashbags?,set_28,GP_improb,GP_question,No,Yes
+148,The dancer blocked the sidewalk while the tourist filmed.,Did the dancer block the sidewalk?,set_28,nonGP_prob,simple_question,Yes,No
+149,The dancer blocked the sidewalk while the tourist filmed.,Did the tourist film the dancer?,set_28,nonGP_prob,GP_question,No,Yes
+150,The trashbags blocked the sidewalk while the tourist filmed.,Did the trashbags block the sidewalk?,set_28,nonGP_improb,simple_question,Yes,No
+151,The trashbags blocked the sidewalk while the tourist filmed.,Did the tourist film the trashbags?,set_28,nonGP_improb,GP_question,No,Yes
+152,While the athlete wrestled the opponent shouted insults.,Did the opponent shout insults?,set_29,GP_prob,simple_question,Yes,No
+153,While the athlete wrestled the opponent shouted insults.,Did the athlete wrestle the opponent?,set_29,GP_prob,GP_question,No,Yes
+154,While the athlete wrestled the audience shouted insults.,Did the audience shout insults?,set_29,GP_improb,simple_question,Yes,No
+155,While the athlete wrestled the audience shouted insults.,Did the athlete wrestle the audience?,set_29,GP_improb,GP_question,No,Yes
+156,The opponent shouted insults while the athlete wrestled.,Did the opponent shout insults?,set_29,nonGP_prob,simple_question,Yes,No
+157,The opponent shouted insults while the athlete wrestled.,Did the athlete wrestle the opponent?,set_29,nonGP_prob,GP_question,No,Yes
+158,The audience shouted insults while the athlete wrestled.,Did the audience shout insults?,set_29,nonGP_improb,simple_question,Yes,No
+159,The audience shouted insults while the athlete wrestled.,Did the athlete wrestle the audience?,set_29,nonGP_improb,GP_question,No,Yes
+160,While the warrior fought the enemy retreated.,Did the enemy retreat?,set_30,GP_prob,simple_question,Yes,No
+161,While the warrior fought the enemy retreated.,Did the warrior fight the enemy?,set_30,GP_prob,GP_question,No,Yes
+162,While the warrior fought the rhino retreated.,Did the rhino retreat?,set_30,GP_improb,simple_question,Yes,No
+163,While the warrior fought the rhino retreated.,Did the warrior fight the rhino?,set_30,GP_improb,GP_question,No,Yes
+164,The enemy retreated while the warrior fought.,Did the enemy retreat?,set_30,nonGP_prob,simple_question,Yes,No
+165,The enemy retreated while the warrior fought.,Did the warrior fight the enemy?,set_30,nonGP_prob,GP_question,No,Yes
+166,The rhino retreated while the warrior fought.,Did the rhino retreat?,set_30,nonGP_improb,simple_question,Yes,No
+167,The rhino retreated while the warrior fought.,Did the warrior fight the rhino?,set_30,nonGP_improb,GP_question,No,Yes
+168,While Harry chewed the steak fell to the floor.,Did the steak fall to the floor?,set_31,GP_prob,simple_question,Yes,No
+169,While Harry chewed the steak fell to the floor.,Did Harry chew the steak?,set_31,GP_prob,GP_question,No,Yes
+170,While Harry chewed the book fell to the floor.,Did the book fall to the floor?,set_31,GP_improb,simple_question,Yes,No
+171,While Harry chewed the book fell to the floor.,Did Harry chew the book?,set_31,GP_improb,GP_question,No,Yes
+172,The steak fell to the floor while Harry chewed.,Did the steak fall to the floor?,set_31,nonGP_prob,simple_question,Yes,No
+173,The steak fell to the floor while Harry chewed.,Did Harry chew the steak?,set_31,nonGP_prob,GP_question,No,Yes
+174,The book fell to the floor while Harry chewed.,Did the book fall to the floor?,set_31,nonGP_improb,simple_question,Yes,No
+175,The book fell to the floor while Harry chewed.,Did Harry chew the book?,set_31,nonGP_improb,GP_question,No,Yes
+176,While Bill ate the turkey sat on the table.,Did the turkey sit on the table?,set_32,GP_prob,simple_question,Yes,No
+177,While Bill ate the turkey sat on the table.,Did Bill eat the turkey?,set_32,GP_prob,GP_question,No,Yes
+178,While Bill ate the baby sat on the table.,Did the baby sit on the table?,set_32,GP_improb,simple_question,Yes,No
+179,While Bill ate the baby sat on the table.,Did Bill eat the baby?,set_32,GP_improb,GP_question,No,Yes
+180,The turkey sat on the table while Bill ate.,Did the turkey sit on the table?,set_32,nonGP_prob,simple_question,Yes,No
+181,The turkey sat on the table while Bill ate.,Did Bill eat the turkey?,set_32,nonGP_prob,GP_question,No,Yes
+182,The baby sat on the table while Bill ate.,Did the baby sit on the table?,set_32,nonGP_improb,simple_question,Yes,No
+183,The baby sat on the table while Bill ate.,Did Bill eat the baby?,set_32,nonGP_improb,GP_question,No,Yes
+184,While Janet baked the bread rose in the oven.,Did the bread rise in the oven?,set_33,GP_prob,simple_question,Yes,No
+185,While Janet baked the bread rose in the oven.,Did Janet bake the bread?,set_33,GP_prob,GP_question,No,Yes
+186,While Janet baked the pressure rose in the oven.,Did the pressure rise in the oven?,set_33,GP_improb,simple_question,Yes,No
+187,While Janet baked the pressure rose in the oven.,Did Janet bake the pressure?,set_33,GP_improb,GP_question,No,Yes
+188,The bread rose in the oven while Janet baked.,Did the bread rise in the oven?,set_33,nonGP_prob,simple_question,Yes,No
+189,The bread rose in the oven while Janet baked.,Did Janet bake the bread?,set_33,nonGP_prob,GP_question,No,Yes
+190,The pressure rose in the oven while Janet baked.,Did the pressure rise in the oven?,set_33,nonGP_improb,simple_question,Yes,No
+191,The pressure rose in the oven while Janet baked.,Did Janet bake the pressure?,set_33,nonGP_improb,GP_question,No,Yes
+192,While the public cheered the team left the restaurant.,Did the team leave the restaurant?,set_34,GP_prob,simple_question,Yes,No
+193,While the public cheered the team left the restaurant.,Did the public cheer the team?,set_34,GP_prob,GP_question,No,Yes
+194,While the public cheered the rats left the restaurant.,Did the rats leave the restaurant?,set_34,GP_improb,simple_question,Yes,No
+195,While the public cheered the rats left the restaurant.,Did the public cheer the rats?,set_34,GP_improb,GP_question,No,Yes
+196,The team left the restaurant while the public cheered.,Did the team leave the restaurant?,set_34,nonGP_prob,simple_question,Yes,No
+197,The team left the restaurant while the public cheered.,Did the public cheer the team?,set_34,nonGP_prob,GP_question,No,Yes
+198,The rats left the restaurant while the public cheered.,Did the rats leave the restaurant?,set_34,nonGP_improb,simple_question,Yes,No
+199,The rats left the restaurant while the public cheered.,Did the public cheer the rats?,set_34,nonGP_improb,GP_question,No,Yes
+200,While the cleaner mopped the floor was filled with stains.,Was the floor filled with stains?,set_35,GP_prob,simple_question,Yes,No
+201,While the cleaner mopped the floor was filled with stains.,Did the cleaner mop the floor?,set_35,GP_prob,GP_question,No,Yes
+202,While the cleaner mopped the ceiling was filled with stains.,Was the ceiling filled with stains?,set_35,GP_improb,simple_question,Yes,No
+203,While the cleaner mopped the ceiling was filled with stains.,Did the cleaner mop the ceiling?,set_35,GP_improb,GP_question,No,Yes
+204,The floor was filled with stains while the cleaner mopped.,Was the floor filled with stains?,set_35,nonGP_prob,simple_question,Yes,No
+205,The floor was filled with stains while the cleaner mopped.,Did the cleaner mop the floor?,set_35,nonGP_prob,GP_question,No,Yes
+206,The ceiling was filled with stains while the cleaner mopped.,Was the ceiling filled with stains?,set_35,nonGP_improb,simple_question,Yes,No
+207,The ceiling was filled with stains while the cleaner mopped.,Did the cleaner mop the ceiling?,set_35,nonGP_improb,GP_question,No,Yes
+208,While the chef cooked the meal impressed the couple.,Did the meal impress the couple?,set_36,GP_prob,simple_question,Yes,No
+209,While the chef cooked the meal impressed the couple.,Did the chef cook the meal?,set_36,GP_prob,GP_question,No,Yes
+210,While the chef cooked the cat impressed the couple.,Did the cat impress the couple?,set_36,GP_improb,simple_question,Yes,No
+211,While the chef cooked the cat impressed the couple.,Did the chef cook the cat?,set_36,GP_improb,GP_question,No,Yes
+212,The meal impressed the couple while the chef cooked.,Did the meal impress the couple?,set_36,nonGP_prob,simple_question,Yes,No
+213,The meal impressed the couple while the chef cooked.,Did the chef cook the meal?,set_36,nonGP_prob,GP_question,No,Yes
+214,The cat impressed the couple while the chef cooked.,Did the cat impress the couple?,set_36,nonGP_improb,simple_question,Yes,No
+215,The cat impressed the couple while the chef cooked.,Did the chef cook the cat?,set_36,nonGP_improb,GP_question,No,Yes
+216,While the child finished the homework waited on the table.,Did the homework wait on the table?,set_37,GP_prob,simple_question,Yes,No
+217,While the child finished the homework waited on the table.,Did the child finish the homework?,set_37,GP_prob,GP_question,No,Yes
+218,While the child finished the tax forms waited on the table.,Did the tax forms wait on the table?,set_37,GP_improb,simple_question,Yes,No
+219,While the child finished the tax forms waited on the table.,Did the child finish the tax forms?,set_37,GP_improb,GP_question,No,Yes
+220,The homework waited on the table while the child finished.,Did the homework wait on the table?,set_37,nonGP_prob,simple_question,Yes,No
+221,The homework waited on the table while the child finished.,Did the child finish the homework?,set_37,nonGP_prob,GP_question,No,Yes
+222,The tax forms waited on the table while the child finished.,Did the tax forms wait on the table?,set_37,nonGP_improb,simple_question,Yes,No
+223,The tax forms waited on the table while the child finished.,Did the child finish the tax forms?,set_37,nonGP_improb,GP_question,No,Yes
+224,While the student knitted the sweater sold to the highest bidder.,Did the sweater sell to the highest bidder?,set_38,GP_prob,simple_question,Yes,No
+225,While the student knitted the sweater sold to the highest bidder.,Did the student knit the sweater?,set_38,GP_prob,GP_question,No,Yes
+226,While the student knitted the painting sold to the highest bidder.,Did the painting sell to the highest bidder?,set_38,GP_improb,simple_question,Yes,No
+227,While the student knitted the painting sold to the highest bidder.,Did the student knit the painting?,set_38,GP_improb,GP_question,No,Yes
+228,The sweater sold to the highest bidder while the student knitted.,Did the sweater sell to the highest bidder?,set_38,nonGP_prob,simple_question,Yes,No
+229,The sweater sold to the highest bidder while the student knitted.,Did the student knit the sweater?,set_38,nonGP_prob,GP_question,No,Yes
+230,The painting sold to the highest bidder while the student knitted.,Did the painting sell to the highest bidder?,set_38,nonGP_improb,simple_question,Yes,No
+231,The painting sold to the highest bidder while the student knitted.,Did the student knit the painting?,set_38,nonGP_improb,GP_question,No,Yes
+232,While the astronomer observed the comet lit up the room.,Did the comet light up the room?,set_39,GP_prob,simple_question,Yes,No
+233,While the astronomer observed the comet lit up the room.,Did the astronomer observe the comet?,set_39,GP_prob,GP_question,No,Yes
+234,While the astronomer observed the lightbulb lit up the room.,Did the lightbulb light up the room?,set_39,GP_improb,simple_question,Yes,No
+235,While the astronomer observed the lightbulb lit up the room.,Did the astronomer observe the lightbulb?,set_39,GP_improb,GP_question,No,Yes
+236,The comet lit up the room while the astronomer observed.,Did the comet light up the room?,set_39,nonGP_prob,simple_question,Yes,No
+237,The comet lit up the room while the astronomer observed.,Did the astronomer observe the comet?,set_39,nonGP_prob,GP_question,No,Yes
+238,The lightbulb lit up the room while the astronomer observed.,Did the lightbulb light up the room?,set_39,nonGP_improb,simple_question,Yes,No
+239,The lightbulb lit up the room while the astronomer observed.,Did the astronomer observe the lightbulb?,set_39,nonGP_improb,GP_question,No,Yes
+240,While the players started the game bored the children.,Did the game bore the children?,set_40,GP_prob,simple_question,Yes,No
+241,While the players started the game bored the children.,Did the players start the game?,set_40,GP_prob,GP_question,No,Yes
+242,While the players started the lesson bored the children.,Did the lesson bore the children?,set_40,GP_improb,simple_question,Yes,No
+243,While the players started the lesson bored the children.,Did the players start the lesson?,set_40,GP_improb,GP_question,No,Yes
+244,The game bored the children while the players started.,Did the game bore the children?,set_40,nonGP_prob,simple_question,Yes,No
+245,The game bored the children while the players started.,Did the players start the game?,set_40,nonGP_prob,GP_question,No,Yes
+246,The lesson bored the children while the players started.,Did the lesson bore the children?,set_40,nonGP_improb,simple_question,Yes,No
+247,The lesson bored the children while the players started.,Did the players start the lesson?,set_40,nonGP_improb,GP_question,No,Yes
+248,While the professor taught the students looked at the board.,Did the students look at the board?,set_41,GP_prob,simple_question,Yes,No
+249,While the professor taught the students looked at the board.,Did the professor teach the students?,set_41,GP_prob,GP_question,No,Yes
+250,While the professor taught the puppies looked at the board.,Did the puppies look at the board?,set_41,GP_improb,simple_question,Yes,No
+251,While the professor taught the puppies looked at the board.,Did the professor teach the puppies?,set_41,GP_improb,GP_question,No,Yes
+252,The students looked at the board while the professor taught.,Did the students look at the board?,set_41,nonGP_prob,simple_question,Yes,No
+253,The students looked at the board while the professor taught.,Did the professor teach the students?,set_41,nonGP_prob,GP_question,No,Yes
+254,The puppies looked at the board while the professor taught.,Did the puppies look at the board?,set_41,nonGP_improb,simple_question,Yes,No
+255,The puppies looked at the board while the professor taught.,Did the professor teach the puppies?,set_41,nonGP_improb,GP_question,No,Yes
+256,While the pianist practiced the melody echoed through the hall.,Did the melody echo through the hall?,set_42,GP_prob,simple_question,Yes,No
+257,While the pianist practiced the melody echoed through the hall.,Did the pianist practice the melody?,set_42,GP_prob,GP_question,No,Yes
+258,While the pianist practiced the vacuum echoed through the hall.,Did the vacuum echo through the hall?,set_42,GP_improb,simple_question,Yes,No
+259,While the pianist practiced the vacuum echoed through the hall.,Did the pianist practice the vacuum?,set_42,GP_improb,GP_question,No,Yes
+260,The melody echoed through the hall while the pianist practiced.,Did the melody echo through the hall?,set_42,nonGP_prob,simple_question,Yes,No
+261,The melody echoed through the hall while the pianist practiced.,Did the pianist practice the melody?,set_42,nonGP_prob,GP_question,No,Yes
+262,The vacuum echoed through the hall while the pianist practiced.,Did the vacuum echo through the hall?,set_42,nonGP_improb,simple_question,Yes,No
+263,The vacuum echoed through the hall while the pianist practiced.,Did the pianist practice the vacuum?,set_42,nonGP_improb,GP_question,No,Yes
+264,While the couple left the bar buzzed with activity.,Did the bar buzz with activity?,set_43,GP_prob,simple_question,Yes,No
+265,While the couple left the bar buzzed with activity.,Did the couple leave the bar?,set_43,GP_prob,GP_question,No,Yes
+266,While the couple left the hive buzzed with activity.,Did the hive buzz with activity?,set_43,GP_improb,simple_question,Yes,No
+267,While the couple left the hive buzzed with activity.,Did the couple leave the hive?,set_43,GP_improb,GP_question,No,Yes
+268,The bar buzzed with activity while the couple left.,Did the bar buzz with activity?,set_43,nonGP_prob,simple_question,Yes,No
+269,The bar buzzed with activity while the couple left.,Did the couple leave the bar?,set_43,nonGP_prob,GP_question,No,Yes
+270,The hive buzzed with activity while the couple left.,Did the hive buzz with activity?,set_43,nonGP_improb,simple_question,Yes,No
+271,The hive buzzed with activity while the couple left.,Did the couple leave the hive?,set_43,nonGP_improb,GP_question,No,Yes
+272,While the gardener harvested the tomatoes hanged on the vine.,Did the tomatoes hang on the vine?,set_44,GP_prob,simple_question,Yes,No
+273,While the gardener harvested the tomatoes hanged on the vine.,Did the gardener harvest the tomatoes?,set_44,GP_prob,GP_question,No,Yes
+274,While the gardener harvested the chrysalis hanged on the vine.,Did the chrysalis hang on the vine?,set_44,GP_improb,simple_question,Yes,No
+275,While the gardener harvested the chrysalis hanged on the vine.,Did the gardener harvest the chrysalis?,set_44,GP_improb,GP_question,No,Yes
+276,The tomatoes hanged on the vine while the gardener harvested.,Did the tomatoes hang on the vine?,set_44,nonGP_prob,simple_question,Yes,No
+277,The tomatoes hanged on the vine while the gardener harvested.,Did the gardener harvest the tomatoes?,set_44,nonGP_prob,GP_question,No,Yes
+278,The chrysalis hanged on the vine while the gardener harvested.,Did the chrysalis hang on the vine?,set_44,nonGP_improb,simple_question,Yes,No
+279,The chrysalis hanged on the vine while the gardener harvested.,Did the gardener harvest the chrysalis?,set_44,nonGP_improb,GP_question,No,Yes
+280,While the horse pulled the cart moved silently.,Did the cart move silently?,set_45,GP_prob,simple_question,Yes,No
+281,While the horse pulled the cart moved silently.,Did the horse pull the cart?,set_45,GP_prob,GP_question,No,Yes
+282,While the horse pulled the submarine moved silently.,Did the submarine move silently?,set_45,GP_improb,simple_question,Yes,No
+283,While the horse pulled the submarine moved silently.,Did the horse pull the submarine?,set_45,GP_improb,GP_question,No,Yes
+284,The cart moved silently while the horse pulled.,Did the cart move silently?,set_45,nonGP_prob,simple_question,Yes,No
+285,The cart moved silently while the horse pulled.,Did the horse pull the cart?,set_45,nonGP_prob,GP_question,No,Yes
+286,The submarine moved silently while the horse pulled.,Did the submarine move silently?,set_45,nonGP_improb,simple_question,Yes,No
+287,The submarine moved silently while the horse pulled.,Did the horse pull the submarine?,set_45,nonGP_improb,GP_question,No,Yes
+288,The child giggled with delight while Jim bathed.,Did the child giggle with delight?,set_hyp5_1,nonGP_reflexive,simple_question,Yes,No
+289,The child giggled with delight while Jim bathed.,Did Jim bathe the child?,set_hyp5_1,nonGP_reflexive,GP_question,No,Yes
+290,The baboons sat in the grass while the chimps groomed.,Did the baboons sit in the grass?,set_hyp5_2,nonGP_reflexive,simple_question,Yes,No
+291,The baboons sat in the grass while the chimps groomed.,Did the chimps groom the baboons?,set_hyp5_2,nonGP_reflexive,GP_question,No,Yes
+292,The car sat in the driveway while Frank dried off.,Did the car sit in the driveway?,set_hyp5_3,nonGP_reflexive,simple_question,Yes,No
+293,The car sat in the driveway while Frank dried off.,Did Frank dry off the car?,set_hyp5_3,nonGP_reflexive,GP_question,No,Yes
+294,The neighbor coughed loudly while Betty woke up.,Did the neighbor cough loudly?,set_hyp5_4,nonGP_reflexive,simple_question,Yes,No
+295,The neighbor coughed loudly while Betty woke up.,Did Betty wake up the neighbor?,set_hyp5_4,nonGP_reflexive,GP_question,No,Yes
+296,The jewelry sparkled brightly while the thief hid.,Did the jewelry sparkle brightly?,set_hyp5_5,nonGP_reflexive,simple_question,Yes,No
+297,The jewelry sparkled brightly while the thief hid.,Did the thief hide the jewelry?,set_hyp5_5,nonGP_reflexive,GP_question,No,Yes
+298,The baby spit up on the bed while Anna dressed.,Did the baby spit up on the bed?,set_hyp5_6,nonGP_reflexive,simple_question,Yes,No
+299,The baby spit up on the bed while Anna dressed.,Did Anna dress the baby?,set_hyp5_6,nonGP_reflexive,GP_question,No,Yes
+300,The dog barked loudly while the boy washed.,Did the dog bark loudly?,set_hyp5_7,nonGP_reflexive,simple_question,Yes,No
+301,The dog barked loudly while the boy washed.,Did the boy wash the dog?,set_hyp5_7,nonGP_reflexive,GP_question,No,Yes
+302,The horse stood in the stall while the jockey settled down.,Did the horse stand in the stall?,set_hyp5_8,nonGP_reflexive,simple_question,Yes,No
+303,The horse stood in the stall while the jockey settled down.,Did the jockey settle down the horse?,set_hyp5_8,nonGP_reflexive,GP_question,No,Yes
+304,The baby cried softly while the mother undressed.,Did the baby cry softly?,set_hyp5_9,nonGP_reflexive,simple_question,Yes,No
+305,The baby cried softly while the mother undressed.,Did the mother undress the baby?,set_hyp5_9,nonGP_reflexive,GP_question,No,Yes
+306,The patient watched TV while the nurse shaved.,Did the patient watch TV?,set_hyp5_10,nonGP_reflexive,simple_question,Yes,No
+307,The patient watched TV while the nurse shaved.,Did the nurse shave the patient?,set_hyp5_10,nonGP_reflexive,GP_question,No,Yes
+308,The cat stared at the dog while the girl scratched.,Did the cat stare at the dog?,set_hyp5_11,nonGP_reflexive,simple_question,Yes,No
+309,The cat stared at the dog while the girl scratched.,Did the girl scratch the cat?,set_hyp5_11,nonGP_reflexive,GP_question,No,Yes
+310,The children sat on the bed while the mother calmed down.,Did the children sit on the bed?,set_hyp5_12,nonGP_reflexive,simple_question,Yes,No
+311,The children sat on the bed while the mother calmed down.,Did the mother calm down the children?,set_hyp5_12,nonGP_reflexive,GP_question,No,Yes
+312,The painting stood the test of time while the artist changed.,Did the painting stand the test of time?,set_hyp5_13,nonGP_reflexive,simple_question,Yes,No
+313,The painting stood the test of time while the artist changed.,Did the artist change the painting?,set_hyp5_13,nonGP_reflexive,GP_question,No,Yes
+314,The tomatoes invaded the garden while the child grew.,Did the tomato invade the garden?,set_hyp5_14,nonGP_reflexive,simple_question,Yes,No
+315,The tomatoes invaded the garden while the child grew.,Did the child grow the tomatoes?,set_hyp5_14,nonGP_reflexive,GP_question,No,Yes
+316,The ball kept moving across the room while the toddler rolled.,Did the ball keep moving across the room?,set_hyp5_15,nonGP_reflexive,simple_question,Yes,No
+317,The ball kept moving across the room while the toddler rolled.,Did the toddler roll the ball?,set_hyp5_15,nonGP_reflexive,GP_question,No,Yes
+318,The wheel made weird noises while the mechanic turned.,Did the wheel make weird noises?,set_hyp5_16,nonGP_reflexive,simple_question,Yes,No
+319,The wheel made weird noises while the mechanic turned.,Did the mechanic turn the wheel?,set_hyp5_16,nonGP_reflexive,GP_question,No,Yes
+320,The river stayed warm while the ice cap shrank.,Did the river stay warm?,set_hyp5_17,nonGP_reflexive,simple_question,Yes,No
+321,The river stayed warm while the ice cap shrank.,Did the ice cap shrink the river?,set_hyp5_17,nonGP_reflexive,GP_question,No,Yes
+322,The bat fell on the road while the gymnast swung.,Did the bat fall on the floor?,set_hyp5_18,nonGP_reflexive,simple_question,Yes,No
+323,The bat fell on the road while the gymnast swung.,Did the gymnast swing the bat?,set_hyp5_18,nonGP_reflexive,GP_question,No,Yes
+324,The athletes started the game while Bill trained.,Did the athletes start the game?,set_hyp5_19,nonGP_reflexive,simple_question,Yes,No
+325,The athletes started the game while Bill trained.,Did Bill train the athletes?,set_hyp5_19,nonGP_reflexive,GP_question,No,Yes
+326,The bone went bad while the dog moved.,Did the bone go bad?,set_hyp5_20,nonGP_reflexive,simple_question,Yes,No
+327,The bone went bad while the dog moved.,Did the dog move the bone?,set_hyp5_20,nonGP_reflexive,GP_question,No,Yes
+328,The valley kept on living quietly while the river flooded.,Did the valley keep on living quietly?,set_hyp5_21,nonGP_reflexive,simple_question,Yes,No
+329,The valley kept on living quietly while the river flooded.,Did the river flood the valley?,set_hyp5_21,nonGP_reflexive,GP_question,No,Yes
+330,The window moved on its axis while the log broke.,Did the window move on its axis?,set_hyp5_22,nonGP_reflexive,simple_question,Yes,No
+331,The window moved on its axis while the log broke.,Did the log break the window?,set_hyp5_22,nonGP_reflexive,GP_question,No,Yes
+332,The fire warmed the children while the match lit.,Did the fire warm the children?,set_hyp5_23,nonGP_reflexive,simple_question,Yes,No
+333,The fire warmed the children while the match lit.,Did the match light the fire?,set_hyp5_23,nonGP_reflexive,GP_question,No,Yes
+334,The boat was stranded in the ocean while the wave crashed.,Was the boat stranded in the ocean?,set_hyp5_24,nonGP_reflexive,simple_question,Yes,No
+335,The boat was stranded in the ocean while the wave crashed.,Did the wave crash the boat?,set_hyp5_24,nonGP_reflexive,GP_question,No,Yes
+336,While Jim bathed the child giggled with delight.,Did the child giggle with delight?,set_hyp5_1,GP_reflexive,simple_question,Yes,No
+337,While Jim bathed the child giggled with delight.,Did Jim bathe the child?,set_hyp5_1,GP_reflexive,GP_question,No,Yes
+338,While the chimps groomed the baboons sat in the grass.,Did the baboons sit in the grass?,set_hyp5_2,GP_reflexive,simple_question,Yes,No
+339,While the chimps groomed the baboons sat in the grass.,Did the chimps groom the baboons?,set_hyp5_2,GP_reflexive,GP_question,No,Yes
+340,While Frank dried off the car sat in the driveway.,Did the car sit in the driveway?,set_hyp5_3,GP_reflexive,simple_question,Yes,No
+341,While Frank dried off the car sat in the driveway.,Did Frank dry off the car?,set_hyp5_3,GP_reflexive,GP_question,No,Yes
+342,While Betty woke up the neighbor coughed loudly.,Did the neighbor cough loudly?,set_hyp5_4,GP_reflexive,simple_question,Yes,No
+343,While Betty woke up the neighbor coughed loudly.,Did Betty wake up the neighbor?,set_hyp5_4,GP_reflexive,GP_question,No,Yes
+344,While the thief hid the jewelry sparkled brightly.,Did the jewelry sparkle brightly?,set_hyp5_5,GP_reflexive,simple_question,Yes,No
+345,While the thief hid the jewelry sparkled brightly.,Did the thief hide the jewelry?,set_hyp5_5,GP_reflexive,GP_question,No,Yes
+346,While Anna dressed the baby spit up on the bed.,Did the baby spit up on the bed?,set_hyp5_6,GP_reflexive,simple_question,Yes,No
+347,While Anna dressed the baby spit up on the bed.,Did Anna dress the baby?,set_hyp5_6,GP_reflexive,GP_question,No,Yes
+348,While the boy washed the dog barked loudly.,Did the dog bark loudly?,set_hyp5_7,GP_reflexive,simple_question,Yes,No
+349,While the boy washed the dog barked loudly.,Did the boy wash the dog?,set_hyp5_7,GP_reflexive,GP_question,No,Yes
+350,While the jockey settled down the horse stood in the stall.,Did the horse stand in the stall?,set_hyp5_8,GP_reflexive,simple_question,Yes,No
+351,While the jockey settled down the horse stood in the stall.,Did the jockey settle down the horse?,set_hyp5_8,GP_reflexive,GP_question,No,Yes
+352,While the mother undressed the baby cried softly.,Did the baby cry softly?,set_hyp5_9,GP_reflexive,simple_question,Yes,No
+353,While the mother undressed the baby cried softly.,Did the mother undress the baby?,set_hyp5_9,GP_reflexive,GP_question,No,Yes
+354,While the nurse shaved the patient watched TV.,Did the patient watch TV?,set_hyp5_10,GP_reflexive,simple_question,Yes,No
+355,While the nurse shaved the patient watched TV.,Did the nurse shave the patient?,set_hyp5_10,GP_reflexive,GP_question,No,Yes
+356,While the girl scratched the cat stared at the dog.,Did the cat stare at the dog?,set_hyp5_11,GP_reflexive,simple_question,Yes,No
+357,While the girl scratched the cat stared at the dog.,Did the girl scratch the cat?,set_hyp5_11,GP_reflexive,GP_question,No,Yes
+358,While the mother calmed down the children sat on the bed.,Did the children sit on the bed?,set_hyp5_12,GP_reflexive,simple_question,Yes,No
+359,While the mother calmed down the children sat on the bed.,Did the mother calm down the children?,set_hyp5_12,GP_reflexive,GP_question,No,Yes
+360,While the artist changed the painting stood the test of time.,Did the painting stand the test of time?,set_hyp5_13,GP_reflexive,simple_question,Yes,No
+361,While the artist changed the painting stood the test of time.,Did the artist change the painting?,set_hyp5_13,GP_reflexive,GP_question,No,Yes
+362,While the child grew the tomatoes invaded the garden.,Did the tomato invade the garden?,set_hyp5_14,GP_reflexive,simple_question,Yes,No
+363,While the child grew the tomatoes invaded the garden.,Did the child grow the tomatoes?,set_hyp5_14,GP_reflexive,GP_question,No,Yes
+364,While the toddler rolled the ball kept moving across the room.,Did the ball keep moving across the room?,set_hyp5_15,GP_reflexive,simple_question,Yes,No
+365,While the toddler rolled the ball kept moving across the room.,Did the toddler roll the ball?,set_hyp5_15,GP_reflexive,GP_question,No,Yes
+366,While the mechanic turned the wheel made weird noises.,Did the wheel make weird noises?,set_hyp5_16,GP_reflexive,simple_question,Yes,No
+367,While the mechanic turned the wheel made weird noises.,Did the mechanic turn the wheel?,set_hyp5_16,GP_reflexive,GP_question,No,Yes
+368,While the ice cap shrank the river stayed warm.,Did the river stay warm?,set_hyp5_17,GP_reflexive,simple_question,Yes,No
+369,While the ice cap shrank the river stayed warm.,Did the ice cap shrink the river?,set_hyp5_17,GP_reflexive,GP_question,No,Yes
+370,While the gymnast swung the bat fell on the road,Did the bat fall on the floor?,set_hyp5_18,GP_reflexive,simple_question,Yes,No
+371,While the gymnast swung the bat fell on the road,Did the gymnast swing the bat?,set_hyp5_18,GP_reflexive,GP_question,No,Yes
+372,While Bill trained the athletes started the game.,Did the athletes start the game?,set_hyp5_19,GP_reflexive,simple_question,Yes,No
+373,While Bill trained the athletes started the game.,Did Bill train the athletes?,set_hyp5_19,GP_reflexive,GP_question,No,Yes
+374,While the dog moved the bone went bad.,Did the bone go bad?,set_hyp5_20,GP_reflexive,simple_question,Yes,No
+375,While the dog moved the bone went bad.,Did the dog move the bone?,set_hyp5_20,GP_reflexive,GP_question,No,Yes
+376,While the river flooded the valley kept on living quietly.,Did the valley keep on living quietly?,set_hyp5_21,GP_reflexive,simple_question,Yes,No
+377,While the river flooded the valley kept on living quietly.,Did the river flood the valley?,set_hyp5_21,GP_reflexive,GP_question,No,Yes
+378,While the log broke the window moved on its axis.,Did the window move on its axis?,set_hyp5_22,GP_reflexive,simple_question,Yes,No
+379,While the log broke the window moved on its axis.,Did the log break the window?,set_hyp5_22,GP_reflexive,GP_question,No,Yes
+380,While the match lit the fire warmed the children.,Did the fire warm the children?,set_hyp5_23,GP_reflexive,simple_question,Yes,No
+381,While the match lit the fire warmed the children.,Did the match light the fire?,set_hyp5_23,GP_reflexive,GP_question,No,Yes
+382,While the wave crashed the boat was stranded in the ocean.,Was the boat stranded in the ocean?,set_hyp5_24,GP_reflexive,simple_question,Yes,No
+383,While the wave crashed the boat was stranded in the ocean.,Did the wave crash the boat?,set_hyp5_24,GP_reflexive,GP_question,No,Yes
+384,While the man hunted the deer ran into the woods.,Did the deer run into the woods?,set_1,GP_prob,simple_question,Yes,No
+385,While the man hunted the deer ran into the woods.,Did the man hunt the deer?,set_1,GP_prob,GP_question,No,Yes
+386,While the man hunted the child ran into the woods.,Did the child run into the woods?,set_1,GP_improb,simple_question,Yes,No
+387,While the man hunted the child ran into the woods.,Did the man hunt the child?,set_1,GP_improb,GP_question,No,Yes
+388,The deer ran into the woods while the man hunted.,Did the deer run into the woods?,set_1,nonGP_prob,simple_question,Yes,No
+389,The deer ran into the woods while the man hunted.,Did the man hunt the deer?,set_1,nonGP_prob,GP_question,No,Yes
+390,The child ran into the woods while the man hunted.,Did the child run into the woods?,set_1,nonGP_improb,simple_question,Yes,No
+391,The child ran into the woods while the man hunted.,Did the man hunt the child?,set_1,nonGP_improb,GP_question,No,Yes
+392,While the skipper sailed the boat veered off course.,Did the boat veer off course?,set_2,GP_prob,simple_question,Yes,No
+393,While the skipper sailed the boat veered off course.,Did the skipper sail the boat?,set_2,GP_prob,GP_question,No,Yes
+394,While the skipper sailed the car veered off course.,Did the car veer off course?,set_2,GP_improb,simple_question,Yes,No
+395,While the skipper sailed the car veered off course.,Did the skipper sail the car?,set_2,GP_improb,GP_question,No,Yes
+396,The boat veered off course while the skipper sailed.,Did the boat veer off course?,set_2,nonGP_prob,simple_question,Yes,No
+397,The boat veered off course while the skipper sailed.,Did the skipper sail the boat?,set_2,nonGP_prob,GP_question,No,Yes
+398,The car veered off course while the skipper sailed.,Did the car veer off course?,set_2,nonGP_improb,simple_question,Yes,No
+399,The car veered off course while the skipper sailed.,Did the skipper sail the car?,set_2,nonGP_improb,GP_question,No,Yes
+400,While the orchestra performed the symphony played on the radio.,Did the symphony play on the radio?,set_3,GP_prob,simple_question,Yes,No
+401,While the orchestra performed the symphony played on the radio.,Did the orchestra perform the symphony?,set_3,GP_prob,GP_question,No,Yes
+402,While the orchestra performed the newsflash played on the radio.,Did the newsflash play on the radio?,set_3,GP_improb,simple_question,Yes,No
+403,While the orchestra performed the newsflash played on the radio.,Did the orchestra perform the newsflash?,set_3,GP_improb,GP_question,No,Yes
+404,The symphony played on the radio while the orchestra performed.,Did the symphony play on the radio?,set_3,nonGP_prob,simple_question,Yes,No
+405,The symphony played on the radio while the orchestra performed.,Did the orchestra perform the symphony?,set_3,nonGP_prob,GP_question,No,Yes
+406,The newsflash played on the radio while the orchestra performed.,Did the newsflash play on the radio?,set_3,nonGP_improb,simple_question,Yes,No
+407,The newsflash played on the radio while the orchestra performed.,Did the orchestra perform the newsflash?,set_3,nonGP_improb,GP_question,No,Yes
+408,While the bridesmaid ordered the dress got delivered.,Did the dress get delivered?,set_4,GP_prob,simple_question,Yes,No
+409,While the bridesmaid ordered the dress got delivered.,Did the bridesmaid order the dress?,set_4,GP_prob,GP_question,No,Yes
+410,While the bridesmaid ordered the tractor got delivered.,Did the tractor get delivered?,set_4,GP_improb,simple_question,Yes,No
+411,While the bridesmaid ordered the tractor got delivered.,Did the bridesmaid order the tractor?,set_4,GP_improb,GP_question,No,Yes
+412,The dress got delivered while the bridesmaid ordered.,Did the dress get delivered?,set_4,nonGP_prob,simple_question,Yes,No
+413,The dress got delivered while the bridesmaid ordered.,Did the bridesmaid order the dress?,set_4,nonGP_prob,GP_question,No,Yes
+414,The tractor got delivered while the bridesmaid ordered.,Did the tractor get delivered?,set_4,nonGP_improb,simple_question,Yes,No
+415,The tractor got delivered while the bridesmaid ordered.,Did the bridesmaid order the tractor?,set_4,nonGP_improb,GP_question,No,Yes
+416,While Susan wrote the letter fell off the table.,Did the letter fall off the table?,set_5,GP_prob,simple_question,Yes,No
+417,While Susan wrote the letter fell off the table.,Did Susan write the letter?,set_5,GP_prob,GP_question,No,Yes
+418,While Susan wrote the Bible fell off the table.,Did the Bible fall off the table?,set_5,GP_improb,simple_question,Yes,No
+419,While Susan wrote the Bible fell off the table.,Did Susan write the Bible?,set_5,GP_improb,GP_question,No,Yes
+420,The letter fell off the table while Susan wrote.,Did the letter fall off the table?,set_5,nonGP_prob,simple_question,Yes,No
+421,The letter fell off the table while Susan wrote.,Did Susan write the letter?,set_5,nonGP_prob,GP_question,No,Yes
+422,The Bible fell off the table while Susan wrote.,Did the Bible fall off the table?,set_5,nonGP_improb,simple_question,Yes,No
+423,The Bible fell off the table while Susan wrote.,Did Susan write the Bible?,set_5,nonGP_improb,GP_question,No,Yes
+424,While the farmer steered the tractor pulled the car.,Did the tractor pull the car?,set_6,GP_prob,simple_question,Yes,No
+425,While the farmer steered the tractor pulled the car.,Did the farmer steer the tractor?,set_6,GP_prob,GP_question,No,Yes
+426,While the farmer steered the tank pulled the car.,Did the tank pull the car?,set_6,GP_improb,simple_question,Yes,No
+427,While the farmer steered the tank pulled the car.,Did the farmer steer the tank?,set_6,GP_improb,GP_question,No,Yes
+428,The tractor pulled the car while the farmer steered.,Did the tractor pull the car?,set_6,nonGP_prob,simple_question,Yes,No
+429,The tractor pulled the car while the farmer steered.,Did the farmer steer the tractor?,set_6,nonGP_prob,GP_question,No,Yes
+430,The tank pulled the car while the farmer steered.,Did the tank pull the car?,set_6,nonGP_improb,simple_question,Yes,No
+431,The tank pulled the car while the farmer steered.,Did the farmer steer the tank?,set_6,nonGP_improb,GP_question,No,Yes
+432,While the lawyer studied the contract lay on the roll-top desk.,Did the contract lie on the roll-top desk?,set_7,GP_prob,simple_question,Yes,No
+433,While the lawyer studied the contract lay on the roll-top desk.,Did the lawyer study the contract?,set_7,GP_prob,GP_question,No,Yes
+434,While the lawyer studied the cat lay on the roll-top desk.,Did the cat lie on the roll-top desk?,set_7,GP_improb,simple_question,Yes,No
+435,While the lawyer studied the cat lay on the roll-top desk.,Did the lawyer study the cat?,set_7,GP_improb,GP_question,No,Yes
+436,The contract lay on the roll-top desk while the lawyer studied.,Did the contract lie on the roll-top desk?,set_7,nonGP_prob,simple_question,Yes,No
+437,The contract lay on the roll-top desk while the lawyer studied.,Did the lawyer study the contract?,set_7,nonGP_prob,GP_question,No,Yes
+438,The cat lay on the roll-top desk while the lawyer studied.,Did the cat lie on the roll-top desk?,set_7,nonGP_improb,simple_question,Yes,No
+439,The cat lay on the roll-top desk while the lawyer studied.,Did the lawyer study the cat?,set_7,nonGP_improb,GP_question,No,Yes
+440,While the clown juggled the balls fell on the ground.,Did the balls fall on the ground?,set_8,GP_prob,simple_question,Yes,No
+441,While the clown juggled the balls fell on the ground.,Did the clown juggle the balls?,set_8,GP_prob,GP_question,No,Yes
+442,While the clown juggled the cats fell on the ground.,Did the cats fall on the ground?,set_8,GP_improb,simple_question,Yes,No
+443,While the clown juggled the cats fell on the ground.,Did the clown juggle the cats?,set_8,GP_improb,GP_question,No,Yes
+444,The balls fell on the ground while the clown juggled.,Did the balls fall on the ground?,set_8,nonGP_prob,simple_question,Yes,No
+445,The balls fell on the ground while the clown juggled.,Did the clown juggle the balls?,set_8,nonGP_prob,GP_question,No,Yes
+446,The cats fell on the ground while the clown juggled.,Did the cats fall on the ground?,set_8,nonGP_improb,simple_question,Yes,No
+447,The cats fell on the ground while the clown juggled.,Did the clown juggle the cats?,set_8,nonGP_improb,GP_question,No,Yes
+448,While Anne vacuumed the rug lost its colors.,Did the rug lose its colors?,set_9,GP_prob,simple_question,Yes,No
+449,While Anne vacuumed the rug lost its colors.,Did Anne vacuum the rug?,set_9,GP_prob,GP_question,No,Yes
+450,While Anne vacuumed the chameleon lost its colors.,Did the chameleon lose its colors?,set_9,GP_improb,simple_question,Yes,No
+451,While Anne vacuumed the chameleon lost its colors.,Did Anne vacuum the chameleon?,set_9,GP_improb,GP_question,No,Yes
+452,The rug lost its colors while Anne vacuumed.,Did the rug lose its colors?,set_9,nonGP_prob,simple_question,Yes,No
+453,The rug lost its colors while Anne vacuumed.,Did Anne vacuum the rug?,set_9,nonGP_prob,GP_question,No,Yes
+454,The chameleon lost its colors while Anne vacuumed.,Did the chameleon lose its colors?,set_9,nonGP_improb,simple_question,Yes,No
+455,The chameleon lost its colors while Anne vacuumed.,Did Anne vacuum the chameleon?,set_9,nonGP_improb,GP_question,No,Yes
